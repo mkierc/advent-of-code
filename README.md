@@ -10,4 +10,8 @@
 - [x] Part Two - What is the correct bathroom code?
 
 #### Day 3: Squares With Three Sides
-- [ ] Part One - How many of the listed triangles are possible?
+- [x] Part One - How many of the listed triangles are possible?
+- [x] Part Two - Reading by columns, how many of the listed triangles are possible?
+
+#### Day 4: Security Through Obscurity
+- [ ] Part One - What is the sum of the sector IDs of the real rooms?
