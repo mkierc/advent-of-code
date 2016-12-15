@@ -6,8 +6,8 @@
 - [x] Part Two - How many blocks away is the first location you visit twice?
 
 #### Day 2: Bathroom Security
-- [ ] Part One - What is the bathroom code?
-- [ ] Part Two - What is the correct bathroom code?
+- [x] Part One - What is the bathroom code?
+- [x] Part Two - What is the correct bathroom code?
 
 #### Day 3: Squares With Three Sides
 - [ ] Part One - How many of the listed triangles are possible?
