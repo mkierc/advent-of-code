@@ -1916,7 +1916,7 @@ triangle_count = 0
 triangles_transposed = []
 
 for i in range(0, len(triangles), 3):
-    [a, b, c] = list(zip(*[triangles[i], triangles[i+1], triangles[i+2]]))
+    [a, b, c] = zip(*[triangles[i], triangles[i+1], triangles[i+2]])
     triangles_transposed.append(list(a))
     triangles_transposed.append(list(b))
     triangles_transposed.append(list(c))
