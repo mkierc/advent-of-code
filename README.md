@@ -14,4 +14,5 @@
 - [x] Part Two - Reading by columns, how many of the listed triangles are possible?
 
 #### Day 4: Security Through Obscurity
-- [ ] Part One - What is the sum of the sector IDs of the real rooms?
+- [x] Part One - What is the sum of the sector IDs of the real rooms?
+- [ ] Part Two - What is the sector ID of the room where North Pole objects are stored?
