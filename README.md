@@ -15,4 +15,4 @@
 
 #### Day 4: Security Through Obscurity
 - [x] Part One - What is the sum of the sector IDs of the real rooms?
-- [ ] Part Two - What is the sector ID of the room where North Pole objects are stored?
+- [x] Part Two - What is the sector ID of the room where North Pole objects are stored?
