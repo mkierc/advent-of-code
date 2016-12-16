@@ -1020,17 +1020,15 @@ def decipher_names(_codes):
         (name, number, checksum) = re.split("(\d+)", code)
 
         decoded = ''
-        for i in range(int(number)):  # TODO: optimize
-            for letter in name:
-                if ord(letter) == 45 or ord(letter) == 32:
-                    decoded += ' '
-                elif ord(letter) == 122:
-                    decoded += 'a'
-                else:
-                    decoded += chr(ord(letter) + 1)
-            name = decoded
-            decoded = ''
-        deciphered.append((name, number))
+        offset = 97
+
+        for letter in name:
+            if ord(letter) == 45:
+                decoded += ' '
+            else:
+                decoded += chr(((ord(letter)-offset+int(number)) % 26) + offset)
+
+        deciphered.append((decoded, number))
     return deciphered
 
 
