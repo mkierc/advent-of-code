@@ -25,3 +25,7 @@
 #### Day 6: Signals and Noise
 - [x] Part One - What is the error-corrected version of the message being sent?
 - [ ] Part Two - What is the original message that Santa is trying to send?
+
+#### Day 7: Internet Protocol Version 7
+- [x] Part One - How many IPs in your puzzle input support TLS?
+- [ ] Part Two - How many IPs in your puzzle input support SSL?
