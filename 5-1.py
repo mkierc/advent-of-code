@@ -6,7 +6,7 @@ test_input_1 = "abc"
 
 
 def decode(_door_id):
-    password = ''
+    password = ""
     index = 0
 
     while len(password) < 8:

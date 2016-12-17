@@ -1918,7 +1918,7 @@ triangles = [
 #     if shorter_sides > longer_side:
 #         triangle_count += 1
 #
-# this doesn't work for isosceles and equilateral triangles ( ° ̯ °)
+# this doesn"t work for isosceles and equilateral triangles ( ° ̯ °)
 
 triangle_count = 0
 

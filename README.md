@@ -21,3 +21,7 @@
 - [x] Part One - Given the actual Door ID, what is the password?
 - [x] Part Two - Given the actual Door ID and this new method, what is the password?
 - [x] NerdMode - Be extra proud of your solution if it uses a cinematic "decrypting" animation
+
+#### Day 6: Signals and Noise
+- [x] Part One - What is the error-corrected version of the message being sent?
+- [ ] Part Two - What is the original message that Santa is trying to send?
