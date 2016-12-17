@@ -29,3 +29,7 @@
 #### Day 7: Internet Protocol Version 7
 - [x] Part One - How many IPs in your puzzle input support TLS?
 - [x] Part Two - How many IPs in your puzzle input support SSL?
+
+#### Day 8: Two-Factor Authentication
+- [x] Part One - How many pixels should be lit?
+- [x] Part Two - After you swipe your card, what code is the screen trying to display?
