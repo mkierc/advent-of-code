@@ -19,5 +19,5 @@
 
 #### Day 5: How About a Nice Game of Chess?
 - [x] Part One - Given the actual Door ID, what is the password?
-- [ ] Part Two - Given the actual Door ID and this new method, what is the password?
-- [ ] NerdMode - Be extra proud of your solution if it uses a cinematic "decrypting" animation
+- [x] Part Two - Given the actual Door ID and this new method, what is the password?
+- [x] NerdMode - Be extra proud of your solution if it uses a cinematic "decrypting" animation
