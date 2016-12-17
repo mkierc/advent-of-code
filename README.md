@@ -16,3 +16,8 @@
 #### Day 4: Security Through Obscurity
 - [x] Part One - What is the sum of the sector IDs of the real rooms?
 - [x] Part Two - What is the sector ID of the room where North Pole objects are stored?
+
+#### Day 5: How About a Nice Game of Chess?
+- [x] Part One - Given the actual Door ID, what is the password?
+- [ ] Part Two - Given the actual Door ID and this new method, what is the password?
+- [ ] NerdMode - Be extra proud of your solution if it uses a cinematic "decrypting" animation
