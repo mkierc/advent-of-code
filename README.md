@@ -33,3 +33,7 @@
 #### Day 8: Two-Factor Authentication
 - [x] Part One - How many pixels should be lit?
 - [x] Part Two - After you swipe your card, what code is the screen trying to display?
+
+#### Day 9: Explosives in Cyberspace
+- [x] Part One - What is the decompressed length of the file?
+- [ ] Part Two - What is the decompressed length of the file using this improved format?
