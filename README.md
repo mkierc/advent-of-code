@@ -36,4 +36,7 @@
 
 #### Day 9: Explosives in Cyberspace
 - [x] Part One - What is the decompressed length of the file?
-- [ ] Part Two - What is the decompressed length of the file using this improved format?
+- [x] Part Two - What is the decompressed length of the file using this improved format?
+
+#### Day 10: Day 10: Balance Bots
+- [ ] Part One - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
