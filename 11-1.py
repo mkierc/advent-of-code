@@ -2,6 +2,8 @@
 # 1 = microchip
 # 0-4 = type
 import copy
+from time import time
+start_time = time()
 
 actual_initial_state = [
     {(0, 0), (1, 0)},
@@ -116,6 +118,10 @@ while not solved:
     for state in possible_next_states:
         if is_solved(state):
             solved = True
-            print("answer:", len(visited_states))
+            print("answer:", len(visited_states), end="")
             break
     visited_states.append(possible_next_states)
+
+
+print(", solved in", time() - start_time, "s")
+# test_input takes ~1.77 s
