@@ -106,8 +106,8 @@ def find_possible_next_states(current_state):
                     pass
     return new_states
 
-
-while True:
+solved = False
+while not solved:
     list_of_current_states = visited_states[-1]
     print(len(visited_states), len(visited_states[-1]))
     possible_next_states = []
@@ -115,6 +115,7 @@ while True:
         possible_next_states.extend(find_possible_next_states(state))
     for state in possible_next_states:
         if is_solved(state):
+            solved = True
             print("answer:", len(visited_states))
-            raise InterruptedError
+            break
     visited_states.append(possible_next_states)
