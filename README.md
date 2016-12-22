@@ -42,7 +42,8 @@
 - [ ] Part One - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
 
 #### Day 11: Radioisotope Thermoelectric Generators
-- [ ] Part One - What is the minimum number of steps to bring all of the objects to the fourth floor?
+- [x] Part One - What is the minimum number of steps to bring all of the objects to the fourth floor?
+- [ ] Part Two - What is the minimum number of steps to bring objects, including four new ones, to the fourth floor?
 
 #### Day 20: Firewall Rules
 - [x] Part One - What is the lowest-valued IP that is not blocked?
