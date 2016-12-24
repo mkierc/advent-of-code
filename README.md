@@ -51,7 +51,8 @@
 - [x] Part Two - If you instead initialize register c to be 1, what value is now left in register a?
 
 #### Day 13: A Maze of Twisty Little Cubicles
-- [ ] Part One - What is the fewest number of steps required for you to reach 31,39?
+- [x] Part One - What is the fewest number of steps required for you to reach 31,39?
+- [ ] Part Two - How many locations (including your starting location) can you reach in at most 50 steps?
 
 #### Day 20: Firewall Rules
 - [x] Part One - What is the lowest-valued IP that is not blocked?
