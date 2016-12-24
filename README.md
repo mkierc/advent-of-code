@@ -52,10 +52,14 @@
 
 #### Day 13: A Maze of Twisty Little Cubicles
 - [x] Part One - What is the fewest number of steps required for you to reach 31,39?
-- [ ] Part Two - How many locations (including your starting location) can you reach in at most 50 steps?
+- [x] Part Two - How many locations (including your starting location) can you reach in at most 50 steps?
 
 #### Day 14: One-Time Pad
-- [ ] Part One - Given the actual salt in your puzzle input, what index produces your 64th one-time pad key?
+- [x] Part One - Given the actual salt in your puzzle input, what index produces your 64th one-time pad key?
+- [x] Part Two - Using 2016 extra MD5 calls of key stretching, what index now produces your 64th one-time pad key?
+
+#### Day 15: Timing is Everything
+- [ ] Part One - What is the first time you can press the button to get a capsule?
 
 #### Day 20: Firewall Rules
 - [x] Part One - What is the lowest-valued IP that is not blocked?
