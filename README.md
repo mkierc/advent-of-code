@@ -54,6 +54,9 @@
 - [x] Part One - What is the fewest number of steps required for you to reach 31,39?
 - [ ] Part Two - How many locations (including your starting location) can you reach in at most 50 steps?
 
+#### Day 14: One-Time Pad
+- [ ] Part One - Given the actual salt in your puzzle input, what index produces your 64th one-time pad key?
+
 #### Day 20: Firewall Rules
 - [x] Part One - What is the lowest-valued IP that is not blocked?
 - [x] Part Two - How many IPs are allowed by the blacklist?
