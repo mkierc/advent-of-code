@@ -39,7 +39,8 @@
 - [x] Part Two - What is the decompressed length of the file using this improved format?
 
 #### Day 10: Balance Bots
-- [ ] Part One - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
+- [x] Part One - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
+- [ ] Part Two - What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
 
 #### Day 11: Radioisotope Thermoelectric Generators
 - [x] Part One - What is the minimum number of steps to bring all of the objects to the fourth floor?
