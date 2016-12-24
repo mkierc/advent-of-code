@@ -242,8 +242,7 @@ test_input = [
 
 
 class Output:
-    def __init__(self, _id: int):
-        self._id = _id
+    def __init__(self):
         self.value = None
 
     def receive(self, value: int):
@@ -251,8 +250,7 @@ class Output:
 
 
 class Bot:
-    def __init__(self, _id: int, lower_out: int, higher_out: int):
-        self._id = _id
+    def __init__(self, lower_out: str, higher_out: str):
         self.lower_out = lower_out
         self.higher_out = higher_out
         self.value = None
@@ -270,8 +268,6 @@ class Bot:
             else:
                 raise NotImplementedError
 
-            if lower == 17 and higher == 61:
-                print("answer:", self._id)
             self.value = None
             factory[self.higher_out].receive(higher)
             factory[self.lower_out].receive(lower)
@@ -282,28 +278,32 @@ def parse_instruction(instruction: str):
         splitted = instruction.split()
 
         value = int(splitted[1])
-        bot_id = int(splitted[5])
+        bot_id = "b" + splitted[5]
         values.update({
             value: bot_id
         })
     elif instruction.startswith("bot"):
         splitted = instruction.split()
 
-        bot_id = int(splitted[1])
+        bot_id = "b" + splitted[1]
         receiving_type_1 = splitted[5][0]
-        receiving_id_1 = int(splitted[6])
+        receiving_id_1 = splitted[6]
         receiving_type_2 = splitted[10][0]
-        receiving_id_2 = int(splitted[11])
+        receiving_id_2 = splitted[11]
 
         # give the outputs negative id's to tell them apart from bots
         if receiving_type_1 == "o":
-            receiving_id_1 = -receiving_id_1
-            factory.update({receiving_id_1: Output(receiving_id_1)})
+            receiving_id_1 = "o" + receiving_id_1
+            factory.update({receiving_id_1: Output()})
+        else:
+            receiving_id_1 = "b" + receiving_id_1
         if receiving_type_2 == "o":
-            receiving_id_2 = -receiving_id_2
-            factory.update({receiving_id_2: Output(receiving_id_2)})
+            receiving_id_2 = "o" + receiving_id_2
+            factory.update({receiving_id_2: Output()})
+        else:
+            receiving_id_2 = "b" + receiving_id_2
 
-        factory.update({bot_id: Bot(bot_id, receiving_id_1, receiving_id_2)})
+        factory.update({bot_id: Bot(receiving_id_1, receiving_id_2)})
     else:
         raise NotImplementedError
 
@@ -318,3 +318,11 @@ for chip_value in values:
     self_id = values[chip_value]
     bot = factory.get(self_id)
     bot.receive(chip_value)
+
+
+output_0 = factory["o0"].value
+output_1 = factory["o1"].value
+output_2 = factory["o2"].value
+answer = output_0 * output_1 * output_2
+
+print("answer:", answer)

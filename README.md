@@ -40,11 +40,14 @@
 
 #### Day 10: Balance Bots
 - [x] Part One - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
-- [ ] Part Two - What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
+- [x] Part Two - What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
 
 #### Day 11: Radioisotope Thermoelectric Generators
 - [x] Part One - What is the minimum number of steps to bring all of the objects to the fourth floor?
 - [ ] Part Two - What is the minimum number of steps to bring objects, including four new ones, to the fourth floor?
+
+#### Day 12: Leonardo's Monorail
+- [ ] Part One - After executing the assembunny code in your puzzle input, what value is left in register a?
 
 #### Day 20: Firewall Rules
 - [x] Part One - What is the lowest-valued IP that is not blocked?
