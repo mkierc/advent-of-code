@@ -47,7 +47,11 @@
 - [ ] Part Two - What is the minimum number of steps to bring objects, including four new ones, to the fourth floor?
 
 #### Day 12: Leonardo's Monorail
-- [ ] Part One - After executing the assembunny code in your puzzle input, what value is left in register a?
+- [x] Part One - After executing the assembunny code in your puzzle input, what value is left in register a?
+- [x] Part Two - If you instead initialize register c to be 1, what value is now left in register a?
+
+#### Day 13: A Maze of Twisty Little Cubicles
+- [ ] Part One - What is the fewest number of steps required for you to reach 31,39?
 
 #### Day 20: Firewall Rules
 - [x] Part One - What is the lowest-valued IP that is not blocked?
