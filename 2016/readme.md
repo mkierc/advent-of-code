@@ -3,9 +3,9 @@
 Learning Python 3 by doing challenges from the [Advent of Code](http://adventofcode.com/2016) 
 
 ### Challenges
-#### Day 1: No Time for a Taxicab
-- [x] [Part One](src/1-1.py) - How many blocks away is Easter Bunny HQ?
-- [x] [Part Two](src/1-2.py) - How many blocks away is the first location you visit twice?
+#### [Day 1: No Time for a Taxicab](src/day_01/readme.md)
+- [x] Part One - How many blocks away is Easter Bunny HQ?
+- [x] Part Two - How many blocks away is the first location you visit twice?
 
 #### Day 2: Bathroom Security
 - [x] [Part One](src/2-1.py) - What is the bathroom code?
