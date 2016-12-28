@@ -7,9 +7,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - How many blocks away is Easter Bunny HQ?
 - [x] Part Two - How many blocks away is the first location you visit twice?
 
-#### Day 2: Bathroom Security
-- [x] [Part One](src/2-1.py) - What is the bathroom code?
-- [x] [Part Two](src/2-2.py) - What is the correct bathroom code?
+#### [Day 2: Bathroom Security](src/day_02)
+- [x] Part One - What is the bathroom code?
+- [x] Part Two - What is the correct bathroom code?
 
 #### Day 3: Squares With Three Sides
 - [x] [Part One](src/3-1.py) - How many of the listed triangles are possible?
