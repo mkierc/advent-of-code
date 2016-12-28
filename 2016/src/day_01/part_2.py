@@ -1,4 +1,4 @@
-from part_1 import Direction
+from day_01.part_1 import Direction
 
 with open("data.txt") as file:
     input_data = str(file.readlines()[0]).split(", ")

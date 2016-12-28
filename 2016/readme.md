@@ -3,7 +3,7 @@
 Learning Python 3 by doing challenges from the [Advent of Code](http://adventofcode.com/2016) 
 
 ### Challenges
-#### [Day 1: No Time for a Taxicab](src/day_01/readme.md)
+#### [Day 1: No Time for a Taxicab](src/day_01)
 - [x] Part One - How many blocks away is Easter Bunny HQ?
 - [x] Part Two - How many blocks away is the first location you visit twice?
 
@@ -11,9 +11,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - What is the bathroom code?
 - [x] Part Two - What is the correct bathroom code?
 
-#### Day 3: Squares With Three Sides
-- [x] [Part One](src/3-1.py) - How many of the listed triangles are possible?
-- [x] [Part Two](src/3-2.py) - Reading by columns, how many of the listed triangles are possible?
+#### [Day 3: Squares With Three Sides](src/day_03)
+- [x] Part One - How many of the listed triangles are possible?
+- [x] Part Two - Reading by columns, how many of the listed triangles are possible?
 
 #### Day 4: Security Through Obscurity
 - [x] [Part One](src/4-1.py) - What is the sum of the sector IDs of the real rooms?
