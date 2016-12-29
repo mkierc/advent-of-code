@@ -24,9 +24,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part Two - Given the actual Door ID and this new method, what is the password?
 - [x] NerdMode - Be extra proud of your solution if it uses a cinematic "decrypting" animation
 
-#### Day 6: Signals and Noise
-- [x] [Part One](src/6-1.py) - What is the error-corrected version of the message being sent?
-- [x] [Part Two](src/6-2.py) - What is the original message that Santa is trying to send?
+#### [Day 6: Signals and Noise](src/day_06)
+- [x] Part One - What is the error-corrected version of the message being sent?
+- [x] Part Two - What is the original message that Santa is trying to send?
 
 #### Day 7: Internet Protocol Version 7
 - [x] [Part One](src/7-1.py) - How many IPs in your puzzle input support TLS?
