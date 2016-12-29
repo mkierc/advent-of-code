@@ -15,9 +15,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - How many of the listed triangles are possible?
 - [x] Part Two - Reading by columns, how many of the listed triangles are possible?
 
-#### Day 4: Security Through Obscurity
-- [x] [Part One](src/4-1.py) - What is the sum of the sector IDs of the real rooms?
-- [x] [Part Two](src/4-2.py) - What is the sector ID of the room where North Pole objects are stored?
+#### [Day 4: Security Through Obscurity](src/day_04)
+- [x] Part One - What is the sum of the sector IDs of the real rooms?
+- [x] Part Two - What is the sector ID of the room where North Pole objects are stored?
 
 #### Day 5: How About a Nice Game of Chess?
 - [x] [Part One](src/5-1.py) - Given the actual Door ID, what is the password?

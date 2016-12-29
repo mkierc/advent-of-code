@@ -39,5 +39,6 @@ In your puzzle input, and instead reading by columns, **how many** of the listed
 are **possible**?
 #####[Part 2 solution][2]
 
+
 [1]: part_1.py
 [2]: part_2.py

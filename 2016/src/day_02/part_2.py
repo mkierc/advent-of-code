@@ -1,12 +1,5 @@
-with open("data.txt") as file:
-    input_data = file.readlines()
-
-test_input_1 = [
-    "ULL",
-    "RRDDD",
-    "LURDL",
-    "UUUUD"
-]
+from day_02.part_1 import input_data
+from day_02.part_1 import test_input_1
 
 
 def decode(instructions):

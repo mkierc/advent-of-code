@@ -1,16 +1,6 @@
+from day_03.part_1 import input_data
+from day_03.part_1 import test_input_1
 from day_03.part_1 import count_triangles
-
-with open("data.txt") as file:
-    input_data = []
-    for line in file.readlines():
-        a, b, c = line.rsplit()
-        input_data.append([int(a), int(b), int(c)])
-
-test_input_1 = [
-    [5, 10, 25],
-    [3, 4, 5],
-    [3, 2, 1]
-]
 
 
 def transpose(triangle_list):
