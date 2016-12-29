@@ -28,9 +28,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - What is the error-corrected version of the message being sent?
 - [x] Part Two - What is the original message that Santa is trying to send?
 
-#### Day 7: Internet Protocol Version 7
-- [x] [Part One](src/7-1.py) - How many IPs in your puzzle input support TLS?
-- [x] [Part Two](src/7-2.py) - How many IPs in your puzzle input support SSL?
+#### [Day 7: Internet Protocol Version 7](src/day_07)
+- [x] Part One - How many IPs in your puzzle input support TLS?
+- [x] Part Two - How many IPs in your puzzle input support SSL?
 
 #### Day 8: Two-Factor Authentication
 - [x] [Part One](src/8-1-8-2.py) - How many pixels should be lit?]
