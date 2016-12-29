@@ -19,10 +19,10 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - What is the sum of the sector IDs of the real rooms?
 - [x] Part Two - What is the sector ID of the room where North Pole objects are stored?
 
-#### Day 5: How About a Nice Game of Chess?
-- [x] [Part One](src/5-1.py) - Given the actual Door ID, what is the password?
-- [x] [Part Two](src/5-2.py) - Given the actual Door ID and this new method, what is the password?
-- [x] [NerdMode](src/5-3.py) - Be extra proud of your solution if it uses a cinematic "decrypting" animation
+#### [Day 5: How About a Nice Game of Chess?](src/day_05)
+- [x] Part One - Given the actual Door ID, what is the password?
+- [x] Part Two - Given the actual Door ID and this new method, what is the password?
+- [x] NerdMode - Be extra proud of your solution if it uses a cinematic "decrypting" animation
 
 #### Day 6: Signals and Noise
 - [x] [Part One](src/6-1.py) - What is the error-corrected version of the message being sent?
