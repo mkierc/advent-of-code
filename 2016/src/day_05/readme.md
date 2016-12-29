@@ -70,4 +70,4 @@ Be extra proud of your solution if it uses a cinematic "decrypting" animation.
 [4]: part_1.py
 [5]: https://www.youtube.com/watch?v=NHWjlCaIrQo&t=25
 [6]: part_2.py
-[6]: part_3.py
+[7]: part_3.py
