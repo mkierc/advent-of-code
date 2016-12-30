@@ -32,9 +32,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - How many IPs in your puzzle input support TLS?
 - [x] Part Two - How many IPs in your puzzle input support SSL?
 
-#### Day 8: Two-Factor Authentication
-- [x] [Part One](src/8-1-8-2.py) - How many pixels should be lit?]
-- [x] [Part Two](src/8-1-8-2.py) - After you swipe your card, what code is the screen trying to display?
+#### [Day 8: Two-Factor Authentication](src/day_08)
+- [x] Part One - How many pixels should be lit?
+- [x] Part Two - After you swipe your card, what code is the screen trying to display?
 
 #### Day 9: Explosives in Cyberspace
 - [x] [Part One](src/9-1.py) - What is the decompressed length of the file?
