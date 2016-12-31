@@ -40,9 +40,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - What is the decompressed length of the file?
 - [x] Part Two - What is the decompressed length of the file using this improved format?
 
-#### Day 10: Balance Bots
-- [x] [Part One](src/10-1.py) - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
-- [x] [Part Two](src/10-2.py) - What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
+#### [Day 10: Balance Bots](src/day_10)
+- [x] Part One - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
+- [x] Part Two - What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
 
 #### Day 11: Radioisotope Thermoelectric Generators
 - [x] [Part One](src/11-1.py) - What is the minimum number of steps to bring all of the objects to the fourth floor?
