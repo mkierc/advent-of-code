@@ -44,13 +44,13 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
 - [x] Part Two - What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
 
-#### Day 11: Radioisotope Thermoelectric Generators
-- [x] [Part One](src/day_11/11-1.py) - What is the minimum number of steps to bring all of the objects to the fourth floor?
+#### [Day 11: Radioisotope Thermoelectric Generators](src/day_11)
+- [x] Part One - What is the minimum number of steps to bring all of the objects to the fourth floor?
 - [ ] Part Two - What is the minimum number of steps to bring objects, including four new ones, to the fourth floor?
 
-#### Day 12: Leonardo's Monorail
-- [x] [Part One](src/12-1.py) - After executing the assembunny code in your puzzle input, what value is left in register a?
-- [x] [Part Two](src/12-2.py) - If you instead initialize register c to be 1, what value is now left in register a?
+#### [Day 12: Leonardo's Monorail](src/day_12)
+- [x] Part One - After executing the assembunny code in your puzzle input, what value is left in register a?
+- [x] Part Two - If you instead initialize register c to be 1, what value is now left in register a?
 
 #### Day 13: A Maze of Twisty Little Cubicles
 - [x] [Part One](src/13-1.py) - What is the fewest number of steps required for you to reach 31,39?
