@@ -24,7 +24,8 @@ Now that you've helpfully marked up their design documents, it occurs to you tha
 are specified in groups of three **vertically**. Each set of three numbers in a column specifies
 a triangle. Rows are unrelated.
 
-For example, given the following specification, numbers with the same hundreds digit would be part of the same triangle:
+For example, given the following specification, numbers with the same hundreds digit would be part
+of the same triangle:
 
 ```
 101 301 501

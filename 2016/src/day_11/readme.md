@@ -26,11 +26,12 @@ to try to retrieve them. The fourth floor of the facility has an assembling mach
 make a self-contained, shielded computer for you to take with you - that is, if you can bring it
 all of the RTGs and microchips.
 
-Within the radiation-shielded part of the facility (in which it's safe to have these pre-assembly
-RTGs), there is an elevator that can move between the four floors. Its capacity rating means
-it can carry at most yourself and two RTGs or microchips in any combination. (They're rigged to
-some heavy diagnostic equipment - the assembling machine will detach it for you.) As a security
-measure, the elevator will only function if it contains at least one RTG or microchip.
+Within the radiation-shielded part of the facility (in which it's safe to have these
+pre-assembly RTGs), there is an elevator that can move between the four floors. Its capacity
+rating means it can carry at most yourself and two RTGs or microchips in any combination.
+(They're rigged to some heavy diagnostic equipment - the assembling machine will detach it for
+you.) As a security measure, the elevator will only function if it contains at least one RTG
+or microchip.
 
 The elevator always stops on each floor to recharge, and this takes long enough that the items
 within it and the items on that floor can irradiate each other. (You can prevent this if a
@@ -174,7 +175,8 @@ to the fourth floor?
 
 ### Part Two
 
-You step into the cleanroom separating the lobby from the isolated area and put on the hazmat suit.
+You step into the cleanroom separating the lobby from the isolated area and put on the hazmat
+suit.
 
 Upon entering the isolated containment area, however, you notice some extra parts on the
 first floor that weren't listed on the record outside:

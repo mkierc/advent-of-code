@@ -19,7 +19,8 @@ For example, if the Door ID is `abc`:
     the password, is `1`.
  * `5017308` produces the next interesting hash, which starts with `000008f82...`, so the second
     character of the password is `8`.
- * The third time a hash starts with five zeroes is for `abc5278568`, discovering the character `f`.
+ * The third time a hash starts with five zeroes is for `abc5278568`, discovering the character
+    `f`.
  
 In this example, after continuing this search a total of eight times, the password is `18f47a30`.
 

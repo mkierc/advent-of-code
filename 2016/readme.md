@@ -56,13 +56,13 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - What is the fewest number of steps required for you to reach 31,39?
 - [x] Part Two - How many locations (including your starting location) can you reach in at most 50 steps?
 
-#### Day 14: One-Time Pad
-- [x] [Part One](src/14-1.py) - Given the actual salt in your puzzle input, what index produces your 64th one-time pad key?
-- [x] [Part Two](src/14-2.py) - Using 2016 extra MD5 calls of key stretching, what index now produces your 64th one-time pad key?
+#### [Day 14: One-Time Pad](src/day_14)
+- [x] Part One - Given the actual salt in your puzzle input, what index produces your 64th one-time pad key?
+- [x] Part Two - Using 2016 extra MD5 calls of key stretching, what index now produces your 64th one-time pad key?
 
-#### Day 15: Timing is Everything
+#### [Day 15: Timing is Everything](src/day_15)
 - [ ] Part One - What is the first time you can press the button to get a capsule?
 
-#### Day 20: Firewall Rules
-- [x] [Part One](src/20-1.py) - What is the lowest-valued IP that is not blocked?
-- [x] [Part Two](src/20-2.py) - How many IPs are allowed by the blacklist?
+#### [Day 20: Firewall Rules](src/day_20)
+- [x] Part One - What is the lowest-valued IP that is not blocked?
+- [x] Part Two - How many IPs are allowed by the blacklist?

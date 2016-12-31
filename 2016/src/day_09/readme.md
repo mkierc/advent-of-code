@@ -27,8 +27,9 @@ For example:
  * `(6x1)(1x3)A` simply becomes `(1x3)A` - the `(1x3)` looks like a marker, but because it's
     within a data section of another marker, it is not treated any differently from the `A`
     that comes after it. It has a decompressed length of `6`.
- * `X(8x2)(3x3)ABCY` becomes `X(3x3)ABC(3x3)ABCY` (for a decompressed length of `18`), because the
-    decompressed data from the `(8x2)` marker (the `(3x3)ABC`) is skipped and not processed further.
+ * `X(8x2)(3x3)ABCY` becomes `X(3x3)ABC(3x3)ABCY` (for a decompressed length of `18`), because
+    the     decompressed data from the `(8x2)` marker (the `(3x3)ABC`) is skipped and not
+    processed further.
 
 What is the **decompressed length** of the file (your puzzle input)? Don't count whitespace.
 #####[Part 1 solution][1]

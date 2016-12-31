@@ -67,8 +67,8 @@ You still start at "5" and stop when you're at an edge, but given the same instr
 the outcome is very different:
 
  * You start at "5" and don't move at all (up and left are both edges), ending at `5`.
- * Continuing from "5", you move right twice and down three times (through "6", "7", "B", "D", "D"),
-    ending at `D`.
+ * Continuing from "5", you move right twice and down three times (through "6", "7", "B", "D",
+    "D"), ending at `D`.
  * Then, from "D", you move five more times (through "D", "B", "C", "C", "B"), ending at `B`.
  * Finally, after five more moves, you end at `3`.
 
