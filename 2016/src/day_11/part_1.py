@@ -1,9 +1,5 @@
-# 0 = generator
-# 1 = microchip
-# 0-4 = type
 import copy
 from time import time
-start_time = time()
 
 
 class State:
@@ -72,7 +68,10 @@ class State:
     def __ne__(self, other):
         return hash(self) != hash(other)
 
-
+# (x, y)
+# x:    0 = generator
+#       1 = microchip
+# y:    0-4 = type
 actual_initial_state = State(
     0, [
         {(0, 0), (1, 0)},
@@ -91,13 +90,8 @@ test_initial_state = State(
 )
 
 
-step = 1
-visited_states = {test_initial_state}
-states_of_last_step = {test_initial_state}
-
-
 # TODO measure the cost of this method
-def find_possible_next_states(current_state: State):
+def find_possible_next_states(current_state: State, visited_states: set()):
     new_states = set()
     # try moving things down
     if current_state.elevator != 0:  # lowest floor
@@ -152,23 +146,34 @@ def find_possible_next_states(current_state: State):
     return new_states
 
 
-solved = False
-while not solved:
-    print(step, len(states_of_last_step))
-    possible_next_states = set()
+def main():
+    start_time = time()
 
-    # TODO find how to parallelize generation of new states
-    for state in states_of_last_step:
-        possible_next_states = possible_next_states.union(find_possible_next_states(state))
-    for state in possible_next_states:
-        if state.is_solved():
-            solved = True
-            print("answer:", step, end="")
-            break
+    visited_states = {actual_initial_state}
+    states_of_last_step = set(visited_states)
 
-    visited_states = visited_states.union(possible_next_states)
-    states_of_last_step = possible_next_states
-    step += 1
+    step = 1
+    solved = False
 
-print(", solved in", time() - start_time, "s")
-# test_input takes ~0.17 s
+    while not solved:
+        print(step, len(states_of_last_step), time() - start_time, "s")
+        possible_next_states = set()
+
+        # TODO find how to parallelize generation of new states
+        for state in states_of_last_step:
+            possible_next_states = possible_next_states.union(find_possible_next_states(state, visited_states))
+        for state in possible_next_states:
+            if state.is_solved():
+                solved = True
+                print("answer:", step, end="")
+                break
+
+        visited_states = visited_states.union(possible_next_states)
+        states_of_last_step = possible_next_states
+        step += 1
+
+    print(", solved in", time() - start_time, "s")
+    # test_input takes ~0.17 s
+
+if __name__ == "__main__":
+    main()

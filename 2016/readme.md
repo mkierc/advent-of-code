@@ -45,7 +45,7 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part Two - What do you get if you multiply together the values of one chip in each of outputs 0, 1, and 2?
 
 #### Day 11: Radioisotope Thermoelectric Generators
-- [x] [Part One](src/11-1.py) - What is the minimum number of steps to bring all of the objects to the fourth floor?
+- [x] [Part One](src/day_11/11-1.py) - What is the minimum number of steps to bring all of the objects to the fourth floor?
 - [ ] Part Two - What is the minimum number of steps to bring objects, including four new ones, to the fourth floor?
 
 #### Day 12: Leonardo's Monorail
