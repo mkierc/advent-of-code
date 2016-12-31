@@ -63,6 +63,33 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 #### [Day 15: Timing is Everything](src/day_15)
 - [ ] Part One - What is the first time you can press the button to get a capsule?
 
+#### [Day 16: Dragon Checksum](src/day_16)
+- [ ] Part One - Using the initial state in your puzzle input, what is the correct checksum?
+
+#### [Day 17: Two Steps Forward](src/day_17)
+- [ ] Part One - Given your vault's passcode, what is the shortest path to reach the vault?
+
+#### [Day 18: Like a Rogue](src/day_18)
+- [ ] Part One - Starting with the map in your puzzle input, including the starting row, how many safe tiles are there?
+
+#### [Day 19: An Elephant Named Joseph](src/day_19)
+- [ ] Part One - With the number of Elves given in your puzzle input, which Elf gets all the presents?
+
 #### [Day 20: Firewall Rules](src/day_20)
 - [x] Part One - What is the lowest-valued IP that is not blocked?
 - [x] Part Two - How many IPs are allowed by the blacklist?
+
+#### [Day 21: Scrambled Letters and Hash](src/day_21)
+- [ ] Part One - Given the list of scrambling operations in your input, what is the result of scrambling `abcdefgh`?
+
+#### [Day 22: Grid Computing](src/day_22)
+- [ ] Part One - How many viable pairs of nodes are there?
+
+#### [Day 23: Safe Cracking](src/day_23)
+- [ ] Part One - What value should be sent to the safe?
+
+#### [Day 24: Air Duct Spelunking](src/day_24)
+- [ ] Part One - What is the fewest number of steps to visit every non-0 number marked on the map at least once?
+
+#### [Day 25: Clock Signal](src/day_25)
+- [ ] Part One - What is the lowest positive integer that can be used to initialize register to output a clock signal?
