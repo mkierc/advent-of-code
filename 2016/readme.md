@@ -52,9 +52,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - After executing the assembunny code in your puzzle input, what value is left in register a?
 - [x] Part Two - If you instead initialize register c to be 1, what value is now left in register a?
 
-#### Day 13: A Maze of Twisty Little Cubicles
-- [x] [Part One](src/13-1.py) - What is the fewest number of steps required for you to reach 31,39?
-- [x] [Part Two](src/13-2.py) - How many locations (including your starting location) can you reach in at most 50 steps?
+#### [Day 13: A Maze of Twisty Little Cubicles](src/day_13)
+- [x] Part One - What is the fewest number of steps required for you to reach 31,39?
+- [x] Part Two - How many locations (including your starting location) can you reach in at most 50 steps?
 
 #### Day 14: One-Time Pad
 - [x] [Part One](src/14-1.py) - Given the actual salt in your puzzle input, what index produces your 64th one-time pad key?

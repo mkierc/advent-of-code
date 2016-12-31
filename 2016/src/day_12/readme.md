@@ -1,4 +1,4 @@
-## Day 12: Leonardo's Monorail
+## Day 12 - Leonardo's Monorail
 ### Part One
 
 You finally reach the top floor of this building: a garden with a slanted glass ceiling. Looks like

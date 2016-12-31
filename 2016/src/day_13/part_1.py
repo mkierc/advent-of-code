@@ -1,5 +1,3 @@
-maze = []
-
 MAZE_WIDTH = 60
 MAZE_HEIGHT = 60
 OFFICERS_NUMBER = 1350
@@ -8,6 +6,7 @@ MAX_DEPTH = 150
 
 
 def generate_maze():
+    maze = []
     for y in range(MAZE_HEIGHT):
         line = []
         for x in range(MAZE_WIDTH):
@@ -17,16 +16,10 @@ def generate_maze():
             else:
                 line.append("#")
         maze.append(line)
+    return maze
 
 
-def display():
-    for y in range(MAZE_HEIGHT):
-        for x in range(MAZE_WIDTH):
-            print(str(maze[y][x]).ljust(4), end="")
-        print()
-
-
-def find_path(depth: int, position: tuple):
+def find_path(depth: int, position: tuple, maze: list):
     # simple recursive DFS pathfinding
     if depth < MAX_DEPTH:
         maze[position[1]][position[0]] = depth
@@ -37,18 +30,17 @@ def find_path(depth: int, position: tuple):
             new_position = (new_x, new_y)
             if MAZE_WIDTH > new_x >= 0 and MAZE_HEIGHT > new_y >= 0:
                 if maze[new_y][new_x] == ".":
-                    find_path(depth, new_position)
+                    find_path(depth, new_position, maze)
                 elif type(maze[new_y][new_x]) == int and maze[new_y][new_x] >= depth:
-                    find_path(depth, new_position)
+                    find_path(depth, new_position, maze)
 
 
-generate_maze()
-find_path(0, (1, 1))
+def main():
+    maze = generate_maze()
+    find_path(0, (1, 1), maze)
 
-location_sum = 0
-for y in range(MAZE_HEIGHT):
-    for x in range(MAZE_WIDTH):
-        if type(maze[y][x]) == int and maze[y][x] <= 50:
-            location_sum += 1
+    answer = maze[DESTINATION[1]][DESTINATION[0]]
+    print("answer:", answer)
 
-print("answer:", location_sum)
+if __name__ == "__main__":
+    main()
