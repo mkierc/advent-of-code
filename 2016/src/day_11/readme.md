@@ -74,7 +74,7 @@ could be taken:
     F1 .  .  .  .  LM 
     ```
 
-* Bring both Hydrogen-related items to the third floor, which is safe because the
+ * Bring both Hydrogen-related items to the third floor, which is safe because the
     Hydrogen-compatible microchip is getting power from its generator:
     ```
     F4 .  .  .  .  .  
