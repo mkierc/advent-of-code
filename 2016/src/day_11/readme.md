@@ -170,10 +170,6 @@ In your situation, what is the **minimum number of steps** required to bring all
 to the fourth floor?
 #####[Part 1 solution][2]
 
-Your puzzle answer was 33.
-
-The first half of this puzzle is complete! It provides one gold star: *
-
 ---
 
 ### Part Two
