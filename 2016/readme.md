@@ -36,9 +36,9 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 - [x] Part One - How many pixels should be lit?
 - [x] Part Two - After you swipe your card, what code is the screen trying to display?
 
-#### Day 9: Explosives in Cyberspace
-- [x] [Part One](src/9-1.py) - What is the decompressed length of the file?
-- [x] [Part Two](src/9-2.py) - What is the decompressed length of the file using this improved format?
+#### [Day 9: Explosives in Cyberspace](src/day_09)
+- [x] Part One - What is the decompressed length of the file?
+- [x] Part Two - What is the decompressed length of the file using this improved format?
 
 #### Day 10: Balance Bots
 - [x] [Part One](src/10-1.py) - What is the number of the bot responsible for comparing value-61 with value-17 microchips?
