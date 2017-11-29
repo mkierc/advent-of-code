@@ -14,9 +14,9 @@ In a valid triangle, the sum of any two sides must be larger than the remaining 
 the "triangle" given above is impossible, because `5 + 10` is not larger than `25`.
 
 In your puzzle input, **how many** of the listed triangles are **possible**?
-#####[Part 1 solution][1]
 
----
+[Part 1 solution][1]
+--------------------
 
 ### Part Two
 
@@ -38,7 +38,9 @@ of the same triangle:
 
 In your puzzle input, and instead reading by columns, **how many** of the listed triangles
 are **possible**?
-#####[Part 2 solution][2]
+
+[Part 2 solution][2]
+--------------------
 
 
 [1]: part_1.py

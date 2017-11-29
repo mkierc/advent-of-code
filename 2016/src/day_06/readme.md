@@ -35,9 +35,9 @@ and so on. Combining these characters returns the error-corrected message, `east
 
 Given the recording in your puzzle input, **what is the error-corrected version** of the message
 being sent?
-#####[Part 1 solution][2]
 
----
+[Part 1 solution][2]
+--------------------
 
 ### Part Two
 
@@ -55,7 +55,9 @@ and so on. Repeating this process for the remaining characters produces the orig
 
 Given the recording in your puzzle input and this new decoding methodology, **what is the original
 message** that Santa is trying to send?
-#####[Part 2 solution][3]
+
+[Part 2 solution][3]
+--------------------
 
 
 [1]: https://en.wikipedia.org/wiki/Repetition_code

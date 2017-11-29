@@ -43,9 +43,9 @@ So, in this example, the bathroom code is `1985`.
 
 Your puzzle input is the instructions from the document you found at the front desk.
 What is the **bathroom code**?
-#####[Part 1 solution][1]
 
----
+[Part 1 solution][1]
+--------------------
 
 ### Part Two
 
@@ -75,7 +75,9 @@ the outcome is very different:
 So, given the actual keypad layout, the code would be `5DB3`.
 
 Using the same instructions in your puzzle input, what is the correct **bathroom code**?
-#####[Part 2 solution][2]
+
+[Part 2 solution][2]
+--------------------
 
 
 [1]: part_1.py

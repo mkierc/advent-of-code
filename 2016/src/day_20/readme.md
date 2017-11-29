@@ -25,14 +25,16 @@ numbers not in any range.
 
 Given the list of blocked IPs you retrieved from the firewall (your puzzle input), **what is the
 lowest-valued IP** that is not blocked?
-#####[Part 1 solution][4]
 
----
+[Part 1 solution][4]
+--------------------
 
 ### Part Two
 
 **How many IPs** are allowed by the blacklist?
-#####[Part 2 solution][5]
+
+[Part 2 solution][5]
+--------------------
 
 
 [1]: https://en.wikipedia.org/wiki/IPv4#Addressing

@@ -41,15 +41,17 @@ is responsible for comparing value-`5` microchips with value-`2` microchips.
 
 Based on your instructions, **what is the number of the bot** that is responsible for comparing
 value-`61` microchips with value-`17` microchips?
-#####[Part 1 solution][2]
 
----
+[Part 1 solution][2]
+--------------------
 
 ### Part Two
 
 What do you get if you **multiply together the values** of one chip in each of outputs `0`, `1`,
 and `2`?
-#####[Part 2 solution][3]
+
+[Part 2 solution][3]
+--------------------
 
 
 [1]: https://www.youtube.com/watch?v=JnkMyfQ5YfY&t=40

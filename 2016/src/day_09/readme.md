@@ -32,9 +32,9 @@ For example:
     processed further.
 
 What is the **decompressed length** of the file (your puzzle input)? Don't count whitespace.
-#####[Part 1 solution][1]
 
----
+[Part 1 solution][1]
+--------------------
 
 ### Part Two
 
@@ -57,7 +57,9 @@ Unfortunately, the computer you brought probably doesn't have enough memory to a
 the file; you'll have to come up with another way to get its decompressed length.
 
 What is the decompressed length of the file using this improved format?
-#####[Part 2 solution][2]
+
+[Part 2 solution][2]
+--------------------
 
 
 [1]: part_1.py

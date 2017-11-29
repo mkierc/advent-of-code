@@ -59,9 +59,9 @@ tries to convince you, anyway.
 
 There seems to be an intermediate check of the voltage used by the display: after you swipe your
 card, if the screen did work, **how many pixels should be lit?**
-#####[Part 1 solution][5]
 
----
+[Part 1 solution][5]
+--------------------
 
 ### Part Two
 
@@ -69,7 +69,9 @@ You notice that the screen is only capable of displaying capital letters; in the
 each letter is `5` pixels wide and `6` tall.
 
 After you swipe your card, **what code is the screen trying to display?**
-#####[Part 2 solution][6]
+
+[Part 2 solution][6]
+--------------------
 
 
 [1]: https://en.wikipedia.org/wiki/Multi-factor_authentication

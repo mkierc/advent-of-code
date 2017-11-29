@@ -21,9 +21,9 @@ in order, with ties broken by alphabetization. For example:
 Of the real rooms from the list above, the sum of their sector IDs is `1514`.
 
 What is the **sum of the sector IDs of the real rooms**?
-#####[Part 1 solution][1]
 
----
+[Part 1 solution][1]
+--------------------
 
 ### Part Two
 
@@ -40,7 +40,9 @@ become spaces.
 For example, the real name for `qzmt-zixmtkozy-ivhz-343` is `very encrypted name`.
 
 **What is the sector ID** of the room where North Pole objects are stored?
-#####[Part 2 solution][3]
+
+[Part 2 solution][3]
+--------------------
 
 
 [1]: part_1.py

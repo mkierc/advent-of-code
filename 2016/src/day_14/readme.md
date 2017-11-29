@@ -36,9 +36,9 @@ For example, if the pre-arranged salt is `abc`:
 So, using our example salt of `abc`, index `22728` produces the `64`th key.
 
 Given the actual salt in your puzzle input, **what index** produces your `64`th one-time pad key?
-#####[Part 1 solution][5]
 
----
+[Part 1 solution][5]
+--------------------
 
 ### Part Two
 
@@ -75,7 +75,9 @@ The rest of the process remains the same, but now the keys are entirely differen
  
 Given the actual salt in your puzzle input and using `2016` extra MD5 calls of key stretching,
 **what index** now produces your `64`th one-time pad key?
-#####[Part 2 solution][8]
+
+[Part 2 solution][8]
+--------------------
 
 
 [1]: https://en.wikipedia.org/wiki/One-time_pad

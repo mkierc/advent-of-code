@@ -28,9 +28,10 @@ For example:
  * `R5, L5, R5, R3` leaves you `12` blocks away.
 
 **How many blocks away** is Easter Bunny HQ?
-#####[Part 1 solution][2]
 
----
+[Part 1 solution][2]
+--------------------
+
 
 ### Part Two
 
@@ -41,7 +42,9 @@ For example, if your instructions are `R8, R4, R4, R8`, the first location you v
 `4` blocks away, due East.
 
 How many blocks away is the **first location you visit twice**?
-#####[Part 2 solution][3]
+
+[Part 2 solution][3]
+--------------------
 
 
 [1]: https://en.wikipedia.org/wiki/Taxicab_geometry

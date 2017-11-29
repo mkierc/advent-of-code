@@ -52,15 +52,18 @@ Thus, reaching `7,4` would take a minimum of `11` steps (starting from your curr
 `1,1`).
 
 What is the **fewest number of steps required** for you to reach `31,39`?
-#####[Part 1 solution][3]
 
----
+[Part 1 solution][3]
+--------------------
 
 ### Part Two
 
 **How many locations** (distinct `x,y` coordinates, including your starting location) can you reach
 in at most `50` steps?
-#####[Part 2 solution][4]
+
+[Part 2 solution][4]
+--------------------
+
 
 [1]: https://en.wikipedia.org/wiki/Binary_number
 [2]: https://en.wikipedia.org/wiki/Bit

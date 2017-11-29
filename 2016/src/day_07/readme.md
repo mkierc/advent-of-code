@@ -21,9 +21,9 @@ For example:
     within a larger string).
 
 **How many IPs** in your puzzle input support TLS?
-#####[Part 1 solution][3]
 
----
+[Part 1 solution][3]
+--------------------
 
 ### Part Two
 
@@ -47,7 +47,9 @@ For example:
     `bzb`, even though `zaz` and `zbz` overlap).
 
 **How many IPs** in your puzzle input support SSL?
-#####[Part 2 solution][4]
+
+[Part 2 solution][4]
+--------------------
 
 
 [1]: https://en.wikipedia.org/wiki/IP_address

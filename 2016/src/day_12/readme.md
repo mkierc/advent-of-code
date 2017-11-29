@@ -45,9 +45,9 @@ and then skip the last `dec a` (because `a` is not zero, so the `jnz a 2` skips 
 register `a` at `42`. When you move past the last instruction, the program halts.
 
 After executing the assembunny code in your puzzle input, **what value is left in register `a`?**
-#####[Part 1 solution][6]
 
----
+[Part 1 solution][6]
+--------------------
 
 ### Part Two
 
@@ -55,7 +55,9 @@ As you head down the fire escape to the monorail, you notice it didn't start; re
 to be initialized to the position of the ignition key.
 
 If you instead **initialize register `c` to be `1`**, what value is now left in register `a`?
-#####[Part 2 solution][6]
+
+[Part 2 solution][6]
+--------------------
 
 
 [1]: https://www.google.com/search?q=tiger+lilies&tbm=isch

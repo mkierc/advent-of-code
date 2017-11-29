@@ -169,9 +169,9 @@ assembly. (Each elevator stop counts as one step, even if nothing is added to or
 
 In your situation, what is the **minimum number of steps** required to bring all of the objects
 to the fourth floor?
-#####[Part 1 solution][2]
 
----
+[Part 1 solution][2]
+--------------------
 
 ### Part Two
 

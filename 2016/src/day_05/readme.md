@@ -25,9 +25,9 @@ For example, if the Door ID is `abc`:
 In this example, after continuing this search a total of eight times, the password is `18f47a30`.
 
 Given the actual Door ID, **what is the password**?
-#####[Part 1 solution][4]
 
----
+[Part 1 solution][4]
+--------------------
 
 ### Part Two
 
@@ -56,13 +56,14 @@ You almost choke on your popcorn as the final character falls into place, produc
 `05ace8e3`.
 
 Given the actual Door ID and this new method, **what is the password**?
-#####[Part 2 solution][6]
 
----
+[Part 2 solution][6]
+--------------------
 
 Be extra proud of your solution if it uses a cinematic "decrypting" animation.
-#####[Part 3 solution - with cinematic "decrypting" animation][7]
 
+[Part 3 solution - with cinematic "decrypting" animation][7]
+------------------------------------------------------------
 
 
 [1]: https://en.wikipedia.org/wiki/Hackers_(film)
