@@ -28,3 +28,7 @@ Good luck!
 #### [Day 1: Inverse Captcha](src/day_01)
 - [x] Part One - What is the solution to your captcha?
 - [x] Part Two - What is the solution to your new captcha?
+
+#### [Day 2: Corruption Checksum](src/day_01)
+- [x] Part One - What is the checksum for the spreadsheet in your puzzle input?
+- [ ] Part Two - What is the sum of each row's result in your puzzle input?
