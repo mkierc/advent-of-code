@@ -31,4 +31,4 @@ Good luck!
 
 #### [Day 2: Corruption Checksum](src/day_01)
 - [x] Part One - What is the checksum for the spreadsheet in your puzzle input?
-- [ ] Part Two - What is the sum of each row's result in your puzzle input?
+- [x] Part Two - What is the sum of each row's result in your puzzle input?

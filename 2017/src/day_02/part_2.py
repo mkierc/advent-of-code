@@ -1,7 +1,7 @@
 test_input = [
-    [5, 1, 9, 5],
-    [7, 5, 3],
-    [2, 4, 6, 8]
+    [5, 9, 2, 8],
+    [9, 4, 7, 3],
+    [3, 8, 6, 5]
 ]
 
 input_spreadsheet = []
@@ -20,20 +20,18 @@ def calculate_checksum(spreadsheet):
     spreadsheet_sum = 0
 
     for row in spreadsheet:
-        difference = find_extremes_difference(row)
+        difference = find_even_divisors(row)
         spreadsheet_sum += difference
     return spreadsheet_sum
 
 
-def find_extremes_difference(row):
-    lowest = row[0]
-    highest = row[0]
-    for number in row:
-        if number < lowest:
-            lowest = number
-        if number > highest:
-            highest = number
-    return highest - lowest
+def find_even_divisors(row):
+    for i in range(len(row)):
+        divident = row[i]
+        potential_divisors = row[:i] + row[i+1:]
+        for potential_divisor in potential_divisors:
+            if divident / potential_divisor == divident // potential_divisor:
+                return divident // potential_divisor
 
 
 def main():
