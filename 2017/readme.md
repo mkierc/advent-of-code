@@ -36,4 +36,4 @@ Good luck!
 #### [Day 3: Spiral Memory](src/day_03)
 - [ ] Part One - How many steps are required to carry the data from the
   square identified in your puzzle input all the way to the access port?
-- [ ] Part Two -
+- [ ] Part Two - What is the first value written that is larger than your puzzle input?
