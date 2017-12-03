@@ -33,6 +33,7 @@ Good luck!
 - [x] Part One - What is the checksum for the spreadsheet in your puzzle input?
 - [x] Part Two - What is the sum of each row's result in your puzzle input?
 
-#### [Day 3: ](src/day_03)
-- [ ] Part One -
+#### [Day 3: Spiral Memory](src/day_03)
+- [ ] Part One - How many steps are required to carry the data from the
+  square identified in your puzzle input all the way to the access port?
 - [ ] Part Two -
