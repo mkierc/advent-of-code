@@ -29,6 +29,10 @@ Good luck!
 - [x] Part One - What is the solution to your captcha?
 - [x] Part Two - What is the solution to your new captcha?
 
-#### [Day 2: Corruption Checksum](src/day_01)
+#### [Day 2: Corruption Checksum](src/day_02)
 - [x] Part One - What is the checksum for the spreadsheet in your puzzle input?
 - [x] Part Two - What is the sum of each row's result in your puzzle input?
+
+#### [Day 3: ](src/day_03)
+- [ ] Part One -
+- [ ] Part Two -
