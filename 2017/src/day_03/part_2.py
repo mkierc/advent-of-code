@@ -27,6 +27,7 @@ def fill_until_satisfied(satistfing_number):
         current_number = sum_around
 
         if current_number > satistfing_number:
+            number_map[x][y] = current_number
             return current_number
 
 
