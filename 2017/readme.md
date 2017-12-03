@@ -4,25 +4,21 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 
 ---
 
-The night before Christmas, one of Santa's Elves calls you in a panic.
-"The printer's broken! We can't print the **Naughty or Nice List**!"
-By the time you make it to sub-basement 17, there are only a few minutes
-until midnight. "We have a big problem," she says; "there must be almost
-**fifty** bugs in this system, but nothing else can print The List.
-Stand in this square, quick! There's no time to explain; if you can
-convince them to pay you in **stars**, you'll be able to--" She pulls
-a lever and the world goes blurry.
+The night before Christmas, one of Santa's Elves calls you in a panic. "The printer's broken!
+We can't print the **Naughty or Nice List**!" By the time you make it to sub-basement 17, there are
+only a few minutes until midnight. "We have a big problem," she says; "there must be almost **fifty**
+bugs in this system, but nothing else can print The List. Stand in this square, quick! There's
+no time to explain; if you can convince them to pay you in **stars**, you'll be able to--"
+She pulls a lever and the world goes blurry.
 
-When your eyes can focus again, everything seems a lot more pixelated
-than before. She must have sent you inside the computer! You check the
-system clock: **25 milliseconds** until midnight. With that much time,
-you should be able to collect all **fifty stars** by December 25th.
+When your eyes can focus again, everything seems a lot more pixelated than before. She must have
+sent you inside the computer! You check the system clock: **25 milliseconds** until midnight.
+With that much time, you should be able to collect all **fifty stars** by December 25th.
 
 
-Collect stars by solving puzzles. Two puzzles will be made available on
-each ~~day~~ millisecond in the advent calendar; the second puzzle is
-unlocked when you complete the first. Each puzzle grants **one star**.
-Good luck!
+Collect stars by solving puzzles. Two puzzles will be made available on each ~~day~~ millisecond in
+the advent calendar; the second puzzle is unlocked when you complete the first.
+Each puzzle grants **one star**. Good luck!
 
 ### Challenges
 #### [Day 1: Inverse Captcha](src/day_01)
@@ -34,6 +30,6 @@ Good luck!
 - [x] Part Two - What is the sum of each row's result in your puzzle input?
 
 #### [Day 3: Spiral Memory](src/day_03)
-- [ ] Part One - How many steps are required to carry the data from the
+- [x] Part One - How many steps are required to carry the data from the
   square identified in your puzzle input all the way to the access port?
 - [ ] Part Two - What is the first value written that is larger than your puzzle input?
