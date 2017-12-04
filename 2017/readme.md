@@ -35,4 +35,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - What is the first value written that is larger than your puzzle input?
 
 #### [Day 4: High-Entropy Passphrases](src/day_04)
-- [ ] Part One - How many passphrases are valid?
+- [x] Part One - How many passphrases are valid?
+- [ ] Part Two - Under new system policy, how many passphrases are valid?
