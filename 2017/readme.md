@@ -33,3 +33,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part One - How many steps are required to carry the data from the
   square identified in your puzzle input all the way to the access port?
 - [x] Part Two - What is the first value written that is larger than your puzzle input?
+
+#### [Day 4: High-Entropy Passphrases](src/day_04)
+- [ ] Part One - How many passphrases are valid?
