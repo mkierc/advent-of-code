@@ -36,4 +36,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 4: High-Entropy Passphrases](src/day_04)
 - [x] Part One - How many passphrases are valid?
-- [ ] Part Two - Under new system policy, how many passphrases are valid?
+- [x] Part Two - Under new system policy, how many passphrases are valid?
