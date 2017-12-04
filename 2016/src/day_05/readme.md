@@ -1,4 +1,5 @@
 ## Day 5 - How About a Nice Game of Chess?
+
 ### Part One
 
 You are faced with a security door designed by Easter Bunny engineers that seem to have acquired

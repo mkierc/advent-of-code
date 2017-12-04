@@ -1,4 +1,5 @@
 ## Day 4 - Security Through Obscurity
+
 ### Part One
 
 Finally, you come across an information kiosk with a list of rooms. Of course, the list is

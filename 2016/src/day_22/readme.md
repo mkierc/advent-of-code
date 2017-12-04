@@ -1,4 +1,5 @@
 ## Day 22 - Grid Computing
+
 ### Part One
 
 You gain access to a massive storage cluster arranged in a grid; each storage node is only

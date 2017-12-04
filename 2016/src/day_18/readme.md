@@ -1,4 +1,5 @@
 ## Day 18 - Like a Rogue
+
 ### Part One
 
 As you enter this room, you hear a loud click! Some of the tiles in the floor here seem to be

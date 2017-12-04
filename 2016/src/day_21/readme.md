@@ -1,4 +1,5 @@
 ## Day 21 - Scrambled Letters and Hash
+
 ### Part One
 
 The computer system you're breaking into uses a weird scrambling function to store its passwords.

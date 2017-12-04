@@ -1,4 +1,5 @@
 ## Day 19 - An Elephant Named Joseph
+
 ### Part One
 
 The Elves contact you over a highly secure emergency channel. Back at the North Pole, the Elves

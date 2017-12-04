@@ -1,4 +1,5 @@
 ## Day 3 - Squares With Three Sides
+
 ### Part One
 
 Now that you can think clearly, you move deeper into the labyrinth of hallways and office

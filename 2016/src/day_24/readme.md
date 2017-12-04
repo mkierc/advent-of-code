@@ -1,4 +1,5 @@
 ## Day 24 - Air Duct Spelunking
+
 ### Part One
 
 You've finally met your match; the doors that provide access to the roof are locked tight, and

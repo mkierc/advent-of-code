@@ -1,4 +1,5 @@
 ## Day 2 - Bathroom Security
+
 ### Part One
 
 You arrive at **Easter Bunny Headquarters** under cover of darkness. However, you left in such

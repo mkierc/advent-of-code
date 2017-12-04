@@ -1,4 +1,5 @@
 ## Day 1 - No Time for a Taxicab
+
 ### Part One
 
 You're airdropped near **Easter Bunny Headquarters** in a city somewhere. "Near", unfortunately,
@@ -23,7 +24,6 @@ For example:
 
 [Part 1 solution][2]
 --------------------
-
 
 ### Part Two
 

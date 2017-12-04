@@ -1,4 +1,5 @@
 ## Day 6 - Signals and Noise
+
 ### Part One
 
 Something is jamming your communications with Santa. Fortunately, your signal is only partially

@@ -1,4 +1,5 @@
 ## Day 23 - Safe Cracking
+
 ### Part One
 
 This is one of the top floors of the nicest tower in EBHQ. The Easter Bunny's private office is
