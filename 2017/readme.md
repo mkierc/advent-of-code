@@ -15,7 +15,6 @@ When your eyes can focus again, everything seems a lot more pixelated than befor
 sent you inside the computer! You check the system clock: **25 milliseconds** until midnight.
 With that much time, you should be able to collect all **fifty stars** by December 25th.
 
-
 Collect stars by solving puzzles. Two puzzles will be made available on each ~~day~~ millisecond in
 the advent calendar; the second puzzle is unlocked when you complete the first.
 Each puzzle grants **one star**. Good luck!
@@ -37,3 +36,7 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 4: High-Entropy Passphrases](src/day_04)
 - [x] Part One - How many passphrases are valid?
 - [x] Part Two - Under new system policy, how many passphrases are valid?
+
+#### [Day 5](src/day_05)
+- [ ] Part One
+- [ ] Part Two
