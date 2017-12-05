@@ -40,3 +40,7 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 5: A Maze of Twisty Trampolines, All Alike](src/day_05)
 - [x] Part One - How many steps does it take to reach the exit?
 - [x] Part Two - How many steps does it now take to reach the exit?
+
+#### [Day 6: TBA](src/day_06)
+- [ ] Part One -
+- [ ] Part Two -
