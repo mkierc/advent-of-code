@@ -37,6 +37,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part One - How many passphrases are valid?
 - [x] Part Two - Under new system policy, how many passphrases are valid?
 
-#### [Day 5](src/day_05)
-- [ ] Part One
+#### [Day 5: A Maze of Twisty Trampolines, All Alike](src/day_05)
+- [ ] Part One - How many steps does it take to reach the exit?
 - [ ] Part Two
