@@ -42,6 +42,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many steps does it now take to reach the exit?
 
 #### [Day 6: Memory Reallocation](src/day_06)
-- [ ] Part One - How many cycles are in the infinite loop that arises from the configuration in
+- [x] Part One - How many cycles are in the infinite loop that arises from the configuration in
    your puzzle input?
 - [ ] Part Two -
