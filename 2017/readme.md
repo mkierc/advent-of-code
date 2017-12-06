@@ -46,3 +46,7 @@ Each puzzle grants **one star**. Good luck!
     is produced that has been seen before?
 - [x] Part Two - How many cycles are in the infinite loop that arises from the configuration in
     your puzzle input?
+
+#### [Day 7: TBA](src/day_07)
+- [ ] Part One -
+- [ ] Part Two -
