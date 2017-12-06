@@ -1,31 +1,23 @@
-test_input_1 = [0, 2, 7, 0]
+import time
 
-input_data = []
+test_input_1 = (0, 2, 7, 0)
 
 with open("data.txt") as file:
-    input_chars = file.read().split()
-    for char in input_chars:
-        input_data.append(int(char))
+    input_data = tuple(int(char) for char in file.read().split())
 
 
 def solve(data):
     cycles = 0
-    seen_configurations = [[data, cycles]]
+    seen_configurations = {data: cycles}
     current_config = data
     while True:
         cycles += 1
         current_config = distribute(list(current_config), find_max_pos(list(current_config)))
 
-        if current_config not in list(zip(*seen_configurations))[0]:
-            seen_configurations.append([current_config, cycles])
+        if current_config not in seen_configurations.keys():
+            seen_configurations.update({current_config: cycles})
         else:
-            return cycles - find_position_in_list(seen_configurations, current_config)
-
-
-def find_position_in_list(list, position):
-    for pos in list:
-        if pos[0] == position:
-            return pos[1]
+            return cycles - seen_configurations.get(current_config)
 
 
 def find_max_pos(data):
@@ -45,12 +37,18 @@ def distribute(data, source_position):
         source_position = (source_position + 1) % len(data)
         data[source_position] += 1
         buffer -= 1
-    return data
+    return tuple(data)
 
 
 def main():
     test_1 = solve(test_input_1)
+
+    # Intel Core i7 4770:
+    # 13.336 s - unoptimized, using list of lists
+    #  0.078 s - optimized, using dict with tuples as keys
+    start = time.time()
     answer = solve(input_data)
+    print("time:", time.time() - start)
 
     print("test_1:", test_1)
     print("answer:", answer)
