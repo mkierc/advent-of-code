@@ -30,7 +30,7 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 3: Spiral Memory](src/day_03)
 - [x] Part One - How many steps are required to carry the data from the
-   square identified in your puzzle input all the way to the access port?
+    square identified in your puzzle input all the way to the access port?
 - [x] Part Two - What is the first value written that is larger than your puzzle input?
 
 #### [Day 4: High-Entropy Passphrases](src/day_04)
@@ -43,5 +43,6 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 6: Memory Reallocation](src/day_06)
 - [x] Part One - How many cycles are in the infinite loop that arises from the configuration in
-   your puzzle input?
-- [ ] Part Two -
+    your puzzle input?
+- [x] Part Two - How many cycles are in the infinite loop that arises from the configuration in
+    your puzzle input?
