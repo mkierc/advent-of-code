@@ -47,6 +47,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many cycles are in the infinite loop that arises from the configuration in
     your puzzle input?
 
-#### [Day 7: TBA](src/day_07)
-- [ ] Part One -
+#### [Day 7: Recursive Circus](src/day_07)
+- [ ] Part One - What is the name of the bottom program?
 - [ ] Part Two -
