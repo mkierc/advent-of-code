@@ -42,7 +42,11 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many steps does it now take to reach the exit?
 
 #### [Day 6: Memory Reallocation](src/day_06)
-- [x] Part One - How many cycles are in the infinite loop that arises from the configuration in
-    your puzzle input?
+- [x] Part One - How many redistribution cycles must be completed before a configuration
+    is produced that has been seen before?
 - [x] Part Two - How many cycles are in the infinite loop that arises from the configuration in
     your puzzle input?
+
+#### [Day 7: TBA](src/day_07)
+- [ ] Part One -
+- [ ] Part Two -

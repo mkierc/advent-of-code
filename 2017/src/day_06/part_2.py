@@ -1,56 +1,44 @@
 import time
 
-test_input_1 = (0, 2, 7, 0)
-
 with open("data.txt") as file:
     input_data = tuple(int(char) for char in file.read().split())
 
 
 def solve(data):
     cycles = 0
-    seen_configurations = {data: cycles}
+    visited_states = {data: cycles}
     current_config = data
     while True:
         cycles += 1
-        current_config = distribute(list(current_config), find_max_pos(list(current_config)))
+        current_config = distribute(list(current_config))
 
-        if current_config not in seen_configurations.keys():
-            seen_configurations.update({current_config: cycles})
+        if current_config not in visited_states.keys():
+            visited_states.update({current_config: cycles})
         else:
-            return cycles - seen_configurations.get(current_config)
+            return cycles - visited_states.get(current_config)
 
 
-def find_max_pos(data):
-    max_value = 0
-    position = 0
-    for i in range(len(data)):
-        if data[i] > max_value:
-            max_value = data[i]
-            position = i
-    return position
-
-
-def distribute(data, source_position):
+def distribute(data):
+    source_position = data.index(max(data))
     buffer = data[source_position]
     data[source_position] = 0
     while buffer > 0:
-        source_position = (source_position + 1) % len(data)
+        source_position = (source_position + 1) % 16
         data[source_position] += 1
         buffer -= 1
     return tuple(data)
 
 
 def main():
-    test_1 = solve(test_input_1)
-
-    # Intel Core i7 4770:
-    # 13.336 s - unoptimized, using list of lists
-    #  0.078 s - optimized, using dict with tuples as keys
+    # Intel Core i7 7700k
+    # 9.61188 s - Unoptimized
+    # 8.34519 s - Tuples instead of lists
+    # 8.25261 s - Built-in index/max instead of custom
+    # 8.22655 s - Constant list size for modulo
+    # 0.04410 s - Dictionary instead of list of lists
     start = time.time()
     answer = solve(input_data)
     print("time:", time.time() - start)
-
-    print("test_1:", test_1)
     print("answer:", answer)
 
 
