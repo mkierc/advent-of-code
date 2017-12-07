@@ -49,5 +49,5 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 7: Recursive Circus](src/day_07)
 - [x] Part One - What is the name of the bottom program?
-- [ ] Part Two - Given that exactly one program is the wrong weight, what would its weight need
+- [x] Part Two - Given that exactly one program is the wrong weight, what would its weight need
     to be to balance the entire tower?
