@@ -55,4 +55,4 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 8: I Heard You Like Registers](src/day_08)
 - [x] Part One - What is the largest value in any register after completing the instructions in
     your puzzle input?
-- [ ] Part Two - What is the highest value held in any register during this process?
+- [x] Part Two - What is the highest value held in any register during this process?

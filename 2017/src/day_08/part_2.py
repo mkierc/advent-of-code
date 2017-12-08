@@ -30,6 +30,8 @@ def execute(instructions):
         register_state.update({register: 0})
         register_state.update({condition_register: 0})
 
+    all_time_max = 0
+
     for instruction in instruction_list:
         register = instruction[0]
         operator = instruction[1]
@@ -74,8 +76,10 @@ def execute(instructions):
                     register_state.update({register: register_state.get(register) + value})
                 if operator == 'dec':
                     register_state.update({register: register_state.get(register) - value})
+        if register_state.get(register) > all_time_max:
+            all_time_max = register_state.get(register)
 
-    return max(register_state.values())
+    return all_time_max
 
 
 def main():
