@@ -51,3 +51,7 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part One - What is the name of the bottom program?
 - [x] Part Two - Given that exactly one program is the wrong weight, what would its weight need
     to be to balance the entire tower?
+
+#### [Day 8: I Heard You Like Registers](src/day_08)
+- [ ] Part One - What is the largest value in any register after completing the instructions in
+    your puzzle input?
