@@ -56,3 +56,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part One - What is the largest value in any register after completing the instructions in
     your puzzle input?
 - [x] Part Two - What is the highest value held in any register during this process?
+
+#### [Day 9: Stream Processing](src/day_09)
+- [ ] Part One - What is the total score for all groups in your input?
