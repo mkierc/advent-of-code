@@ -59,4 +59,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 9: Stream Processing](src/day_09)
 - [x] Part One - What is the total score for all groups in your input?
-- [ ] Part Two - How many non-canceled characters are within the garbage in your puzzle input?
+- [x] Part Two - How many non-canceled characters are within the garbage in your puzzle input?
