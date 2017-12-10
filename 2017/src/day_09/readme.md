@@ -1,4 +1,4 @@
-## Day 8 - I Heard You Like Registers
+## Day 9 - I Heard You Like Registers
 
 ### Part One
 
@@ -84,5 +84,5 @@ and trailing `<` and `>` don't count, nor do any canceled characters or the `!` 
 
 
 [1]: ../day_5
-[3]: part_1.py
+[2]: part_1.py
 [3]: part_2.py

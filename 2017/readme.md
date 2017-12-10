@@ -60,3 +60,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 9: Stream Processing](src/day_09)
 - [x] Part One - What is the total score for all groups in your input?
 - [x] Part Two - How many non-canceled characters are within the garbage in your puzzle input?
+
+#### [Day 10: Stream Processing](src/day_10)
+- [ ] Part One - What is the result of multiplying the first two numbers in the list?
