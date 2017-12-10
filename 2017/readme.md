@@ -61,5 +61,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part One - What is the total score for all groups in your input?
 - [x] Part Two - How many non-canceled characters are within the garbage in your puzzle input?
 
-#### [Day 10: Stream Processing](src/day_10)
-- [ ] Part One - What is the result of multiplying the first two numbers in the list?
+#### [Day 10: Knot Hash](src/day_10)
+- [x] Part One - What is the result of multiplying the first two numbers in the list?
+- [ ] Part Two - What is the Knot Hash of your puzzle input?
