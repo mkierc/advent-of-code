@@ -63,4 +63,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 10: Knot Hash](src/day_10)
 - [x] Part One - What is the result of multiplying the first two numbers in the list?
-- [ ] Part Two - What is the Knot Hash of your puzzle input?
+- [x] Part Two - What is the Knot Hash of your puzzle input?
