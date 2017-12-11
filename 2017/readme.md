@@ -66,4 +66,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - What is the Knot Hash of your puzzle input?
 
 #### [Day 11: Hex Ed](src/day_11)
-- [ ] Part One - Determine the fewest number of steps required to reach the child process.
+- [x] Part One - Determine the fewest number of steps required to reach the child process.
+- [ ] Part Two - How many steps away is the furthest he ever got from his starting position?
