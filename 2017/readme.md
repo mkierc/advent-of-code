@@ -64,3 +64,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 10: Knot Hash](src/day_10)
 - [x] Part One - What is the result of multiplying the first two numbers in the list?
 - [x] Part Two - What is the Knot Hash of your puzzle input?
+
+#### [Day 11: Hex Ed](src/day_11)
+- [ ] Part One - Determine the fewest number of steps required to reach the child process.
