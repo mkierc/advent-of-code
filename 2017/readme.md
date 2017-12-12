@@ -70,4 +70,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many steps away is the furthest he ever got from his starting position?
 
 #### [Day 12: Digital Plumber](src/day_12)
-- [ ] Part One - How many programs are in the group that contains program ID 0?
+- [x] Part One - How many programs are in the group that contains program ID 0?
+- [x] Part Two - How many groups are there in total?
