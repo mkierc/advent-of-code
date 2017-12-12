@@ -68,3 +68,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 11: Hex Ed](src/day_11)
 - [x] Part One - Determine the fewest number of steps required to reach the child process.
 - [x] Part Two - How many steps away is the furthest he ever got from his starting position?
+
+#### [Day 12: Digital Plumber](src/day_12)
+- [ ] Part One - How many programs are in the group that contains program ID 0?
