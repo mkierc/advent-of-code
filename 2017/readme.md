@@ -72,3 +72,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 12: Digital Plumber](src/day_12)
 - [x] Part One - How many programs are in the group that contains program ID 0?
 - [x] Part Two - How many groups are there in total?
+
+#### [Day 13: Packet Scanners](src/day_13)
+- [ ] Part One - What is the severity of your whole trip?
