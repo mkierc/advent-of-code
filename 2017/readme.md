@@ -75,5 +75,5 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 13: Packet Scanners](src/day_13)
 - [x] Part One - What is the severity of your whole trip?
-- [ ] Part Two - What is the fewest number of picoseconds that you need to delay the packet
+- [x] Part Two - What is the fewest number of picoseconds that you need to delay the packet
     to pass through the firewall without being caught?
