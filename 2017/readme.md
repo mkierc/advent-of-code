@@ -74,4 +74,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many groups are there in total?
 
 #### [Day 13: Packet Scanners](src/day_13)
-- [ ] Part One - What is the severity of your whole trip?
+- [x] Part One - What is the severity of your whole trip?
+- [ ] Part Two - What is the fewest number of picoseconds that you need to delay the packet
+    to pass through the firewall without being caught?
