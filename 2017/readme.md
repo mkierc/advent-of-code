@@ -80,4 +80,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 14: Disk Defragmentation](src/day_14)
 - [x] Part One - Given your actual key string, how many squares are used?
-- [ ] Part Two - How many regions are present given your key string?
+- [x] Part Two - How many regions are present given your key string?
