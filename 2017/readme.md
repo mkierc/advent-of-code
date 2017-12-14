@@ -77,3 +77,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part One - What is the severity of your whole trip?
 - [x] Part Two - What is the fewest number of picoseconds that you need to delay the packet
     to pass through the firewall without being caught?
+
+#### [Day 14: Disk Defragmentation](src/day_14)
+- [ ] Part One - Given your actual key string, how many squares are used?
