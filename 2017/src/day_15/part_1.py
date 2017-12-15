@@ -4,12 +4,6 @@ test_input_1 = [65, 8921]
 input_data = [722, 354]
 
 
-def compare_low_bits(a, b):
-    a_bin = bin(a)[2:].rjust(32, '0')
-    b_bin = bin(b)[2:].rjust(32, '0')
-    return a_bin[-16:] == b_bin[-16:]
-
-
 def generate(numbers):
     counter = 0
     a = numbers[0]
@@ -18,7 +12,7 @@ def generate(numbers):
     for i in range(40000000):
         a = (a * 16807) % 2147483647
         b = (b * 48271) % 2147483647
-        if compare_low_bits(a, b):
+        if a & 65535 == b & 65535:
             counter += 1
 
     return counter
@@ -30,6 +24,8 @@ def main():
 
     # Intel Core i7 7700k
     # 47.1393 s - Unoptimized
+    # 15.6327 s - Bitwise comparison of lowest bits
+    # 13.2834 s - Without extra function call
     start = time.time()
     answer = generate(input_data)
     print("time:", time.time() - start)

@@ -84,4 +84,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 15: Dueling Generators](src/day_15)
 - [x] Part One - After 40 million pairs, what is the judge's final count?
-- [ ] Part Two - After 5 million pairs, using new generator logic, what is the judge's final count?
+- [x] Part Two - After 5 million pairs, using new generator logic, what is the judge's final count?
