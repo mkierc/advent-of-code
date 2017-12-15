@@ -81,3 +81,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 14: Disk Defragmentation](src/day_14)
 - [x] Part One - Given your actual key string, how many squares are used?
 - [x] Part Two - How many regions are present given your key string?
+
+#### [Day 15: Dueling Generators](src/day_15)
+- [ ] Part One - After 40 million pairs, what is the judge's final count?
