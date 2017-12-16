@@ -87,4 +87,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - After 5 million pairs, using new generator logic, what is the judge's final count?
 
 #### [Day 16: Permutation Promenade](src/day_16)
-- [ ] Part One - In what order are the programs standing after their dance?
+- [x] Part One - In what order are the programs standing after their dance?
+- [ ] Part Two - In what order are the programs standing after their billion dances?
