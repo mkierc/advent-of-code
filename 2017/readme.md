@@ -88,4 +88,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 16: Permutation Promenade](src/day_16)
 - [x] Part One - In what order are the programs standing after their dance?
-- [ ] Part Two - In what order are the programs standing after their billion dances?
+- [x] Part Two - In what order are the programs standing after their billion dances?
