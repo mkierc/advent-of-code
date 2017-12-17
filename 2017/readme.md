@@ -89,3 +89,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 16: Permutation Promenade](src/day_16)
 - [x] Part One - In what order are the programs standing after their dance?
 - [x] Part Two - In what order are the programs standing after their billion dances?
+
+#### [Day 17: Spinlock](src/day_17)
+- [ ] Part One - What is the value after 2017 in your completed circular buffer?
