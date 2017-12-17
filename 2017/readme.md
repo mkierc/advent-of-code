@@ -91,4 +91,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - In what order are the programs standing after their billion dances?
 
 #### [Day 17: Spinlock](src/day_17)
-- [ ] Part One - What is the value after 2017 in your completed circular buffer?
+- [x] Part One - What is the value after 2017 in your completed circular buffer?
+- [ ] Part Two - What is the value after 0 the moment 50000000 is inserted?
