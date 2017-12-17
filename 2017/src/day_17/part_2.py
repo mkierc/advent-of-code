@@ -1,3 +1,6 @@
+import time
+
+
 def solve(step):
     current_index = 0
     second_value = -1
@@ -15,10 +18,14 @@ def solve(step):
 
 
 def main():
+    # Intel Core i7 7700k
+    # 88 d 20 h - Unoptimized (time estimated with 2nd order polynomial regression)
+    # 4.88938 s - Calculating current position only, without actually appending
+    start = time.time()
     answer = solve(363)
+    print("time:", time.time() - start)
     print("answer:", answer)
 
 
 if __name__ == "__main__":
     main()
-
