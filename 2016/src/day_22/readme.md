@@ -31,3 +31,17 @@ nodes (A,B), **regardless of whether they are directly connected**, such that:
  * The data on node A (its `Used`) **would fit** on node B (its `Avail`).
 
 **How many viable pairs** of nodes are there?
+
+[Part 1 solution][1]
+--------------------
+
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py

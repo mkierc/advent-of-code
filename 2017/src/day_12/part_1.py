@@ -42,9 +42,9 @@ def group_programs(pipe_list):
 
 def main():
     test_1 = group_programs(test_input_1)
-    answer = group_programs(input_data)
-
     print("test_1:", test_1)
+
+    answer = group_programs(input_data)
     print("answer:", answer)
 
 

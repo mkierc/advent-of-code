@@ -11,7 +11,7 @@ and face North. Then, follow the provided sequence: either turn left (L) or righ
 then walk forward the given number of blocks, ending at a new intersection.
 
 There's no time to follow such ridiculous instructions on foot, though, so you take a moment
-and work out the destination. Given that you can only walk on the [street grid of the city][1],
+and work out the destination. Given that you can only walk on the [street grid of the city][3],
 how far is the shortest path to the destination?
 
 For example:
@@ -22,7 +22,7 @@ For example:
 
 **How many blocks away** is Easter Bunny HQ?
 
-[Part 1 solution][2]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -35,10 +35,10 @@ For example, if your instructions are `R8, R4, R4, R8`, the first location you v
 
 How many blocks away is the **first location you visit twice**?
 
-[Part 2 solution][3]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/Taxicab_geometry
-[2]: part_1.py
-[3]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/Taxicab_geometry

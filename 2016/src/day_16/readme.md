@@ -8,7 +8,7 @@ system with a new checksum for those disks.
 
 For the data to not be suspicious, it needs to have certain properties; purely random data will be
 detected as tampering. To generate appropriate random data, you'll need to use a modified
-[dragon curve][1].
+[dragon curve][3].
 
 Start with an appropriate initial state (your puzzle input). Then, so long as you don't have
 enough data yet to fill the disk, repeat the following steps:
@@ -69,5 +69,18 @@ The first disk you have to fill has length `272`. Using the initial state in you
 
 Your puzzle input is `01110110101001000`.
 
+[Part 1 solution][1]
+--------------------
 
-[1]: https://en.wikipedia.org/wiki/Dragon_curve
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py
+
+[3]: https://en.wikipedia.org/wiki/Dragon_curve

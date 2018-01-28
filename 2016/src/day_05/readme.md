@@ -3,13 +3,13 @@
 ### Part One
 
 You are faced with a security door designed by Easter Bunny engineers that seem to have acquired
-most of their security knowledge by watching [hacking movies][1].
+most of their security knowledge by watching [hacking movies][4].
 
 The **eight-character password** for the door is generated one character at a time by finding
-the [MD5][2] hash of some Door ID (your puzzle input) and an increasing integer index (starting
+the [MD5][5] hash of some Door ID (your puzzle input) and an increasing integer index (starting
 with `0`).
 
-A hash indicates the **next character** in the password if its [hexadecimal][3] representation
+A hash indicates the **next character** in the password if its [hexadecimal][6] representation
 starts with **five zeroes**. If it does, the sixth character in the hash is the next character
 of the password.
 
@@ -27,14 +27,14 @@ In this example, after continuing this search a total of eight times, the passwo
 
 Given the actual Door ID, **what is the password**?
 
-[Part 1 solution][4]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
 
 As the door slides open, you are presented with a second door that uses a slightly more inspired
 security mechanism. Clearly unimpressed by the last version (in what movie is the password
-decrypted **in order**?!), the Easter Bunny engineers have worked out a [better solution][5].
+decrypted **in order**?!), the Easter Bunny engineers have worked out a [better solution][7].
 
 Instead of simply filling in the password from left to right, the hash now also indicates the
 **position** within the password to fill. You still look for hashes that begin with five zeroes;
@@ -58,19 +58,19 @@ You almost choke on your popcorn as the final character falls into place, produc
 
 Given the actual Door ID and this new method, **what is the password**?
 
-[Part 2 solution][6]
+[Part 2 solution][2]
 --------------------
 
 Be extra proud of your solution if it uses a cinematic "decrypting" animation.
 
-[Part 3 solution - with cinematic "decrypting" animation][7]
+[Part 3 solution - with cinematic "decrypting" animation][3]
 ------------------------------------------------------------
 
 
-[1]: https://en.wikipedia.org/wiki/Hackers_(film)
-[2]: https://en.wikipedia.org/wiki/MD5
-[3]: https://en.wikipedia.org/wiki/Hexadecimal
-[4]: part_1.py
-[5]: https://www.youtube.com/watch?v=NHWjlCaIrQo&t=25
-[6]: part_2.py
-[7]: part_3.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: part_3.py
+[4]: https://en.wikipedia.org/wiki/Hackers_(film)
+[5]: https://en.wikipedia.org/wiki/MD5
+[6]: https://en.wikipedia.org/wiki/Hexadecimal
+[7]: https://www.youtube.com/watch?v=NHWjlCaIrQo&t=25

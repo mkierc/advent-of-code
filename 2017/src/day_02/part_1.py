@@ -38,9 +38,9 @@ def find_extremes_difference(row):
 
 def main():
     test_1 = calculate_checksum(test_input)
-    answer = calculate_checksum(input_spreadsheet)
-
     print("test_1:", test_1)
+
+    answer = calculate_checksum(input_spreadsheet)
     print("answer:", answer)
 
 

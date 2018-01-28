@@ -1,6 +1,8 @@
+import time
 from hashlib import md5
-from day_05.part_1 import input_data
-from day_05.part_1 import test_input_1
+
+input_data = "uqwqemis"
+test_input_1 = "abc"
 
 
 def decode(_door_id):
@@ -21,11 +23,16 @@ def decode(_door_id):
 
 
 def main():
+    start = time.time()
     test_1 = decode(test_input_1)
-    answer = decode(input_data)
-
+    print("time:", (time.time() - start))
     print("test_1:", test_1)
+
+    start = time.time()
+    answer = decode(input_data)
+    print("time:", (time.time() - start))
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

@@ -1,9 +1,9 @@
+test_input_1 = ["R2", "L3"]
+test_input_2 = ["R2", "R2", "R2"]
+test_input_3 = ["R5", "L5", "R5", "R3"]
+
 with open("data.txt") as file:
     input_data = str(file.readlines()[0]).split(", ")
-
-test_input_1 = ["R2", "L3"]  # result: 5 (2E, 3N)
-test_input_2 = ["R2", "R2", "R2"]  # result: 2 (2S)
-test_input_3 = ["R5", "L5", "R5", "R3"]  # result: 12
 
 
 class Direction(tuple):
@@ -45,13 +45,13 @@ def find_distance(instructions):
 
 def main():
     test_1 = find_distance(test_input_1)
-    test_2 = find_distance(test_input_2)
-    test_3 = find_distance(test_input_3)
-    answer = find_distance(input_data)
-
     print("test_1:", test_1)
+    test_2 = find_distance(test_input_2)
     print("test_2:", test_2)
+    test_3 = find_distance(test_input_3)
     print("test_3:", test_3)
+
+    answer = find_distance(input_data)
     print("answer:", answer)
 
 

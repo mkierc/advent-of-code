@@ -1,5 +1,24 @@
-from day_06.part_1 import input_data
-from day_06.part_1 import test_input_1
+test_input_1 = [
+    "eedadn",
+    "drvtee",
+    "eandsr",
+    "raavrd",
+    "atevrs",
+    "tsrnev",
+    "sdttsa",
+    "rasrtv",
+    "nssdts",
+    "ntnada",
+    "svetve",
+    "tesnvt",
+    "vntsnd",
+    "vrdear",
+    "dvrsen",
+    "enarar"
+]
+
+with open("data.txt") as file:
+    input_data = file.read().splitlines()
 
 
 def decode(message):
@@ -18,10 +37,11 @@ def decode(message):
 
 def main():
     test_1 = decode(test_input_1)
-    answer = decode(input_data)
-
     print("test_1:", test_1)
+
+    answer = decode(input_data)
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

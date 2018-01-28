@@ -4,7 +4,7 @@
 
 The halls open into an interior plaza containing a large kinetic sculpture. The sculpture is in a
 sealed enclosure and seems to involve a set of identical spherical capsules that are carried to
-the top and allowed to [bounce through the maze][1] of spinning pieces.
+the top and allowed to [bounce through the maze][3] of spinning pieces.
 
 Part of the sculpture is even interactive! When a button is pressed, a capsule is dropped and tries
 to fall through slots in a set of rotating discs to finally go through a little hole at the bottom
@@ -47,5 +47,17 @@ fall through the discs and come out of the machine.
 However, your situation has more than two discs; you've noted their positions in your puzzle input.
 What is the **first time you can press the button** to get a capsule?
 
+[Part 1 solution][1]
+--------------------
 
-[1]: https://youtu.be/IxDoO9oODOk?t=177
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://youtu.be/IxDoO9oODOk?t=177

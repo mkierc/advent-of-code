@@ -68,6 +68,7 @@ class State:
     def __ne__(self, other):
         return hash(self) != hash(other)
 
+
 # (x, y)
 # x:    0 = generator
 #       1 = microchip
@@ -174,6 +175,7 @@ def main():
 
     print(", solved in", time() - start_time, "s")
     # test_input takes ~0.17 s
+
 
 if __name__ == "__main__":
     main()

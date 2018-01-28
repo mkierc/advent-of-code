@@ -31,13 +31,13 @@ def validate_phrases(phrase_list):
 
 def main():
     test_1 = validate(test_input_1)
-    test_2 = validate(test_input_2)
-    test_3 = validate(test_input_3)
-    answer = validate_phrases(pass_phrases)
-
     print("test_1:", test_1)
+    test_2 = validate(test_input_2)
     print("test_2:", test_2)
+    test_3 = validate(test_input_3)
     print("test_3:", test_3)
+
+    answer = validate_phrases(pass_phrases)
     print("answer:", answer)
 
 

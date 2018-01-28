@@ -21,7 +21,7 @@ reach the bottom-right room:
 Fixed walls are marked with `#`, and doors are marked with `-` or `|`.
 
 The doors in your **current room** are either open or closed (and locked) based on the hexadecimal
-[MD5][1] hash of a passcode (your puzzle input) followed by a sequence of uppercase characters
+[MD5][3] hash of a passcode (your puzzle input) followed by a sequence of uppercase characters
 representing the **path you have taken so far** (`U` for up, `D` for down, `L` for left, and
 `R` for right).
 
@@ -60,5 +60,17 @@ to reach the vault?
 
 Your puzzle input is `pslxynzg`.
 
+[Part 1 solution][1]
+--------------------
 
-[1]: https://en.wikipedia.org/wiki/MD5
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/MD5

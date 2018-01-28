@@ -81,5 +81,6 @@ def main():
         bot = factory.get(self_id)
         bot.receive(chip_value)
 
+
 if __name__ == "__main__":
     main()

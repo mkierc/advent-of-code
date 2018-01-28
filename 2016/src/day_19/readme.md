@@ -3,7 +3,7 @@
 ### Part One
 
 The Elves contact you over a highly secure emergency channel. Back at the North Pole, the Elves
-are busy misunderstanding [White Elephant parties][1].
+are busy misunderstanding [White Elephant parties][3].
 
 Each Elf brings a present. They all sit in a circle, numbered starting with position `1`. Then,
 starting with the first Elf, they take turns stealing all the presents from the Elf to their left.
@@ -31,5 +31,17 @@ With the number of Elves given in your puzzle input, **which Elf gets all the pr
 
 Your puzzle input is `3014387`.
 
+[Part 1 solution][1]
+--------------------
 
-[1]: https://en.wikipedia.org/wiki/White_elephant_gift_exchange
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/White_elephant_gift_exchange

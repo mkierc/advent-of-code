@@ -2,7 +2,7 @@
 
 ### Part One
 
-You come upon a factory in which many robots are [zooming around][1] handing small microchips
+You come upon a factory in which many robots are [zooming around][3] handing small microchips
 to each other.
 
 Upon closer examination, you notice that each bot only proceeds when it has **two** microchips,
@@ -43,7 +43,7 @@ is responsible for comparing value-`5` microchips with value-`2` microchips.
 Based on your instructions, **what is the number of the bot** that is responsible for comparing
 value-`61` microchips with value-`17` microchips?
 
-[Part 1 solution][2]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -51,10 +51,10 @@ value-`61` microchips with value-`17` microchips?
 What do you get if you **multiply together the values** of one chip in each of outputs `0`, `1`,
 and `2`?
 
-[Part 2 solution][3]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://www.youtube.com/watch?v=JnkMyfQ5YfY&t=40
-[2]: part_1.py
-[3]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://www.youtube.com/watch?v=JnkMyfQ5YfY&t=40

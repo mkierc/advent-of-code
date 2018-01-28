@@ -1,9 +1,9 @@
-from day_01.part_1 import input_data
-from day_01.part_1 import test_input_1, test_input_2, test_input_3
 from day_01.part_1 import Direction
 
+test_input_1 = ["R8", "R4", "R4", "R8"]
 
-test_input_4 = ["R8", "R4", "R4", "R8"]  # result: 4
+with open("data.txt") as file:
+    input_data = str(file.readlines()[0]).split(", ")
 
 
 def find_distance(instructions):
@@ -34,16 +34,11 @@ def find_distance(instructions):
 
 def main():
     test_1 = find_distance(test_input_1)
-    test_2 = find_distance(test_input_2)
-    test_3 = find_distance(test_input_3)
-    test_4 = find_distance(test_input_4)
-    answer = find_distance(input_data)
-
     print("test_1:", test_1)
-    print("test_2:", test_2)
-    print("test_3:", test_3)
-    print("test_4:", test_4)
+
+    answer = find_distance(input_data)
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

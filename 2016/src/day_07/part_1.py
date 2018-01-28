@@ -1,12 +1,12 @@
 import re
 
-with open("data.txt") as file:
-    input_data = file.read().splitlines()
-
 test_input_1 = "abba[mnop]qrst"
 test_input_2 = "abcd[bddb]xyyx"
 test_input_3 = "aaaa[qwer]tyui"
 test_input_4 = "ioxxoj[asdfgh]zxcvbn"
+
+with open("data.txt") as file:
+    input_data = file.read().splitlines()
 
 
 def is_abba(sequence):
@@ -39,22 +39,28 @@ def supports_tls(address):
         return False
 
 
-def main():
-    test_1 = supports_tls(test_input_1)
-    test_2 = supports_tls(test_input_2)
-    test_3 = supports_tls(test_input_3)
-    test_4 = supports_tls(test_input_4)
-
+def solve(address_list):
     tls_supported = 0
-    for adress in input_data:
-        if supports_tls(adress):
+    for address in address_list:
+        if supports_tls(address):
             tls_supported += 1
 
+    return tls_supported
+
+
+def main():
+    test_1 = supports_tls(test_input_1)
     print("test_1:", test_1)
+    test_2 = supports_tls(test_input_2)
     print("test_2:", test_2)
+    test_3 = supports_tls(test_input_3)
     print("test_3:", test_3)
+    test_4 = supports_tls(test_input_4)
     print("test_4:", test_4)
-    print("answer:", tls_supported)
+
+    answer = solve(input_data)
+    print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

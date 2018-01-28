@@ -3,7 +3,6 @@ import re
 with open("data.txt") as file:
     input_data = file.read().splitlines()
 
-
 SCREEN_WIDTH = 50
 SCREEN_HEIGHT = 6
 main_screen = [['.' for col in range(SCREEN_WIDTH)] for row in range(SCREEN_HEIGHT)]
@@ -41,13 +40,19 @@ def parse_instruction(_instruction):
         return rotate_row, int(row), int(offset)
 
 
-def main():
-    for instruction in input_data:
-        function, x, y = parse_instruction(instruction)
-        function(main_screen, x, y)
+def solve(instruction_list):
+    for instruction in instruction_list:
+        _function, x, y = parse_instruction(instruction)
+        _function(main_screen, x, y)
 
     pixel_count = sum(x.count("#") for x in main_screen)
-    print("answer:", pixel_count)
+    return pixel_count
+
+
+def main():
+    answer = solve(input_data)
+    print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

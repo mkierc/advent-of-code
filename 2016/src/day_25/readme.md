@@ -21,7 +21,7 @@ You call the service number printed on the side of the antenna and quickly expla
 "I'm not sure what kind of equipment you have connected over there," he says, "but you need a
 clock signal." You try to explain that this is a signal for a clock.
 
-"No, no, a [clock signal][1] - timing information so the antenna computer knows how to read the
+"No, no, a [clock signal][3] - timing information so the antenna computer knows how to read the
 data you're sending it. An endless, alternating pattern of `0`, `1`, `0`, `1`, `0`, `1`, `0`, `1`,
 `0`, `1`...." He trails off.
 
@@ -30,8 +30,8 @@ data from the stars. "There's **no way** it can! The only antenna we've installe
 **that** is on top of a top-secret Easter Bunny installation, and you're **definitely** not-"
 You hang up the phone.
 
-You've extracted the antenna's clock signal generation assembunny code (your puzzle input);
-it looks mostly compatible with code you worked on just recently.
+You've extracted the antenna's clock signal generation [assembunny][4] code (your puzzle input);
+it looks mostly compatible with code you worked on [just recently][5].
 
 This antenna code, being a signal generator, uses one extra instruction:
 
@@ -43,7 +43,19 @@ This antenna code, being a signal generator, uses one extra instruction:
 **What is the lowest positive integer** that can be used to initialize register `a` and cause the
 code to output a clock signal of `0`, `1`, `0`, `1`... repeating forever?
 
+[Part 1 solution][1]
+--------------------
 
-[1]: https://en.wikipedia.org/wiki/Clock_signal
-[2]: ../day_12
-[3]: ../day_23
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/Clock_signal
+[4]: ../day_12
+[5]: ../day_23

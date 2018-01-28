@@ -1,14 +1,14 @@
 import re
 
-with open("data.txt") as file:
-    input_data = file.read()
-
 test_input_1 = "ADVENT"
 test_input_2 = "A(1x5)BC"
 test_input_3 = "(3x3)XYZ"
 test_input_4 = "A(2x2)BCD(2x2)EFG"
 test_input_5 = "(6x1)(1x3)A"
 test_input_6 = "X(8x2)(3x3)ABCY"
+
+with open("data.txt") as file:
+    input_data = file.read()
 
 
 def decompress(compressed_data):
@@ -46,20 +46,21 @@ def decompress(compressed_data):
 
 def main():
     test_1 = len(decompress(test_input_1))
-    test_2 = len(decompress(test_input_2))
-    test_3 = len(decompress(test_input_3))
-    test_4 = len(decompress(test_input_4))
-    test_5 = len(decompress(test_input_5))
-    test_6 = len(decompress(test_input_6))
-    answer = len(decompress(input_data))
-
     print("test_1:", test_1)
+    test_2 = len(decompress(test_input_2))
     print("test_2:", test_2)
+    test_3 = len(decompress(test_input_3))
     print("test_3:", test_3)
+    test_4 = len(decompress(test_input_4))
     print("test_4:", test_4)
+    test_5 = len(decompress(test_input_5))
     print("test_3:", test_5)
+    test_6 = len(decompress(test_input_6))
     print("test_4:", test_6)
+
+    answer = len(decompress(input_data))
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

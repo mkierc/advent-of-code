@@ -42,5 +42,6 @@ def main():
     answer = maze[DESTINATION[1]][DESTINATION[0]]
     print("answer:", answer)
 
+
 if __name__ == "__main__":
     main()

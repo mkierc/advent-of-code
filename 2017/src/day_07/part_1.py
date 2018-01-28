@@ -61,9 +61,9 @@ def find_root(data):
 
 def main():
     test_1 = find_root(test_input_1)
-    answer = find_root(input_data)
-
     print("test_1:", test_1)
+
+    answer = find_root(input_data)
     print("answer:", answer)
 
 

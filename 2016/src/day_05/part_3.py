@@ -1,11 +1,13 @@
 import random
 import string
 from hashlib import md5
-from day_05.part_1 import input_data
 
 RED = "\033[91m"
 GREEN = "\033[92m"
 RESET = "\033[0m"
+
+input_data = "uqwqemis"
+test_input_1 = "abc"
 
 # TODO parallelize hash generation
 # TODO use another thread for printing, based on timing instead of index number
@@ -44,6 +46,7 @@ def decode(door_id):
 def main():
     answer = decode(input_data)
     print(RESET, "answer:", answer)
+
 
 if __name__ == "__main__":
     main()

@@ -48,3 +48,17 @@ After these steps, the resulting scrambled password is `decab`.
 
 Now, you just need to generate a new scrambled password and you can access the system. Given the
 list of scrambling operations in your puzzle input, what is the result of scrambling `abcdefgh`?
+
+[Part 1 solution][1]
+--------------------
+
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py

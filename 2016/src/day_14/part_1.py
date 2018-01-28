@@ -52,9 +52,9 @@ def generate_pad(salt, show_progress=0, stretch=1):
 
 def main():
     test_1 = generate_pad(test_input_1)
-    answer = generate_pad(input_data)
-
     print("test_1:", test_1)
+
+    answer = generate_pad(input_data)
     print("answer:", answer)
 
 

@@ -18,7 +18,7 @@ a simple system:
 
  * Find `x*x + 3*x + 2*x*y + y + y*y`.
  * Add the office designer's favorite number (your puzzle input).
- * Find the [binary representation][1] of that sum; count the **number** of [bits][2] that are `1`.
+ * Find the [binary representation][3] of that sum; count the **number** of [bits][4] that are `1`.
     * If the number of bits that are `1` is **even**, it's an **open space**.
     * If the number of bits that are `1` is **odd**, it's a **wall**.
 
@@ -54,7 +54,7 @@ Thus, reaching `7,4` would take a minimum of `11` steps (starting from your curr
 
 What is the **fewest number of steps required** for you to reach `31,39`?
 
-[Part 1 solution][3]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -62,11 +62,11 @@ What is the **fewest number of steps required** for you to reach `31,39`?
 **How many locations** (distinct `x,y` coordinates, including your starting location) can you reach
 in at most `50` steps?
 
-[Part 2 solution][4]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/Binary_number
-[2]: https://en.wikipedia.org/wiki/Bit
-[3]: part_1.py
-[4]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/Binary_number
+[4]: https://en.wikipedia.org/wiki/Bit

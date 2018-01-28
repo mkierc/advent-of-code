@@ -8,7 +8,7 @@ all of the controls and related electronics are inaccessible. You simply can't r
 The robot that cleans the air ducts, however, **can**.
 
 It's not a very fast little robot, but you reconfigure it to be able to interface with some of
-the exposed wires that have been routed through the [HVAC] system. If you can direct it to each
+the exposed wires that have been routed through the [HVAC][3] system. If you can direct it to each
 of those locations, you should be able to bypass the security controls.
 
 You extract the duct layout for this area from some blueprints you acquired and create a map with
@@ -42,5 +42,17 @@ every other location at least once.
 Given your actual map, and starting from location `0`, what is the **fewest number of steps**
 required to visit every non-`0` number marked on the map at least once?
 
+[Part 1 solution][1]
+--------------------
 
-[1]: https://en.wikipedia.org/wiki/HVAC
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/HVAC

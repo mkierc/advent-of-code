@@ -17,10 +17,11 @@ def transpose(triangle_list):
 
 def main():
     test_1 = count_triangles(transpose(test_input_1))
-    answer = count_triangles(transpose(input_data))
-
     print("test_1:", test_1)
+
+    answer = count_triangles(transpose(input_data))
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

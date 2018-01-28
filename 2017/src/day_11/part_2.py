@@ -21,9 +21,9 @@ def calculate_distance(position):
         return max(abs(position[0]), abs(position[1]))
     elif position[0] < 0 and position[1] < 0:
         return max(abs(position[0]), abs(position[1]))
-    elif position[0] >= 0 and position[1] < 0:
+    elif position[0] >= 0 > position[1]:
         return abs(position[0]) + abs(position[1])
-    elif position[0] < 0 and position[1] >= 0:
+    elif position[0] < 0 <= position[1]:
         return abs(position[0]) + abs(position[1])
     else:
         raise AssertionError('impossibru')
@@ -46,15 +46,15 @@ def find_distance(directions):
 
 def main():
     test_1 = find_distance(test_input_1)
-    test_2 = find_distance(test_input_2)
-    test_3 = find_distance(test_input_3)
-    test_4 = find_distance(test_input_4)
-    answer = find_distance(input_data)
-
     print("test_1:", test_1)
+    test_2 = find_distance(test_input_2)
     print("test_2:", test_2)
+    test_3 = find_distance(test_input_3)
     print("test_3:", test_3)
+    test_4 = find_distance(test_input_4)
     print("test_4:", test_4)
+
+    answer = find_distance(input_data)
     print("answer:", answer)
 
 

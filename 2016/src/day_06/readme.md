@@ -3,7 +3,7 @@
 ### Part One
 
 Something is jamming your communications with Santa. Fortunately, your signal is only partially
-jammed, and protocol in situations like this is to switch to a simple [repetition code][1] to get
+jammed, and protocol in situations like this is to switch to a simple [repetition code][3] to get
 the message through.
 
 In this model, the same message is sent repeatedly. You've recorded the repeating message signal
@@ -37,7 +37,7 @@ and so on. Combining these characters returns the error-corrected message, `east
 Given the recording in your puzzle input, **what is the error-corrected version** of the message
 being sent?
 
-[Part 1 solution][2]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -57,10 +57,10 @@ and so on. Repeating this process for the remaining characters produces the orig
 Given the recording in your puzzle input and this new decoding methodology, **what is the original
 message** that Santa is trying to send?
 
-[Part 2 solution][3]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/Repetition_code
-[2]: part_1.py
-[3]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/Repetition_code

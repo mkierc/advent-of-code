@@ -3,7 +3,7 @@
 ### Part One
 
 As you enter this room, you hear a loud click! Some of the tiles in the floor here seem to be
-pressure plates for [traps][1], and the trap you just triggered has run out of... whatever it
+pressure plates for [traps][3], and the trap you just triggered has run out of... whatever it
 tried to do to you. You doubt you'll be so lucky next time.
 
 Upon closer examination, the traps and safe tiles in this room seem to follow a pattern. The tiles
@@ -79,5 +79,17 @@ In ten rows, this larger example has 38 safe tiles.
 Starting with the map in your puzzle input, in a total of `40` rows (including the starting row),
 **how many safe tiles** are there?
 
+[Part 1 solution][1]
+--------------------
 
-[1]: https://nethackwiki.com/wiki/Trap
+### Part Two
+
+
+
+[Part 2 solution][2]
+--------------------
+
+
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://nethackwiki.com/wiki/Trap

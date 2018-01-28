@@ -3,11 +3,11 @@
 ### Part One
 
 In order to communicate securely with Santa while you're on this mission, you've been using a
-[one-time pad][1] that you [generate][2] using a pre-agreed algorithm. Unfortunately, you've run
+[one-time pad][3] that you [generate][4] using a pre-agreed algorithm. Unfortunately, you've run
 out of keys in your one-time pad, and so you need to generate some more.
 
-To generate keys, you first get a stream of random data by taking the [MD5][3] of a pre-arranged
-[salt][4] (your puzzle input) and an increasing integer index (starting with `0`, and represented
+To generate keys, you first get a stream of random data by taking the [MD5][5] of a pre-arranged
+[salt][6] (your puzzle input) and an increasing integer index (starting with `0`, and represented
 in decimal); the resulting MD5 hash should be represented as a string of **lowercase** hexadecimal
 digits.
 
@@ -38,13 +38,13 @@ So, using our example salt of `abc`, index `22728` produces the `64`th key.
 
 Given the actual salt in your puzzle input, **what index** produces your `64`th one-time pad key?
 
-[Part 1 solution][5]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
 
-Of course, in order to make this process [even more secure][6], you've also implemented
-[key stretching][7].
+Of course, in order to make this process [even more secure][7], you've also implemented
+[key stretching][8].
 
 Key stretching forces attackers to spend more time generating hashes. Unfortunately, it forces
 everyone else to spend more time, too.
@@ -77,15 +77,15 @@ The rest of the process remains the same, but now the keys are entirely differen
 Given the actual salt in your puzzle input and using `2016` extra MD5 calls of key stretching,
 **what index** now produces your `64`th one-time pad key?
 
-[Part 2 solution][8]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/One-time_pad
-[2]: https://en.wikipedia.org/wiki/Security_through_obscurity
-[3]: https://en.wikipedia.org/wiki/MD5
-[4]: https://en.wikipedia.org/wiki/Salt_(cryptography)
-[5]: part_1.py
-[6]: https://en.wikipedia.org/wiki/MD5#Security
-[7]: https://en.wikipedia.org/wiki/Key_stretching
-[8]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/One-time_pad
+[4]: https://en.wikipedia.org/wiki/Security_through_obscurity
+[5]: https://en.wikipedia.org/wiki/MD5
+[6]: https://en.wikipedia.org/wiki/Salt_(cryptography)
+[7]: https://en.wikipedia.org/wiki/MD5#Security
+[8]: https://en.wikipedia.org/wiki/Key_stretching

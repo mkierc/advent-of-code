@@ -16,7 +16,7 @@ counting up while spiraling outward. For example, the first few squares are allo
 
 While this is very space-efficient (no squares are skipped), requested data must be carried back
 to square `1` (the location of the only access port for this memory system) by programs that can
-only move up, down, left, or right. They always take the shortest path: the [Manhattan Distance][2]
+only move up, down, left, or right. They always take the shortest path: the [Manhattan Distance][3]
 between the location of the data and square 1.
 
 For example:
@@ -60,10 +60,10 @@ the first few squares would receive the following values:
 
 What is the **first value written** that is larger than your puzzle input?
 
-[Part 2 solution][3]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/Taxicab_geometry
-[2]: part_1.py
-[3]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/Taxicab_geometry

@@ -48,15 +48,15 @@ def do_the_thing(n):
 
 def main():
     test_1 = do_the_thing(test_input_1)
-    test_2 = do_the_thing(test_input_2)
-    test_3 = do_the_thing(test_input_3)
-    test_4 = do_the_thing(test_input_4)
-    answer = do_the_thing(input_data)
-
     print("test_1:", test_1)
+    test_2 = do_the_thing(test_input_2)
     print("test_2:", test_2)
+    test_3 = do_the_thing(test_input_3)
     print("test_3:", test_3)
+    test_4 = do_the_thing(test_input_4)
     print("test_4:", test_4)
+
+    answer = do_the_thing(input_data)
     print("answer:", answer)
 
 

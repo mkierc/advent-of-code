@@ -84,9 +84,9 @@ def execute(instructions):
 
 def main():
     test_1 = execute(test_input_1)
-    answer = execute(input_data)
-
     print("test_1:", test_1)
+
+    answer = execute(input_data)
     print("answer:", answer)
 
 

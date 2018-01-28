@@ -59,7 +59,7 @@ a **score** which is one more than the score of the group that immediately conta
 
 **What is the total score** for all groups in your input?
 
-[Part 1 solution][2]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -79,10 +79,9 @@ and trailing `<` and `>` don't count, nor do any canceled characters or the `!` 
 
 **How many non-canceled characters are within the garbage** in your puzzle input?
 
-[Part 2 solution][3]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: ../day_5
-[2]: part_1.py
-[3]: part_2.py
+[1]: part_1.py
+[2]: part_2.py

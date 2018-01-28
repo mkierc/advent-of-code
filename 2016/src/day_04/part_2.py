@@ -35,9 +35,9 @@ def find_north_pole_objects(rooms):
 
 def main():
     test_2 = decipher_name(test_input_2)
-    answer = find_north_pole_objects(input_data)
-
     print("test_1:", test_2)
+
+    answer = find_north_pole_objects(input_data)
     print("answer:", answer)
 
 

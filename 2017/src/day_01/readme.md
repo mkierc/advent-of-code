@@ -6,7 +6,7 @@ You're standing in a room with "digitization quarantine" written in LEDs along o
 door is locked, but it includes a small interface. "Restricted Area - Strictly No Digitized Users
 Allowed."
 
-It goes on to explain that you may only leave by solving a [captcha][1] to prove you're not a human.
+It goes on to explain that you may only leave by solving a [captcha][3] to prove you're not a human.
 Apparently, you only get one millisecond to solve the captcha: too fast for a normal human, but it
 feels like hours to you.
 
@@ -24,7 +24,7 @@ For example:
 
 **What is the solution** to your captcha?
 
-[Part 1 solution][2]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -48,10 +48,10 @@ For example:
 
 **What is the solution** to your new captcha?
 
-[Part 2 solution][3]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/CAPTCHA
-[2]: part_1.py
-[3]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/CAPTCHA

@@ -27,9 +27,9 @@ def solve(instruction_set):
 
 def main():
     test_1 = solve(test_input_1)
-    answer = solve(input_instruction_set)
-
     print("test_1:", test_1)
+
+    answer = solve(input_instruction_set)
     print("answer:", answer)
 
 

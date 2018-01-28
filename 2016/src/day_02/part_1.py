@@ -1,12 +1,12 @@
-with open("data.txt") as file:
-    input_data = file.readlines()
-
 test_input_1 = [
     "ULL",
     "RRDDD",
     "LURDL",
     "UUUUD"
 ]
+
+with open("data.txt") as file:
+    input_data = file.readlines()
 
 
 def decode(instructions):
@@ -47,10 +47,11 @@ def decode(instructions):
 
 def main():
     test_1 = decode(test_input_1)
-    answer = decode(input_data)
-
     print("test_1:", test_1)
+
+    answer = decode(input_data)
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

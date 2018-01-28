@@ -1,4 +1,8 @@
-from day_20.part_1 import input_data
+with open("data.txt") as file:
+    input_data = []
+    for line in file.readlines():
+        a, b = line.split("-")
+        input_data.append((int(a), int(b)))
 
 IP_COUNT = 4294967296  # MAX_INT + 1
 
@@ -39,6 +43,7 @@ def main():
     anwser = IP_COUNT - blocked_sum
 
     print("answer:", anwser)
+
 
 if __name__ == "__main__":
     main()

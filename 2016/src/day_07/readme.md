@@ -2,8 +2,8 @@
 
 ### Part One
 
-While snooping around the local network of EBHQ, you compile a list of [IP addresses][1] 
-(they're IPv7, of course; [IPv6][2] is much too limited). You'd like to figure out which IPs
+While snooping around the local network of EBHQ, you compile a list of [IP addresses][3]
+(they're IPv7, of course; [IPv6][4] is much too limited). You'd like to figure out which IPs
 support **TLS** (transport-layer snooping).
 
 An IP supports TLS if it has an Autonomous Bridge Bypass Annotation, or **ABBA**. An ABBA is any
@@ -23,7 +23,7 @@ For example:
 
 **How many IPs** in your puzzle input support TLS?
 
-[Part 1 solution][3]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -49,11 +49,11 @@ For example:
 
 **How many IPs** in your puzzle input support SSL?
 
-[Part 2 solution][4]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/IP_address
-[2]: https://en.wikipedia.org/wiki/IPv6
-[3]: part_1.py
-[4]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/IP_address
+[4]: https://en.wikipedia.org/wiki/IPv6

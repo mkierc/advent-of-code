@@ -3,10 +3,10 @@
 ### Part One
 
 You come across a door implementing what you can only assume is an implementation of [two-factor
-authentication][1] after a long game of [requirements][2] [telephone][3].
+authentication][3] after a long game of [requirements][4] [telephone][5].
 
 To get past the door, you first swipe a keycard (no problem; there was one on a nearby desk). Then,
-it displays a code on a [little screen][4], and you type that code on a keypad. Then, presumably,
+it displays a code on a [little screen][6], and you type that code on a keypad. Then, presumably,
 the door unlocks.
 
 Unfortunately, the screen has been smashed. After a few minutes, you've taken everything apart and
@@ -61,7 +61,7 @@ tries to convince you, anyway.
 There seems to be an intermediate check of the voltage used by the display: after you swipe your
 card, if the screen did work, **how many pixels should be lit?**
 
-[Part 1 solution][5]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -71,13 +71,13 @@ each letter is `5` pixels wide and `6` tall.
 
 After you swipe your card, **what code is the screen trying to display?**
 
-[Part 2 solution][6]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: https://en.wikipedia.org/wiki/Multi-factor_authentication
-[2]: https://en.wikipedia.org/wiki/Requirement
-[3]: https://en.wikipedia.org/wiki/Chinese_whispers
-[4]: https://www.google.com/search?q=tiny+lcd&tbm=isch
-[5]: part_1.py
-[6]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/Multi-factor_authentication
+[4]: https://en.wikipedia.org/wiki/Requirement
+[5]: https://en.wikipedia.org/wiki/Chinese_whispers
+[6]: https://www.google.com/search?q=tiny+lcd&tbm=isch

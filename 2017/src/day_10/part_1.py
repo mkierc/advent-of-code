@@ -38,9 +38,9 @@ def knot_hash(data, size):
 
 def main():
     test_1 = knot_hash(test_input_1, 5)
-    answer = knot_hash(input_data, 256)
-
     print("test_1:", test_1)
+
+    answer = knot_hash(input_data, 256)
     print("answer:", answer)
 
 

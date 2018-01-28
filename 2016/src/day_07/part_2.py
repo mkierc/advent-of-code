@@ -1,6 +1,12 @@
 import re
-from day_07.part_1 import input_data
-from day_07.part_1 import test_input_1, test_input_2, test_input_3, test_input_4
+
+test_input_1 = "aba[bab]xyz"
+test_input_2 = "xyx[xyx]xyx"
+test_input_3 = "aaa[kek]eke"
+test_input_4 = "zazbz[bzb]cdb"
+
+with open("data.txt") as file:
+    input_data = file.read().splitlines()
 
 
 def get_abas(sequence):
@@ -50,22 +56,28 @@ def supports_ssl(address):
         return False
 
 
-def main():
-    test_1 = supports_ssl(test_input_1)
-    test_2 = supports_ssl(test_input_2)
-    test_3 = supports_ssl(test_input_3)
-    test_4 = supports_ssl(test_input_4)
-
+def solve(address_list):
     ssl_supported = 0
-    for adress in input_data:
-        if supports_ssl(adress):
+    for address in address_list:
+        if supports_ssl(address):
             ssl_supported += 1
 
+    return ssl_supported
+
+
+def main():
+    test_1 = supports_ssl(test_input_1)
     print("test_1:", test_1)
+    test_2 = supports_ssl(test_input_2)
     print("test_2:", test_2)
+    test_3 = supports_ssl(test_input_3)
     print("test_3:", test_3)
+    test_4 = supports_ssl(test_input_4)
     print("test_4:", test_4)
-    print("answer:", ssl_supported)
+
+    answer = solve(input_data)
+    print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

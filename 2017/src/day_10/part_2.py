@@ -70,15 +70,15 @@ def knot_hash(data):
 
 def main():
     test_1 = knot_hash(test_input_1)
-    test_2 = knot_hash(test_input_2)
-    test_3 = knot_hash(test_input_3)
-    test_4 = knot_hash(test_input_4)
-    answer = knot_hash(input_data)
-
     print("test_1:", test_1)
+    test_2 = knot_hash(test_input_2)
     print("test_2:", test_2)
+    test_3 = knot_hash(test_input_3)
     print("test_3:", test_3)
+    test_4 = knot_hash(test_input_4)
     print("test_4:", test_4)
+
+    answer = knot_hash(input_data)
     print("answer:", answer)
 
 

@@ -193,6 +193,10 @@ as well.
 What is the **minimum number of steps** required to bring all of the objects, including these
 four new ones, to the fourth floor?
 
+[Part 2 solution][2]
+--------------------
 
-[1]: https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator
-[2]: part_1.py
+
+[1]: part_1.py
+[2]: part_2.py
+[3]: https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator

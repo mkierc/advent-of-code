@@ -59,8 +59,11 @@ def print_number_map():
 
 
 def direction_generator():
-    # DIRECTIONS        down    right   up       left
-    directions = cycle([[1, 0], [0, 1], [-1, 0], [0, -1]])
+    directions = cycle([[1, 0],    # down
+                        [0, 1],    # right
+                        [-1, 0],   # up
+                        [0, -1]])  # left
+
     current_direction = next(directions)
 
     i = 1

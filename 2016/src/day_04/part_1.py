@@ -1,14 +1,14 @@
 import re
 
-with open("data.txt") as file:
-    input_data = file.read().splitlines()
-
 test_input_1 = [
     "aaaaa-bbb-z-y-x-123[abxyz]",
     "a-b-c-d-e-f-g-h-987[abcde]",
     "not-a-real-room-404[oarel]",
     "totally-real-room-200[decoy]"
 ]
+
+with open("data.txt") as file:
+    input_data = file.read().splitlines()
 
 
 def is_valid(room):
@@ -23,7 +23,7 @@ def is_valid(room):
     room_id = int(room_id)
     checksum = checksum.replace("[", "").replace("]", "")
 
-    # make a list of all letters with their count
+    # make a list of tuples containing respectively letters and their counts
     letter_statistics = []
     for letter_count in room_name:
         letter_count = (letter_count, room_name.count(letter_count))
@@ -55,10 +55,11 @@ def sum_valid_sector_codes(room_list):
 
 def main():
     test_1 = sum_valid_sector_codes(test_input_1)
-    answer = sum_valid_sector_codes(input_data)
-
     print("test_1:", test_1)
+
+    answer = sum_valid_sector_codes(input_data)
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()

@@ -3,7 +3,7 @@
 ### Part One
 
 You receive a signal directly from the CPU. Because of your recent assistance with
-[jump instructions][1], it would like you to compute the result of a series of unusual register
+[jump instructions][3], it would like you to compute the result of a series of unusual register
 instructions.
 
 Each instruction consists of several parts: the register to modify, whether to increase or decrease
@@ -31,9 +31,10 @@ You might also encounter `<=` (less than or equal to) or `!=` (not equal to). Ho
 doesn't have the bandwidth to tell you what all the registers are named, and leaves that to you
 to determine.
 
-**What is the largest value in any register** after completing the instructions in your puzzle input?
+**What is the largest value in any register** after completing the instructions
+in your puzzle input?
 
-[Part 1 solution][2]
+[Part 1 solution][1]
 --------------------
 
 ### Part Two
@@ -43,10 +44,10 @@ process** so that it can decide how much memory to allocate to these operations.
 in the above instructions, the highest value ever held was 10 (in register c after the third
 instruction was evaluated).
 
-[Part 2 solution][3]
+[Part 2 solution][2]
 --------------------
 
 
-[1]: ../day_5
-[3]: part_1.py
-[3]: part_2.py
+[1]: part_1.py
+[2]: part_2.py
+[3]: ../day_5

@@ -133,9 +133,9 @@ def build_tree(data):
 
 def main():
     test_1 = build_tree(test_input_1)
-    answer = build_tree(input_data)
-
     print("test_1:", test_1)
+
+    answer = build_tree(input_data)
     print("answer:", answer)
 
 

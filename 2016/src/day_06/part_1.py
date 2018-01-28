@@ -1,6 +1,3 @@
-with open("data.txt") as file:
-    input_data = file.read().splitlines()
-
 test_input_1 = [
     "eedadn",
     "drvtee",
@@ -20,6 +17,9 @@ test_input_1 = [
     "enarar"
 ]
 
+with open("data.txt") as file:
+    input_data = file.read().splitlines()
+
 
 def decode(message):
     transposed_message = list(zip(*message))
@@ -37,10 +37,11 @@ def decode(message):
 
 def main():
     test_1 = decode(test_input_1)
-    answer = decode(input_data)
-
     print("test_1:", test_1)
+
+    answer = decode(input_data)
     print("answer:", answer)
+
 
 if __name__ == "__main__":
     main()
