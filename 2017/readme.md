@@ -99,7 +99,7 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many times did program 1 send a value?
 
 #### [Day 19: A Series of Tubes](src/day_19)
-- [x] Part One - What letters will the little packet see (in t
+- [x] Part One - What letters will the little packet see?
 - [x] Part Two - How many steps does the packet need to go?he order it would see them) if it follows the path?
 
 #### [Day 20: Particle Swarm](src/day_20)
