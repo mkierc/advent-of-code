@@ -14,4 +14,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 
 ### Challenges
 #### [Day 1: Not Quite Lisp](src/day_01)
-- [ ] Part One - To what floor do the instructions take Santa?
+- [x] Part One - To what floor do the instructions take Santa?
+- [ ] Part Two - What is the position of the character that causes Santa to first enter the basement?
