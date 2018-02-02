@@ -18,4 +18,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - What is the position of the character that causes Santa to first enter the basement?
 
 #### [Day 2: I Was Told There Would Be No Math](src/day_02)
-- [ ] Part One - How many total square feet of wrapping paper should they order?
+- [x] Part One - How many total square feet of wrapping paper should they order?
+- [ ] Part Two - How many total feet of ribbon should they order?
