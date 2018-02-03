@@ -22,4 +22,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - How many total feet of ribbon should they order?
 
 #### [Day 3: Perfectly Spherical Houses in a Vacuum](src/day_02)
-- [ ] Part One - How many houses receive at least one present?
+- [x] Part One - How many houses receive at least one present?
+- [ ] Part Two - This year, how many houses receive at least one present?
