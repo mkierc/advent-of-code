@@ -2,10 +2,10 @@
 
 ### Part One
 
-Santa needs help [mining][3] some AdventCoins (very similar to [bitcoins][4]) to use as gifts
+Santa needs help [mining][2] some AdventCoins (very similar to [bitcoins][3]) to use as gifts
 for all the economically forward-thinking little girls and boys.
 
-To do this, he needs to find [MD5][5] hashes which, in [hexadecimal][6], start with at least
+To do this, he needs to find [MD5][4] hashes which, in [hexadecimal][5], start with at least
 **five zeroes**. The input to the MD5 hash is some secret key (your puzzle input, given below)
 followed by a number in decimal. To mine AdventCoins, you must find Santa the lowest positive number
 (no leading zeroes: `1`, `2`, `3`, ...) that produces such a hash.
@@ -18,20 +18,16 @@ For example:
     with five zeroes is `1048970`; that is, the MD5 hash of `pqrstuv1048970` looks like
     `000006136ef....`
 
-[Part 1 solution][1]
---------------------
-
 ### Part Two
 
+Now find one that starts with **six zeroes**.
+
+[Part 1 and Part 2 solution][1]
+-------------------------------
 
 
-[Part 2 solution][2]
---------------------
-
-
-[1]: part_1.py
-[2]: part_2.py
-[3]: https://en.wikipedia.org/wiki/Bitcoin#Mining
-[4]: https://en.wikipedia.org/wiki/Bitcoin
-[5]: https://en.wikipedia.org/wiki/MD5
-[6]: https://en.wikipedia.org/wiki/Hexadecimal
+[1]: part_1_part_2.py
+[2]: https://en.wikipedia.org/wiki/Bitcoin#Mining
+[3]: https://en.wikipedia.org/wiki/Bitcoin
+[4]: https://en.wikipedia.org/wiki/MD5
+[5]: https://en.wikipedia.org/wiki/Hexadecimal
