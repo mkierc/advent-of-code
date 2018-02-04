@@ -21,6 +21,9 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part One - How many total square feet of wrapping paper should they order?
 - [x] Part Two - How many total feet of ribbon should they order?
 
-#### [Day 3: Perfectly Spherical Houses in a Vacuum](src/day_02)
+#### [Day 3: Perfectly Spherical Houses in a Vacuum](src/day_03)
 - [x] Part One - How many houses receive at least one present?
 - [x] Part Two - This year, how many houses receive at least one present?
+
+#### [Day 4: The Ideal Stocking Stuffer](src/day_04)
+- [ ] Part One - Find MD5 hashes which start with at least five zeroes.
