@@ -33,8 +33,8 @@ def main():
     print('test_1:', test_1)
     test_2 = count_houses(test_input_2)
     print('test_2:', test_2)
-    test_3 = count_houses(test_input_2)
-    print('test_2:', test_3)
+    test_3 = count_houses(test_input_3)
+    print('test_3:', test_3)
 
     answer = count_houses(input_data)
     print('answer:', answer)
