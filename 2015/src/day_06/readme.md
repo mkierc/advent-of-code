@@ -31,11 +31,39 @@ After following the instructions, **how many lights are lit**?
 
 ### Part Two
 
+You just finish implementing your winning light pattern when you realize you mistranslated Santa's
+message from Ancient Nordic Elvish.
 
+The light grid you bought actually has individual brightness controls; each light can have
+a brightness of zero or more. The lights all start at zero.
+
+The phrase `turn on` actually means that you should increase the brightness of those lights by `1`.
+
+The phrase `turn off` actually means that you should decrease the brightness of those lights by `1`,
+to a minimum of zero.
+
+The phrase `toggle` actually means that you should increase the brightness of those lights by `2`.
+
+What is the **total brightness** of all lights combined after following Santa's instructions?
+
+For example:
+
+ * `turn on 0,0 through 0,0` would increase the total brightness by `1`.
+ * `toggle 0,0 through 999,999` would increase the total brightness by `2000000`.
 
 [Part 2 solution][2]
 --------------------
 
+## Curiosity
+
+To satisfy my curiosity about what was that Santa wanted us to display, I've decided to use
+[matplotlib][3] to draw the image.
+
+Here, you can see the result for my input. It seems that Santa _loves_ abstract art.
+
+![Santa's Art](image_1.png)
+
 
 [1]: part_1.py
 [2]: part_2.py
+[3]: https://matplotlib.org/

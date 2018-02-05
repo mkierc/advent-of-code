@@ -34,4 +34,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - How many strings are nice under these new rules?
 
 #### [Day 6: Probably a Fire Hazard](src/day_06)
-- [ ] Part One - After following the instructions, how many lights are lit?
+- [x] Part One - After following the instructions, how many lights are lit?
+- [ ] Part Two - What is the total brightness of all lights after following Santa's instructions?
