@@ -57,11 +57,13 @@ For example:
 ## Curiosity
 
 To satisfy my curiosity about what was that Santa wanted us to display, I've decided to use
-[matplotlib][3] to draw the image.
+[matplotlib][3] to draw the images.
 
-Here, you can see the result for my input. It seems that Santa _loves_ abstract art.
+Here, you can see the results for my input. It seems that Santa _loves_ abstract art.
 
-![Santa's Art](image_1.png)
+![Santa's Art 1](image_1.png)
+
+![Santa's Art 2](image_2.png)
 
 
 [1]: part_1.py
