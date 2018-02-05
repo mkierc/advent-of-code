@@ -31,4 +31,4 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 
 #### [Day 5: Doesn't He Have Intern-Elves For This?](src/day_04)
 - [x] Part One - How many strings are nice?
-- [ ] Part Two - How many strings are nice under these new rules?
+- [x] Part Two - How many strings are nice under these new rules?
