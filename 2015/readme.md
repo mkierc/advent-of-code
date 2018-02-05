@@ -29,6 +29,9 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part One - Find MD5 hashes which start with at least five zeroes.
 - [x] Part Two - Now find one that starts with six zeroes.
 
-#### [Day 5: Doesn't He Have Intern-Elves For This?](src/day_04)
+#### [Day 5: Doesn't He Have Intern-Elves For This?](src/day_05)
 - [x] Part One - How many strings are nice?
 - [x] Part Two - How many strings are nice under these new rules?
+
+#### [Day 6: Probably a Fire Hazard](src/day_06)
+- [ ] Part One - After following the instructions, how many lights are lit?
