@@ -36,3 +36,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 6: Probably a Fire Hazard](src/day_06)
 - [x] Part One - After following the instructions, how many lights are lit?
 - [x] Part Two - What is the total brightness of all lights after following Santa's instructions?
+
+#### [Day 7: Some Assembly Required](src/day_07)
+- [ ] Part One - What signal is ultimately provided to wire a?
