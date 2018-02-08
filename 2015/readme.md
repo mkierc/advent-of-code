@@ -42,5 +42,7 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - What new signal is ultimately provided to wire a?
 
 #### [Day 8: Matchsticks](src/day_08)
-- [ ] Part One - What is the number of characters of code for string literals minus the number
+- [x] Part One - What is the number of characters of code for string literals minus the number
     of characters in memory for the values of the strings in total for the entire file?
+- [ ] Part Two - Find the total number of characters to represent the newly encoded strings minus
+    the number of characters of code in each original string literal.
