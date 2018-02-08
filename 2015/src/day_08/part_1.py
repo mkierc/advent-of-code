@@ -15,6 +15,7 @@ def count_code_characters(string):
     return len(string)
 
 
+# TODO do it in a more pythonic way (using eval)
 def count_memory_characters(string: str):
     escaped = string.lstrip('"').rstrip('"')
 
@@ -34,8 +35,6 @@ def count_memory_characters(string: str):
 def calculate_memory_footprint(string_list):
     total = 0
     for string in string_list:
-        # print(count_code_characters(string))
-        # print(count_memory_characters(string))
         total += count_code_characters(string) - count_memory_characters(string)
     return total
 

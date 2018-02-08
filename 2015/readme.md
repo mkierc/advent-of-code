@@ -44,5 +44,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 8: Matchsticks](src/day_08)
 - [x] Part One - What is the number of characters of code for string literals minus the number
     of characters in memory for the values of the strings in total for the entire file?
-- [ ] Part Two - Find the total number of characters to represent the newly encoded strings minus
+- [x] Part Two - Find the total number of characters to represent the newly encoded strings minus
     the number of characters of code in each original string literal.
