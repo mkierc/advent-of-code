@@ -40,3 +40,7 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 7: Some Assembly Required](src/day_07)
 - [x] Part One - What signal is ultimately provided to wire a?
 - [x] Part Two - What new signal is ultimately provided to wire a?
+
+#### [Day 8: Matchsticks](src/day_08)
+- [ ] Part One - What is the number of characters of code for string literals minus the number
+    of characters in memory for the values of the strings in total for the entire file?
