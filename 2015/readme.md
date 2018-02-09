@@ -46,3 +46,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
     of characters in memory for the values of the strings in total for the entire file?
 - [x] Part Two - Find the total number of characters to represent the newly encoded strings minus
     the number of characters of code in each original string literal.
+
+#### [Day 9: All in a Single Night](src/day_09)
+- [ ] Part One - What is the distance of the shortest route?
