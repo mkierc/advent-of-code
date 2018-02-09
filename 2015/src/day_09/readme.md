@@ -33,9 +33,6 @@ this example.
 
 What is the distance of the shortest route?
 
-[Part 1 solution][1]
---------------------
-
 ### Part Two
 
 The next year, just to show off, Santa decides to take the route with the **longest distance**
@@ -49,9 +46,8 @@ For example, given the distances above, the longest route would be `982` via (fo
 
 What is the distance of the longest route?
 
-[Part 2 solution][2]
---------------------
+[Part 1 and Part 2 solution][1]
+-------------------------------
 
 
-[1]: part_1.py
-[2]: part_2.py
+[1]: part_1_part_2.py

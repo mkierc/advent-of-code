@@ -50,7 +50,7 @@ def calculate_route_distance(route, connection_list):
     return distance
 
 
-def calculate_shortest_distance(connection_list):
+def calculate_shortest_and_longest_distance(connection_list):
     cities = set()
 
     for connection in connection_list:
@@ -60,20 +60,23 @@ def calculate_shortest_distance(connection_list):
     routes = find_routes([], list(cities))
 
     shortest_distance = calculate_route_distance(routes[0], connection_list)
+    longest_distance = calculate_route_distance(routes[0], connection_list)
 
     for route in routes[1:]:
         new_distance = calculate_route_distance(route, connection_list)
         if new_distance < shortest_distance:
             shortest_distance = new_distance
+        if new_distance > longest_distance:
+            longest_distance = new_distance
 
-    return shortest_distance
+    return shortest_distance, longest_distance
 
 
 def main():
-    test_1 = calculate_shortest_distance(test_input_1)
+    test_1 = calculate_shortest_and_longest_distance(test_input_1)
     print('test_1:', test_1)
 
-    answer = calculate_shortest_distance(parse(input_data))
+    answer = calculate_shortest_and_longest_distance(parse(input_data))
     print('answer:', answer)
 
 
