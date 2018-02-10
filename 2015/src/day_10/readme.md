@@ -2,7 +2,7 @@
 
 ### Part One
 
-Today, the Elves are playing a game called [look-and-say][3]. They take turns making sequences
+Today, the Elves are playing a game called [look-and-say][2]. They take turns making sequences
 by reading aloud the previous sequence and using that reading as the next sequence. For example,
 `211` is read as "one two, two ones", which becomes `1221` (`1` `2`, `2` `1`s).
 
@@ -21,17 +21,18 @@ For example:
 Starting with the digits in your puzzle input, apply this process 40 times.
 What is **the length of the result**?
 
-[Part 1 solution][1]
---------------------
-
 ### Part Two
 
+Neat, right? You might also enjoy hearing [John Conway talking about this sequence][3]
+(that's Conway of **Conway's Game of Life** fame).
+
+Now, starting again with the digits in your puzzle input, apply this process **50** times.
+What is **the length of the new result**?
+
+[Part 1 and Part 2 solution][1]
+-------------------------------
 
 
-[Part 2 solution][2]
---------------------
-
-
-[1]: part_1.py
-[2]: part_2.py
-[3]: https://en.wikipedia.org/wiki/Look-and-say_sequence
+[1]: part_1_part_2.py
+[2]: https://en.wikipedia.org/wiki/Look-and-say_sequence
+[3]: https://www.youtube.com/watch?v=ea7lJkEhytA
