@@ -50,3 +50,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 9: All in a Single Night](src/day_09)
 - [x] Part One - What is the distance of the shortest route?
 - [x] Part Two - What is the distance of the longest route?
+
+#### [Day 10: Elves Look, Elves Say](src/day_10)
+- [ ] Part One - What is the length of the result?
