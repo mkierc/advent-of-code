@@ -54,3 +54,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 10: Elves Look, Elves Say](src/day_10)
 - [x] Part One - What is the length of the result?
 - [x] Part Two - What is the length of the new result?
+
+#### [Day 11: Corporate Policy](src/day_11)
+- [ ] Part One - Given Santa's current password, what should his next password be?
