@@ -88,22 +88,17 @@ def find_next_password(password, test=False):
 def main():
     test_1 = validate_password(test_input_1, test=True)
     print('test_1:', test_1)
-
     test_2 = validate_password(test_input_2, test=True)
     print('test_2:', test_2)
-
     test_3 = validate_password(test_input_3, test=True)
     print('test_3:', test_3)
-
     test_4 = find_next_password(test_input_4, test=True)
     print('test_4:', test_4)
-
     test_5 = find_next_password(test_input_5, test=True)
     print('test_5:', test_5)
 
     part_1 = find_next_password(input_data)
     print('part_1:', part_1)
-
     part_2 = find_next_password(part_1)
     print('part_2:', part_2)
 

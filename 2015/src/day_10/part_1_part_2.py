@@ -26,13 +26,11 @@ def calculate_length(sequence, iterations):
 
 
 def main():
-
     test_1 = calculate_length(test_input_1, 5)
     print('test_1:', test_1)
 
     part_1 = calculate_length(input_data, 40)
     print('part_1:', part_1)
-
     part_2 = calculate_length(input_data, 50)
     print('part_2:', part_2)
 

@@ -74,10 +74,12 @@ def calculate_shortest_and_longest_distance(connection_list):
 
 def main():
     test_1 = calculate_shortest_and_longest_distance(test_input_1)
-    print('test_1:', test_1)
+    print('test_1:', test_1[0])
+    print('test_2:', test_1[1])
 
     answer = calculate_shortest_and_longest_distance(parse(input_data))
-    print('answer:', answer)
+    print('part_1:', answer[0])
+    print('part_2:', answer[1])
 
 
 if __name__ == '__main__':
