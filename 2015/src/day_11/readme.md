@@ -36,16 +36,12 @@ For example:
 
 Given Santa's current password (your puzzle input), what should his **next password** be?
 
-[Part 1 solution][1]
---------------------
-
 ### Part Two
 
+Santa's password expired again. What's the next one?
+
+[Part 1 and Part 2 solution][1]
+-------------------------------
 
 
-[Part 2 solution][2]
---------------------
-
-
-[1]: part_1.py
-[2]: part_2.py
+[1]: part_1_part_2.py

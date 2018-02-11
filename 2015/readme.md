@@ -56,4 +56,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - What is the length of the new result?
 
 #### [Day 11: Corporate Policy](src/day_11)
-- [ ] Part One - Given Santa's current password, what should his next password be?
+- [x] Part One - Given Santa's current password, what should his next password be?
+- [x] Part Two - Santa's password expired again. What's the next one?
