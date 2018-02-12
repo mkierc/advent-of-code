@@ -60,4 +60,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - Santa's password expired again. What's the next one?
 
 #### [Day 12: JSAbacusFramework.io](src/day_12)
-- [ ] Part One - What is the sum of all numbers in the document?
+- [x] Part One - What is the sum of all numbers in the document?
+- [ ] Part Two - Ignore any object which has any property with the value "red".
