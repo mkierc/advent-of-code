@@ -62,3 +62,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 12: JSAbacusFramework.io](src/day_12)
 - [x] Part One - What is the sum of all numbers in the document?
 - [x] Part Two - Ignore any object which has any property with the value "red".
+
+#### [Day 13: Knights of the Dinner Table](src/day_13)
+- [ ] Part One - What is the total change in happiness for the optimal seating arrangement?
