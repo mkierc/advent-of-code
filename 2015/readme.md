@@ -65,4 +65,4 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 
 #### [Day 13: Knights of the Dinner Table](src/day_13)
 - [x] Part One - What is the total change in happiness for the optimal seating arrangement?
-- [ ] Part Two - What is the total change in happiness for arrangement that includes yourself?
+- [x] Part Two - What is the total change in happiness for arrangement that includes yourself?
