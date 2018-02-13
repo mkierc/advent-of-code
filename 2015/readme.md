@@ -64,4 +64,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - Ignore any object which has any property with the value "red".
 
 #### [Day 13: Knights of the Dinner Table](src/day_13)
-- [ ] Part One - What is the total change in happiness for the optimal seating arrangement?
+- [x] Part One - What is the total change in happiness for the optimal seating arrangement?
+- [ ] Part Two - What is the total change in happiness for arrangement that includes yourself?
