@@ -66,3 +66,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 13: Knights of the Dinner Table](src/day_13)
 - [x] Part One - What is the total change in happiness for the optimal seating arrangement?
 - [x] Part Two - What is the total change in happiness for arrangement that includes yourself?
+
+#### [Day 14: Reindeer Olympics](src/day_14)
+- [ ] Part One - After exactly 2503 seconds, what distance has the winning reindeer traveled?
