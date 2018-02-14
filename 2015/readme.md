@@ -69,4 +69,4 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 
 #### [Day 14: Reindeer Olympics](src/day_14)
 - [x] Part One - After exactly 2503 seconds, what distance has the winning reindeer traveled?
-- [ ] Part Two - How many points does the winning reindeer have?
+- [x] Part Two - How many points does the winning reindeer have?
