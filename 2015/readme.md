@@ -68,4 +68,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - What is the total change in happiness for arrangement that includes yourself?
 
 #### [Day 14: Reindeer Olympics](src/day_14)
-- [ ] Part One - After exactly 2503 seconds, what distance has the winning reindeer traveled?
+- [x] Part One - After exactly 2503 seconds, what distance has the winning reindeer traveled?
+- [ ] Part Two - How many points does the winning reindeer have?
