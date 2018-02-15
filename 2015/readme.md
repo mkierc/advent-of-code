@@ -73,4 +73,4 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 
 #### [Day 15: Science for Hungry People](src/day_15)
 - [x] Part One - What is the total score of the highest-scoring cookie you can make?
-- [ ] Part Two - What is the total score of the highest-scoring cookie with a calorie total of 500?
+- [x] Part Two - What is the total score of the highest-scoring cookie with a calorie total of 500?
