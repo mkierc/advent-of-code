@@ -70,3 +70,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 14: Reindeer Olympics](src/day_14)
 - [x] Part One - After exactly 2503 seconds, what distance has the winning reindeer traveled?
 - [x] Part Two - How many points does the winning reindeer have?
+
+#### [Day 15: Science for Hungry People](src/day_15)
+- [ ] Part One - What is the total score of the highest-scoring cookie you can make?
