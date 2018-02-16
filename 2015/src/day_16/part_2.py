@@ -39,13 +39,13 @@ def solve(raw_data):
 
     for aunt in aunts:
         if (aunt.compounds['children'] == -1 or aunt.compounds['children'] == 3) \
-                and (aunt.compounds['cats'] == -1 or aunt.compounds['cats'] == 7) \
+                and (aunt.compounds['cats'] == -1 or aunt.compounds['cats'] > 7) \
                 and (aunt.compounds['samoyeds'] == -1 or aunt.compounds['samoyeds'] == 2) \
-                and (aunt.compounds['pomeranians'] == -1 or aunt.compounds['pomeranians'] == 3) \
+                and (aunt.compounds['pomeranians'] == -1 or aunt.compounds['pomeranians'] < 3) \
                 and (aunt.compounds['akitas'] == -1 or aunt.compounds['akitas'] == 0) \
                 and (aunt.compounds['vizslas'] == -1 or aunt.compounds['vizslas'] == 0) \
-                and (aunt.compounds['goldfish'] == -1 or aunt.compounds['goldfish'] == 5) \
-                and (aunt.compounds['trees'] == -1 or aunt.compounds['trees'] == 3) \
+                and (aunt.compounds['goldfish'] == -1 or aunt.compounds['goldfish'] < 5) \
+                and (aunt.compounds['trees'] == -1 or aunt.compounds['trees'] > 3) \
                 and (aunt.compounds['cars'] == -1 or aunt.compounds['cars'] == 2) \
                 and (aunt.compounds['perfumes'] == -1 or aunt.compounds['perfumes'] == 1):
             return aunt

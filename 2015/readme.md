@@ -77,4 +77,4 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 
 #### [Day 16: Aunt Sue](src/day_16)
 - [x] Part One - What is the number of the Sue that got you the gift?
-- [ ] Part Two - What is the number of the real Aunt Sue?
+- [x] Part Two - What is the number of the real Aunt Sue?
