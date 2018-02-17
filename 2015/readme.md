@@ -81,4 +81,4 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 
 #### [Day 17: Aunt Sue](src/day_17)
 - [x] Part One - How many different combinations of containers can exactly fit 150 liters of eggnog?
-- [ ] Part Two - How many different ways can you fill containers and still hold exactly 150 litres?
+- [x] Part Two - How many different ways can you fill containers and still hold exactly 150 litres?
