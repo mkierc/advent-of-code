@@ -49,6 +49,12 @@ def solve(initial_grid, steps):
     for i in range(steps):
         new_grid = defaultdict(lambda: '.')
 
+        # "break" the board before simulation step
+        current_grid[0, 0] = '#'
+        current_grid[0, width-1] = '#'
+        current_grid[height-1, 0] = '#'
+        current_grid[height-1, width-1] = '#'
+
         for x in range(width):
             for y in range(height):
                 # count neighbors
@@ -68,13 +74,19 @@ def solve(initial_grid, steps):
                     else:
                         new_grid[(x, y)] = '.'
 
+        # "break" the new board after simulation step
+        new_grid[0, 0] = '#'
+        new_grid[0, width-1] = '#'
+        new_grid[height-1, 0] = '#'
+        new_grid[height-1, width-1] = '#'
+
         current_grid = new_grid
 
     return list(current_grid.values()).count('#')
 
 
 def main():
-    test_1 = solve(test_input_1, 4)
+    test_1 = solve(test_input_1, 5)
     print('test_1:', test_1)
 
     start = time()
