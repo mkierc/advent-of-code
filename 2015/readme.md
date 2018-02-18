@@ -80,4 +80,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - What is the number of the real Aunt Sue?
 
 #### [Day 18: Like a GIF For Your Yard](src/day_18)
-- [ ] Part One - How many lights are on after 100 steps?
+- [x] Part One - How many lights are on after 100 steps?
+- [ ] Part Two - How many lights are on after 100 steps with four corners always in the on state?
