@@ -50,4 +50,4 @@ instruction was evaluated).
 
 [1]: part_1.py
 [2]: part_2.py
-[3]: ../day_5
+[3]: ../day_05

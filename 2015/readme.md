@@ -79,6 +79,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part One - What is the number of the Sue that got you the gift?
 - [x] Part Two - What is the number of the real Aunt Sue?
 
-#### [Day 17: Aunt Sue](src/day_17)
-- [x] Part One - How many different combinations of containers can exactly fit 150 liters of eggnog?
-- [x] Part Two - How many different ways can you fill containers and still hold exactly 150 litres?
+#### [Day 18: Like a GIF For Your Yard](src/day_18)
+- [ ] Part One - How many lights are on after 100 steps?
