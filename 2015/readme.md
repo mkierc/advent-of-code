@@ -84,4 +84,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - How many lights are on after 100 steps with four corners always in the on state?
 
 #### [Day 19: Medicine for Rudolph](src/day_19)
-- [ ] Part One - How many distinct molecules can be created?
+- [x] Part One - How many distinct molecules can be created?
+- [ ] Part Two - What is the fewest number of steps to go from e to the medicine molecule?
