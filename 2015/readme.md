@@ -86,3 +86,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 19: Medicine for Rudolph](src/day_19)
 - [x] Part One - How many distinct molecules can be created?
 - [ ] Part Two - What is the fewest number of steps to go from e to the medicine molecule?
+
+#### [Day 20: Infinite Elves and Infinite Houses](src/day_20)
+- [ ] Part One - What is the lowest house number of the house to get at least that many presents?
