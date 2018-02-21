@@ -90,3 +90,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 20: Infinite Elves and Infinite Houses](src/day_20)
 - [x] Part One - What is the lowest house number of the house to get at least that many presents?
 - [x] Part Two - What is the new lowest house number of the house to get at least as many presents?
+
+#### [Day 21: RPG Simulator 20XX](src/day_21)
+- [ ] Part One - What is the least amount of gold you can spend and still win the fight?
