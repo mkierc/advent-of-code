@@ -2,8 +2,8 @@
 
 ### Part One
 
-Little Henry Case got a new video game for Christmas. It's an [RPG][3], and he's stuck on a boss.
-He needs to know what equipment to buy at the shop. He hands you the [controller][4].
+Little Henry Case got a new video game for Christmas. It's an [RPG][2], and he's stuck on a boss.
+He needs to know what equipment to buy at the shop. He hands you the [controller][3].
 
 In this game, the player (you) and the enemy (the boss) take turns attacking. The player always goes
 first. Each attack reduces the opponent's hit points by at least `1`. The first character at
@@ -69,13 +69,15 @@ amount of gold you can spend** and still win the fight?
 
 ### Part Two
 
+Turns out the shopkeeper is working with the boss, and can persuade you to buy whatever items
+he wants. The other rules still apply, and he still only has one of each item.
 
+What is the most amount of gold you can spend and still **lose** the fight?
 
 [Part 2 solution][2]
 --------------------
 
 
-[1]: part_1.py
-[2]: part_2.py
-[3]: https://en.wikipedia.org/wiki/Role-playing_video_game
-[4]: https://en.wikipedia.org/wiki/Game_controller
+[1]: part_1_part_2.py
+[2]: https://en.wikipedia.org/wiki/Role-playing_video_game
+[3]: https://en.wikipedia.org/wiki/Game_controller
