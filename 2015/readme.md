@@ -79,6 +79,10 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part One - What is the number of the Sue that got you the gift?
 - [x] Part Two - What is the number of the real Aunt Sue?
 
+#### [Day 17: Like a GIF For Your Yard](src/day_18)
+- [x] Part One - How many different combinations of containers can fit all 150 liters of eggnog?
+- [x] Part Two - How many different ways can you fill the containers and still hold 150 litres?
+
 #### [Day 18: Like a GIF For Your Yard](src/day_18)
 - [x] Part One - How many lights are on after 100 steps?
 - [x] Part Two - How many lights are on after 100 steps with four corners always in the on state?
@@ -94,3 +98,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 21: RPG Simulator 20XX](src/day_21)
 - [x] Part One - What is the least amount of gold you can spend and still win the fight?
 - [x] Part Two - What is the most amount of gold you can spend and still lose the fight?
+
+#### [Day 22: Wizard Simulator 20XX](src/day_22)
+- [ ] Part One - What is the least amount of mana you can spend and still win the fight?
