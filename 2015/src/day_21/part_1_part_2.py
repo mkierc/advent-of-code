@@ -82,7 +82,7 @@ def simulate_fight(boss_stats, player_stats, item_list):
             boss_attack = 1
         # deal the damage
         player_stats['hp'] -= boss_attack
-        # check if boss is still alive
+        # check if player is still alive
         if player_stats['hp'] <= 0:
             break
 
