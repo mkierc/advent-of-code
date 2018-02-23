@@ -1,4 +1,4 @@
-## Day 21 - Wizard Simulator 20XX
+## Day 22 - Wizard Simulator 20XX
 
 ### Part One
 
