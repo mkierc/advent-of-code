@@ -121,12 +121,23 @@ def simulate_round(player_stats, boss_stats, active_effects: list, chosen_spell)
     ####################################################################################################################
     # PLAYER TURN
 
+    # part two effect
+    player_stats['hp'] -= 1
+
+    # check if player is still alive
+    if player_stats['hp'] <= 0:
+        return player_stats, boss_stats, active_effects
+
     # apply active effects
     for effect in active_effects:
         boss_stats['hp'] -= effect['damage']
         player_stats['hp'] += effect['heal']
         player_stats['mana'] += effect['mana']
         effect['time'] -= 1
+
+    # check if boss is still alive
+    if boss_stats['hp'] <= 0:
+        return player_stats, boss_stats, active_effects
 
     # destroy effects that ended
     for effect in active_effects:

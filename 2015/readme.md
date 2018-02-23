@@ -100,7 +100,8 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [x] Part Two - What is the most amount of gold you can spend and still lose the fight?
 
 #### [Day 22: Wizard Simulator 20XX](src/day_22)
-- [ ] Part One - What is the least amount of mana you can spend and still win the fight?
+- [x] Part One - What is the least amount of mana you can spend and still win the fight?
+- [x] Part One - What is the least amount of mana you can spend and still win on hard difficulty?
 
 #### [Day 23: Opening the Turing Lock](src/day_23)
 - [x] Part One - What is the value in register b when the program is finished executing?
