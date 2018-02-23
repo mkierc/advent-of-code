@@ -102,7 +102,7 @@ def find_possible_next_states(current_state: State, visited_states: set()):
             new_state = copy.deepcopy(current_state)
             new_state.floors[new_state.elevator].remove(thing)
             new_state.elevator -= 1
-            new_state.floors[new_state.elevator].add(thing)
+            new_state.floors[new_state.elevator].inc(thing)
             if State.are_valid(new_state.floors[new_state.elevator + 1], new_state.floors[new_state.elevator]) \
                     and new_state not in visited_states:
                 new_states.add(new_state)
@@ -115,8 +115,8 @@ def find_possible_next_states(current_state: State, visited_states: set()):
                     new_state.floors[new_state.elevator].remove(thing)
                     new_state.floors[new_state.elevator].remove(another_thing)
                     new_state.elevator -= 1
-                    new_state.floors[new_state.elevator].add(thing)
-                    new_state.floors[new_state.elevator].add(another_thing)
+                    new_state.floors[new_state.elevator].inc(thing)
+                    new_state.floors[new_state.elevator].inc(another_thing)
                     if State.are_valid(new_state.floors[new_state.elevator + 1], new_state.floors[new_state.elevator]) \
                             and new_state not in visited_states:
                         new_states.add(new_state)
@@ -127,7 +127,7 @@ def find_possible_next_states(current_state: State, visited_states: set()):
             new_state = copy.deepcopy(current_state)
             new_state.floors[new_state.elevator].remove(thing)
             new_state.elevator += 1
-            new_state.floors[new_state.elevator].add(thing)
+            new_state.floors[new_state.elevator].inc(thing)
             if State.are_valid(new_state.floors[new_state.elevator - 1], new_state.floors[new_state.elevator]) \
                     and new_state not in visited_states:
                 new_states.add(new_state)
@@ -139,8 +139,8 @@ def find_possible_next_states(current_state: State, visited_states: set()):
                     new_state.floors[new_state.elevator].remove(thing)
                     new_state.floors[new_state.elevator].remove(another_thing)
                     new_state.elevator += 1
-                    new_state.floors[new_state.elevator].add(thing)
-                    new_state.floors[new_state.elevator].add(another_thing)
+                    new_state.floors[new_state.elevator].inc(thing)
+                    new_state.floors[new_state.elevator].inc(another_thing)
                     if State.are_valid(new_state.floors[new_state.elevator - 1], new_state.floors[new_state.elevator]) \
                             and new_state not in visited_states:
                         new_states.add(new_state)

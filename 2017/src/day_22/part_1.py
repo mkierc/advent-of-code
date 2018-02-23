@@ -45,7 +45,7 @@ def simulate(infected):
             infected.remove(current_position)
         else:
             current_direction.turn_right()
-            infected.add(current_position)
+            infected.inc(current_position)
             infection_count += 1
 
         new_x = current_position[0] + current_direction.get_current()[0]

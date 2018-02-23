@@ -64,9 +64,6 @@ In this scenario, the player wins! (Barely.)
 You have **100 hit points**. The boss's actual stats are in your puzzle input. What is **the least
 amount of gold you can spend** and still win the fight?
 
-[Part 1 solution][1]
---------------------
-
 ### Part Two
 
 Turns out the shopkeeper is working with the boss, and can persuade you to buy whatever items
@@ -74,7 +71,7 @@ he wants. The other rules still apply, and he still only has one of each item.
 
 What is the most amount of gold you can spend and still **lose** the fight?
 
-[Part 2 solution][2]
+[Part 1 and Part 2 solution][1]
 --------------------
 
 

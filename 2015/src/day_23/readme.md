@@ -6,9 +6,9 @@ Little Jane Marie just got her very first computer for Christmas from some unkno
 It comes with instructions and an example program, but the computer itself seems to be
 malfunctioning. She's curious what the program does, and would like you to help her run it.
 
-The manual explains that the computer supports two [registers][3] and six [instructions][4]
+The manual explains that the computer supports two [registers][2] and six [instructions][3]
 (truly, it goes on to remind the reader, a state-of-the-art technology). The registers are named
-`a` and `b`, can hold any [non-negative integer][5], and begin with a value of `0`.
+`a` and `b`, can hold any [non-negative integer][4], and begin with a value of `0`.
 The instructions are as follows:
 
  * `hlf r` sets register `r` to **half** its current value, then continues with
@@ -40,17 +40,17 @@ inc a
 
 What is **the value in register `b`** when the program in your puzzle input is finished executing?
 
-[Part 1 solution][1]
+### Part Two
+
+The unknown benefactor is **very** thankful for releasi-- er, helping little Jane Marie with
+her computer. Definitely not to distract you, what is the value in register `b` after the program
+is finished executing if register `a` starts as `1` instead?
+
+[Part 1 and Part 2 solution][1]
 --------------------
 
 
-
-[Part 2 solution][2]
---------------------
-
-
-[1]: part_1.py
-[2]: part_2.py
-[3]: https://en.wikipedia.org/wiki/Processor_register
-[4]: https://en.wikipedia.org/wiki/Instruction_set_architecture
-[5]: https://en.wikipedia.org/wiki/Natural_number
+[1]: part_1_part_2.py
+[2]: https://en.wikipedia.org/wiki/Processor_register
+[3]: https://en.wikipedia.org/wiki/Instruction_set_architecture
+[4]: https://en.wikipedia.org/wiki/Natural_number

@@ -103,4 +103,5 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 - [ ] Part One - What is the least amount of mana you can spend and still win the fight?
 
 #### [Day 23: Opening the Turing Lock](src/day_23)
-- [ ] Part One - What is the value in register b when the program is finished executing?
+- [x] Part One - What is the value in register b when the program is finished executing?
+- [x] Part Two - What is the value in register b if register a starts as 1 instead?
