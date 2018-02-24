@@ -15,30 +15,23 @@ input_data = {
 def solve(package_list: set, package_split: int):
     group_weight = sum(package_list) // package_split
 
+    # find the size of smallest group that can sum up to the expected group weight
     smallest_group_possible = 0
-    biggest_group_possible = 0
-
     temporary_weight = 0
     for package in sorted(package_list, reverse=True):
         if temporary_weight < group_weight:
             temporary_weight += package
             smallest_group_possible += 1
 
-    temporary_weight = 0
-    for package in sorted(package_list):
-        if temporary_weight < group_weight:
-            temporary_weight += package
-            biggest_group_possible += 1
-
     possible_divides = []
-    for size in range(smallest_group_possible, biggest_group_possible):
-        for combination in (x for x in combinations(package_list, size) if sum(x) == group_weight):
-            if sum(combination) == group_weight:
-                leg_space = len(combination)
-                quantum_entaglement = reduce(mul, combination, 1)
-                possible_divides.append((leg_space, quantum_entaglement))
-            if len(possible_divides) % 10000 == 0:
-                print(len(possible_divides))
+    for group_size in range(smallest_group_possible, len(package_list)):
+        for combination in (x for x in combinations(package_list, group_size) if sum(x) == group_weight):
+            quantum_entaglement = reduce(mul, combination, 1)
+            possible_divides.append((group_size, quantum_entaglement))
+
+        # if we found a combination within current group size, don't continue searching in bigger groups
+        if possible_divides:
+            break
 
     return sorted(possible_divides)[0][1]
 
