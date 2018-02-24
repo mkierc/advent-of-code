@@ -106,3 +106,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 23: Opening the Turing Lock](src/day_23)
 - [x] Part One - What is the value in register b when the program is finished executing?
 - [x] Part Two - What is the value in register b if register a starts as 1 instead?
+
+#### [Day 24: It Hangs in the Balance](src/day_24)
+- [ ] Part One - What is the quantum entanglement of the first group of packages?
