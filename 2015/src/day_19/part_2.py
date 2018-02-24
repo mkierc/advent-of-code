@@ -17,7 +17,6 @@ with open('data.txt') as file:
 
 
 def a_star_search(ruleset, start):
-
     def heuristic(molecule_1, molecule_2):
         return abs(len(molecule_1) - len(molecule_2))
 
@@ -45,15 +44,18 @@ def a_star_search(ruleset, start):
             # return size minus 2 (first and last step are **not** molecule replaces)
             return len(total_path) - 2
 
-        # print(len(cost_to_node), len(next(iter(cost_to_node.keys()))))
-
         # generate new molecules from rules
         new_molecules = set()
         for rule in ruleset:
             new_molecules.add(current.replace(rule, ruleset[rule][0], 1))
 
         for new in new_molecules:
-            new_cost = cost_to_node[current] + heuristic(current, new)
+            # no need to calculate the cost from current to next by heuristic...
+            # new_cost = cost_to_node[current] + heuristic(current, new)
+
+            # ...I know the distance, IT'S ONE!
+            new_cost = cost_to_node[current] + 1
+
             if new not in cost_to_node or new_cost < cost_to_node[new]:
                 cost_to_node[new] = new_cost
                 priority = new_cost + heuristic(goal, new)
@@ -61,48 +63,26 @@ def a_star_search(ruleset, start):
                 visited_nodes[new] = current
 
 
-# real times:
-#
-# ans   time[s]
-# 20    0.07018303871154785
-# 25    1.063807725906372
-# 30    3.4922823905944824
-# 31    9.016967058181763
-# 32    15.026941537857056
-# 35    62.044997692108154
-# 40    158.07415962219238
-
-
-# predicted by extrapolation:
-# def y(x):
-#     return 0.8297685200684696 x*x - 42.33438809724625 x + 524.3708598094684
-#
-# ans   time [s]                time [min]
-# 60    971.4742462211839       16.19123743701973
-# 100   4588.617250769539       76.47695417949232
-
-
-# this input is unexpectedly hard to solve...
-# 35: 'CRnSiThRnPBCaCaPMgArYTiTiBPRnSiThSiThSiRnFYPMgArRnPTiBFArArFArCaSiThCaSiThRnSiThCaPTiMgAr',
-
-
 generated_inputs = {
-    20: 'CRnSiThSiRnBCaFArFYPMgYPMgArCaPRnCaSiThFArSiThSiThRnFAr',
-    25: 'CRnFYMgArSiThSiRnMgArSiRnCaFYCaCaSiThSiRnSiThRnFArArTiBSiThPBFArPTiMg',
-    30: 'CRnBFArRnPRnSiThFArSiThCaPBSiRnFArTiBFArSiRnPMgYFArSiRnFArBCaSiRnSiAlArRnSiAlArPMg',
-    31: 'CRnPTiRnPBSiThSiAlArSiThSiThCaSiThPMgYTiRnFArSiThRnFArArCaSiRnPMgArTiTiBPBF',
-    32: 'CRnSiRnSiAlArTiBCaFYSiThFYSiRnMgArSiRnMgArSiRnPBPMgArBPRnCaFArCaSiAlArSiThSiRnFYSiAlArSiThF',
-    35: 'CRnPMgArRnBPRnFArFArPTiTiRnFArSiThSiThSiRnCaPBPMgArTiRnSiRnMgArSiRnFArTiBPMgArPBPRnFArCaF',
-    40: 'CRnTiBSiRnFArBPMgYSiRnFYFArCaSiRnSiThFArRnSiRnFYFArSiRnFYFArCaSiThSiThFArSiRnSiThCaFArBPMgArSiRnBPMgArSiRnFArRnFArSiAl',
-    60: 'CRnTiTiRnFArPBSiThFYSiThCaPBPTiBSiThSiRnFArMgArPRnFArCaSiRnTiTiRnPMgArCaSiThSiRnSiRnFArMgArBFArSiThSiRnMgArSiThSiRnCaSiRnMgArCaSiRnMgArSiThRnFArArBPTiBSiThRnFAr'
+    '20': 'CRnSiThSiRnBCaFArFYPMgYPMgArCaPRnCaSiThFArSiThSiThRnFAr',
+    '25': 'CRnFYMgArSiThSiRnMgArSiRnCaFYCaCaSiThSiRnSiThRnFArArTiBSiThPBFArPTiMg',
+    '30': 'CRnBFArRnPRnSiThFArSiThCaPBSiRnFArTiBFArSiRnPMgYFArSiRnFArBCaSiRnSiAlArRnSiAlArPMg',
+    '31': 'CRnPTiRnPBSiThSiAlArSiThSiThCaSiThPMgYTiRnFArSiThRnFArArCaSiRnPMgArTiTiBPBF',
+    '32': 'CRnSiRnSiAlArTiBCaFYSiThFYSiRnMgArSiRnMgArSiRnPBPMgArBPRnCaFArCaSiAlArSiThSiRnFYSiAlArSiThF',
+    '35': 'CRnPMgArRnBPRnFArFArPTiTiRnFArSiThSiThSiRnCaPBPMgArTiRnSiRnMgArSiRnFArTiBPMgArPBPRnFArCaF',
+    # this generated input is unexpectedly hard to solve...
+    '35*++': 'CRnSiThRnPBCaCaPMgArYTiTiBPRnSiThSiThSiRnFYPMgArRnPTiBFArArFArCaSiThCaSiThRnSiThCaPTiMgAr',
+    '40': 'CRnTiBSiRnFArBPMgYSiRnFYFArCaSiRnSiThFArRnSiRnFYFArSiRnFYFArCaSiThSiThFArSiRnSiThCaFArBPMgArSiRnBPMgArSiRnFArRnFArSiAl',
+    '60': 'CRnTiTiRnFArPBSiThFYSiThCaPBPTiBSiThSiRnFArMgArPRnFArCaSiRnTiTiRnPMgArCaSiThSiRnSiRnFArMgArBFArSiThSiRnMgArSiThSiRnCaSiRnMgArCaSiRnMgArSiThRnFArArBPTiBSiThRnFAr'
 }
 
 
 def main():
+    print('expect'.ljust(6), 'found'.ljust(6), 'time [s]')
     for substitutions, molecule in generated_inputs.items():
         start = time()
         answer = a_star_search(input_ruleset, molecule)
-        print(substitutions, answer, time() - start)
+        print(str(substitutions).ljust(6), str(answer).ljust(6), time() - start)
 
     start = time()
     answer = a_star_search(input_ruleset, input_molecule)
