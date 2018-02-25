@@ -110,3 +110,6 @@ the advent calendar; the second puzzle is unlocked when you complete the first. 
 #### [Day 24: It Hangs in the Balance](src/day_24)
 - [x] Part One - What is the quantum entanglement of the first group of packages?
 - [x] Part Two - What is the quantum entanglement of packages separated into four groups?
+
+#### [Day 25: It Hangs in the Balance](src/day_24)
+- [ ] Part One - What code do you give the machine?
