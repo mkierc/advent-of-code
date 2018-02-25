@@ -3,10 +3,10 @@
 ### Part One
 
 Merry Christmas! Santa is booting up his weather machine; looks like you might get a
-[white Christmas][3] after all.
+[white Christmas][2] after all.
 
 The weather machine beeps! On the console of the machine is a copy protection message asking you to
-[enter a code from the instruction manual][4]. Apparently, it refuses to run unless you give it
+[enter a code from the instruction manual][3]. Apparently, it refuses to run unless you give it
 that code. No problem; you'll just look up the code in the--
 
 "Ho ho ho", Santa ponders aloud. "I can't seem to find the manual."
@@ -23,7 +23,7 @@ you repeatedly), they finally find an engineer that remembers how the code syste
 
 The codes are printed on an infinite sheet of paper, starting in the top-left corner. The codes are
 filled in by diagonals: starting with the first row with an empty first box, the codes are filled in
-diagonally up and to the right. This process repeats until the [infinite paper is covered][5].
+diagonally up and to the right. This process repeats until the [infinite paper is covered][4].
 So, the first few codes are filled in in this order:
 
 ```
@@ -71,14 +71,22 @@ Santa looks nervous. Your puzzle input contains the message on the machine's con
 [Part 1 solution][1]
 --------------------
 
+### Part Two
 
+The machine springs to life, then falls silent again. It beeps. "Insufficient fuel", the console
+reads. "**Fifty stars** are required before proceeding. **One star** is available."
 
-[Part 2 solution][2]
+..."one star is available"? You check the fuel tank; sure enough, a lone star sits at the bottom,
+awaiting its friends. Looks like you need to provide 49 yourself.
+
+You fill the weather machine with **fifty stars**. It comes to life!
+
+**Snow begins to fall.**
+
 --------------------
 
 
 [1]: part_1.py
-[2]: part_2.py
-[3]: ./day_01
-[4]: https://en.wikipedia.org/wiki/Copy_protection#Early_video_games
-[5]: https://en.wikipedia.org/wiki/Cantor's_diagonal_argument
+[2]: ./day_01
+[3]: https://en.wikipedia.org/wiki/Copy_protection#Early_video_games
+[4]: https://en.wikipedia.org/wiki/Cantor's_diagonal_argument
