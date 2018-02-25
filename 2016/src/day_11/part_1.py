@@ -102,7 +102,7 @@ def find_possible_next_states(current_state: State, visited_states: set()):
             new_state = copy.deepcopy(current_state)
             new_state.floors[new_state.elevator].remove(thing)
             new_state.elevator -= 1
-            new_state.floors[new_state.elevator].inc(thing)
+            new_state.floors[new_state.elevator].add(thing)
             if State.are_valid(new_state.floors[new_state.elevator + 1], new_state.floors[new_state.elevator]) \
                     and new_state not in visited_states:
                 new_states.add(new_state)
@@ -115,8 +115,8 @@ def find_possible_next_states(current_state: State, visited_states: set()):
                     new_state.floors[new_state.elevator].remove(thing)
                     new_state.floors[new_state.elevator].remove(another_thing)
                     new_state.elevator -= 1
-                    new_state.floors[new_state.elevator].inc(thing)
-                    new_state.floors[new_state.elevator].inc(another_thing)
+                    new_state.floors[new_state.elevator].add(thing)
+                    new_state.floors[new_state.elevator].add(another_thing)
                     if State.are_valid(new_state.floors[new_state.elevator + 1], new_state.floors[new_state.elevator]) \
                             and new_state not in visited_states:
                         new_states.add(new_state)
@@ -127,7 +127,7 @@ def find_possible_next_states(current_state: State, visited_states: set()):
             new_state = copy.deepcopy(current_state)
             new_state.floors[new_state.elevator].remove(thing)
             new_state.elevator += 1
-            new_state.floors[new_state.elevator].inc(thing)
+            new_state.floors[new_state.elevator].add(thing)
             if State.are_valid(new_state.floors[new_state.elevator - 1], new_state.floors[new_state.elevator]) \
                     and new_state not in visited_states:
                 new_states.add(new_state)
@@ -139,8 +139,8 @@ def find_possible_next_states(current_state: State, visited_states: set()):
                     new_state.floors[new_state.elevator].remove(thing)
                     new_state.floors[new_state.elevator].remove(another_thing)
                     new_state.elevator += 1
-                    new_state.floors[new_state.elevator].inc(thing)
-                    new_state.floors[new_state.elevator].inc(another_thing)
+                    new_state.floors[new_state.elevator].add(thing)
+                    new_state.floors[new_state.elevator].add(another_thing)
                     if State.are_valid(new_state.floors[new_state.elevator - 1], new_state.floors[new_state.elevator]) \
                             and new_state not in visited_states:
                         new_states.add(new_state)
@@ -173,8 +173,13 @@ def main():
         states_of_last_step = possible_next_states
         step += 1
 
+    # Intel Core i7 3610qm
+    # test        0.17 s
+    #
+    # Intel Core i7 7700k
+    # test        0.05 s
+    # part 1    136.50174 s
     print(", solved in", time() - start_time, "s")
-    # test_input takes ~0.17 s
 
 
 if __name__ == "__main__":

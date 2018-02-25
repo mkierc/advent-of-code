@@ -57,7 +57,7 @@ when you complete the first. Each puzzle grants **one star**. Good luck!
 
 #### [Day 11: Radioisotope Thermoelectric Generators](src/day_11)
 - [x] Part One - What is the minimum number of steps to bring all of the objects to the fourth floor?
-- [ ] Part Two - What is the minimum number of steps to bring objects, including four new ones, to the fourth floor?
+- [x] Part Two - What is the minimum number of steps to bring objects, including four new ones, to the fourth floor?
 
 #### [Day 12: Leonardo's Monorail](src/day_12)
 - [x] Part One - After executing the assembunny code in your puzzle input, what value is left in register a?
