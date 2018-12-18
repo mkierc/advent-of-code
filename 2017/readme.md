@@ -93,3 +93,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 17: Spinlock](src/day_17)
 - [x] Part One - What is the value after 2017 in your completed circular buffer?
 - [x] Part Two - What is the value after 0 the moment 50000000 is inserted?
+
+#### [Day 18: Duet](src/day_18)
+- [ ] Part One - What is the value of the recovered frequency?
