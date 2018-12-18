@@ -95,4 +95,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - What is the value after 0 the moment 50000000 is inserted?
 
 #### [Day 18: Duet](src/day_18)
-- [ ] Part One - What is the value of the recovered frequency?
+- [x] Part One - What is the value of the recovered frequency?
+- [ ] Part Two - How many times did program 1 send a value?
