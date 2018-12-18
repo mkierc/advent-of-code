@@ -96,4 +96,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 18: Duet](src/day_18)
 - [x] Part One - What is the value of the recovered frequency?
-- [ ] Part Two - How many times did program 1 send a value?
+- [x] Part Two - How many times did program 1 send a value?
