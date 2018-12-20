@@ -104,4 +104,4 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 20: Particle Swarm](src/day_20)
 - [x] Part One - Which particle will stay closest to position <0,0,0> in the long term?
-- [ ] Part Two - How many particles are left after all collisions are resolved?
+- [x] Part Two - How many particles are left after all collisions are resolved?
