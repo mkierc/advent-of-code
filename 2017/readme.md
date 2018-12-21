@@ -105,3 +105,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 20: Particle Swarm](src/day_20)
 - [x] Part One - Which particle will stay closest to position <0,0,0> in the long term?
 - [x] Part Two - How many particles are left after all collisions are resolved?
+
+#### [Day 21: Fractal Art](src/day_21)
+- [ ] Part One - How many pixels stay on after 5 iterations?
