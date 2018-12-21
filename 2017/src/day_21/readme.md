@@ -121,14 +121,12 @@ Thus, after `2` iterations, the grid contains `12` pixels that are on.
 
 **How many pixels stay on** after `5` iterations?
 
-[Part 1 solution][1]
---------------------
-
 ### Part Two
 
-[Part 2 solution][2]
+**How many pixels stay on** after `18` iterations?
+
+[Part 1 and Part 2 solution][1]
 --------------------
 
 
-[1]: part_1.py
-[2]: part_2.py
+[1]: part_1_part_2.py

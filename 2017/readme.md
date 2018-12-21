@@ -107,4 +107,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many particles are left after all collisions are resolved?
 
 #### [Day 21: Fractal Art](src/day_21)
-- [ ] Part One - How many pixels stay on after 5 iterations?
+- [x] Part One - How many pixels stay on after 5 iterations?
+- [x] Part Two - How many pixels stay on after 18 iterations?
