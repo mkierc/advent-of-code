@@ -109,3 +109,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 21: Fractal Art](src/day_21)
 - [x] Part One - How many pixels stay on after 5 iterations?
 - [x] Part Two - How many pixels stay on after 18 iterations?
+
+#### [Day 22: Sporifica Virus](src/day_22)
+- [ ] Part One - After 10000 bursts of activity, how many bursts cause a node to become infected?
