@@ -111,4 +111,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - How many pixels stay on after 18 iterations?
 
 #### [Day 22: Sporifica Virus](src/day_22)
-- [ ] Part One - After 10000 bursts of activity, how many bursts cause a node to become infected?
+- [x] Part One - After 10000 bursts of activity, how many bursts cause a node to become infected?
+- [ ] Part Two - After 10000000 bursts of activity, how many bursts cause a node to become infected?
