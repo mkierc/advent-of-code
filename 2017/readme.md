@@ -116,5 +116,5 @@ Each puzzle grants **one star**. Good luck!
 
 #### [Day 23: Coprocessor Conflagration](src/day_23)
 - [x] Part One - If you run the program, how many times is the mul instruction invoked?
-- [ ] Part Two - After setting register a to 1, if the program were to run to completion, what value would be left
+- [x] Part Two - After setting register a to 1, if the program were to run to completion, what value would be left
     in register h?
