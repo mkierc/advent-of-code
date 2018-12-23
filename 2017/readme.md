@@ -113,3 +113,6 @@ Each puzzle grants **one star**. Good luck!
 #### [Day 22: Sporifica Virus](src/day_22)
 - [x] Part One - After 10000 bursts of activity, how many bursts cause a node to become infected?
 - [x] Part Two - After 10000000 bursts of activity, how many bursts cause a node to become infected?
+
+#### [Day 23: Coprocessor Conflagration](src/day_23)
+- [ ] Part One - If you run the program, how many times is the mul instruction invoked?
