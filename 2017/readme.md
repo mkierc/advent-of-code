@@ -115,4 +115,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - After 10000000 bursts of activity, how many bursts cause a node to become infected?
 
 #### [Day 23: Coprocessor Conflagration](src/day_23)
-- [ ] Part One - If you run the program, how many times is the mul instruction invoked?
+- [x] Part One - If you run the program, how many times is the mul instruction invoked?
+- [ ] Part Two - After setting register a to 1, if the program were to run to completion, what value would be left
+    in register h?
