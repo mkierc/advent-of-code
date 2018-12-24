@@ -118,3 +118,6 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part One - If you run the program, how many times is the mul instruction invoked?
 - [x] Part Two - After setting register a to 1, if the program were to run to completion, what value would be left
     in register h?
+
+#### [Day 24: Electromagnetic Moat](src/day_24)
+- [ ] Part One - What is the strength of the strongest bridge you can make with the components you have available?
