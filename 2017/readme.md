@@ -120,4 +120,5 @@ Each puzzle grants **one star**. Good luck!
     in register h?
 
 #### [Day 24: Electromagnetic Moat](src/day_24)
-- [ ] Part One - What is the strength of the strongest bridge you can make with the components you have available?
+- [x] Part One - What is the strength of the strongest bridge you can make with the components you have available?
+- [ ] Part Two - What is the strength of the longest bridge you can make?
