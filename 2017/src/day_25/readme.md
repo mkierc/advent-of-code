@@ -19,7 +19,7 @@ the machine is for.
 the whole computer work." You try to explain that Turing machines are merely models of computation,
 but he cuts you off. "No, see, that's just what they **want** you to think. Ultimately, inside
 every CPU, there's a Turing machine driving the whole thing! Too bad this one's broken.
-[We're doomed!][3]"
+[We're doomed!][2]"
 
 You ask how you can help. "Well, unfortunately, the only way to get the computer running again
 would be to create a whole new Turing machine from scratch, but there's no **way** you can-"
@@ -93,10 +93,31 @@ once it's working again?
 
 ### Part Two
 
-[Part 2 solution][2]
+The Turing machine, and soon the entire computer, springs back to life. A console glows dimly nearby, awaiting your command.
+
+```
+> reboot printer
+Error: That command requires priority 50. You currently have priority 0.
+You must deposit 50 stars to increase your priority to the required level.
+```
+
+The console flickers for a moment, and then prints another message:
+
+```
+Star accepted.
+You must deposit 49 stars to increase your priority to the required level.
+```
+
+The **garbage collector** winks at you, then continues sweeping.
+
+You deposit all **fifty stars** and reboot the printer. Suddenly, everything seems a lot less
+pixelated than before.
+
+"--raise your priority level enough to send the reboot command and... hey look, it's printing!
+I'll bring it to Santa. Thanks!" She runs off.
+
 --------------------
 
 
 [1]: part_1.py
-[2]: part_2.py
-[3]: https://www.youtube.com/watch?v=cTwZZz0HV8I
+[2]: https://www.youtube.com/watch?v=cTwZZz0HV8I

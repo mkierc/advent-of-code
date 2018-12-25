@@ -124,4 +124,5 @@ Each puzzle grants **one star**. Good luck!
 - [x] Part Two - What is the strength of the longest bridge you can make?
 
 #### [Day 25: The Halting Problem](src/day_25)
-- [ ] Part One - What is the diagnostic checksum the Turing machine produces once it's working again?
+- [x] Part One - What is the diagnostic checksum the Turing machine produces once it's working again?
+- [x] Part Two - Reboot the Printer
