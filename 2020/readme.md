@@ -22,3 +22,7 @@ Each puzzle grants one star. Good luck!
 #### [Day 1: Inverse Captcha](src/day_01)
 - [x] Part One - What do you get if you multiply the two entries that sum to `2020` together?
 - [x] Part Two - What is the product of the three entries that sum to `2020`?
+
+#### [Day 2: Password Philosophy](src/day_02)
+- [x] Part One - How many passwords are valid according to their policies?
+- [x] Part Two - How many passwords are valid according to the new interpretation of the policies?
