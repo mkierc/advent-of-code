@@ -1,5 +1,3 @@
-from itertools import permutations
-
 test_list = [
     199,
     200,
