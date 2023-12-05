@@ -1,4 +1,4 @@
-## Curiosity
+## Visualizing the **_Million Lights_**
 
 To satisfy my curiosity about what was that Santa wanted us to display, I've decided to use
 [matplotlib][1] to draw the images.

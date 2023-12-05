@@ -4,6 +4,11 @@ Learning Python 3 by doing challenges from the [Advent of Code](http://adventofc
 
 ---
 
+### Additional notes
+- [x] [Day 6 - Visualizing the **_Million Lights_**](src/day_06/readme.md)
+
+---
+
 ### Challenges
 #### [Day 1: Not Quite Lisp](https://adventofcode.com/2015/day/1)
 - [x] [Part One - To what floor do the instructions take Santa?](src/day_01/part_1.py)
