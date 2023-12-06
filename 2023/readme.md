@@ -4,6 +4,11 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 
 ---
 
+### Additional notes
+- [x] [Day 5 - Optimizing the seed mappings](src/day_05/readme.md)
+
+---
+
 ### Challenges
 #### [Day 1: Trebuchet?!](http://adventofcode.com/2023/day/1)
 - [x] [Part One - What is the sum of all the calibration values?](src/day_01/part_1.py)
@@ -24,3 +29,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 5: If You Give A Seed A Fertilizer](http://adventofcode.com/2023/day/5)
 - [x] [Part One - What is the lowest location number corresponding to initial seed numbers?](src/day_05/part_1.py)
 - [x] [Part Two - What is the lowest location number corresponding to initial seed number ranges?](src/day_05/part_2.py)
+
+#### [Day 6: Wait For It](http://adventofcode.com/2023/day/6)
+- [x] [Part One - What do you get if you multiply number of ways you could beat the record in each race together?](src/day_06/part_1.py)
+- [x] [Part Two - How many ways can you beat the record in this one much longer race?](src/day_06/part_2.py)
