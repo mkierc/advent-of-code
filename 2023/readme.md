@@ -33,3 +33,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 6: Wait For It](http://adventofcode.com/2023/day/6)
 - [x] [Part One - What do you get if you multiply number of ways you could beat the record in each race together?](src/day_06/part_1.py)
 - [x] [Part Two - How many ways can you beat the record in this one much longer race?](src/day_06/part_2.py)
+
+#### [Day 7: Camel Cards](http://adventofcode.com/2023/day/7)
+- [x] [Part One - What are the total winnings?](src/day_07/part_1.py)
+- [x] [Part Two - Using the new joker rule, what are the new total winnings?](src/day_07/part_2.py)
