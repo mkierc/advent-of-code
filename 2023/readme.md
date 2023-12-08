@@ -37,3 +37,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 7: Camel Cards](http://adventofcode.com/2023/day/7)
 - [x] [Part One - What are the total winnings?](src/day_07/part_1.py)
 - [x] [Part Two - Using the new joker rule, what are the new total winnings?](src/day_07/part_2.py)
+
+#### [Day 8: Haunted Wasteland](http://adventofcode.com/2023/day/8)
+- [x] [Part One - How many steps are required to reach ZZZ?](src/day_08/part_1.py)
+- [x] [Part Two - How many steps does it take before you're only on nodes that end with Z?](src/day_08/part_2.py)
