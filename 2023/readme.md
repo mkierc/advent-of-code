@@ -41,3 +41,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 8: Haunted Wasteland](http://adventofcode.com/2023/day/8)
 - [x] [Part One - How many steps are required to reach ZZZ?](src/day_08/part_1.py)
 - [x] [Part Two - How many steps does it take before you're only on nodes that end with Z?](src/day_08/part_2.py)
+
+#### [Day 9: Mirage Maintenance](http://adventofcode.com/2023/day/9)
+- [x] [Part One - What is the sum of extrapolating the next values?](src/day_09/part_1.py)
+- [x] [Part Two - What is the sum of extrapolating the previous values?](src/day_09/part_2.py)
