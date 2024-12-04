@@ -18,4 +18,5 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 - [x] [Part Two - How many reports are now safe with Problem Dampener?](src/day_03/part_2.py)
 
 #### [Day 4: Ceres Search](http://adventofcode.com/2024/day/4)
-- [ ] [Part One - How many times does XMAS appear?](src/day_04/part_1.py)
+- [x] [Part One - How many times does XMAS appear?](src/day_04/part_1.py)
+- [x] [Part One - How many times does an X-MAS appear?](src/day_04/part_2.py)
