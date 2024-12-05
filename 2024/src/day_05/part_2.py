@@ -81,7 +81,6 @@ def solve(ordering, updates):
 
 
 def main():
-    pass
     test_1 = solve(test_ordering, test_updates)
     print('test_1:', test_1)
 
