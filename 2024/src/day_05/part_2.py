@@ -1,5 +1,4 @@
 import re
-from copy import deepcopy
 from functools import cmp_to_key
 from itertools import combinations
 from time import time

@@ -1,5 +1,4 @@
 import re
-from copy import deepcopy
 from itertools import combinations
 from time import time
 
