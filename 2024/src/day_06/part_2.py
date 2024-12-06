@@ -1,3 +1,4 @@
+from collections import defaultdict
 from copy import deepcopy
 from time import time
 
@@ -101,8 +102,7 @@ def get_initial_params(grid):
 
 
 def simulate_if_loops(start_y, start_x, grid):
-    # todo: faster collection
-    step_history = []
+    step_history = defaultdict(lambda: 0)
 
     y = start_y
     x = start_x
@@ -114,15 +114,16 @@ def simulate_if_loops(start_y, start_x, grid):
         if grid[y + d_y][x + d_x] in ['.', '^']:
             x += d_x
             y += d_y
-            step_history.append((y, x))
-            # if we've been at this position more than ~3~ 4 times
-            # (start, step over, cross-over, loop back) == we're looping
+            current_count = step_history[(y, x)]
+            step_history.update({(y, x): current_count+1})
         # if next step is outside == we're not looping
         elif grid[y + d_y][x + d_x] == ' ':
             return False
         # if we'll hit a wall, turn right
         elif grid[y + d_y][x + d_x] == '#':
-            if step_history.count((y, x)) > 4:
+            # if we've been at this position more than 4 times
+            # (start, step over, cross-over, loop back) == we're looping
+            if step_history[(y, x)] > 4:
                 return True
             if d_x == 0 and d_y == -1:
                 d_x, d_y = 1, 0
@@ -171,3 +172,4 @@ if __name__ == '__main__':
 # answer: 2162
 # brute-force:             834.3863046169281 s
 # loop-at-collisions:       82.4439351558685 s
+# default-dict              40.4843633174896 s
