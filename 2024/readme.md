@@ -24,3 +24,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 5: Print Queue](http://adventofcode.com/2024/day/5)
 - [x] [Part One - What do you get if you add up the middle page number from those correctly-ordered updates?](src/day_05/part_1.py)
 - [x] [Part Two - What do you get if you add up the middle page numbers after correctly ordering just those updates?](src/day_05/part_2.py)
+
+#### [Day 6: Guard Gallivant](http://adventofcode.com/2024/day/6)
+- [x] [Part One - How many distinct positions will the guard visit before leaving the mapped area?](src/day_06/part_1.py)
+- [x] [Part Two - How many different positions could you choose for this obstruction?](src/day_06/part_2.py)
