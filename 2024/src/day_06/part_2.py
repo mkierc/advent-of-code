@@ -110,26 +110,20 @@ def simulate_if_loops(start_y, start_x, grid):
     d_x = 0
 
     while grid[y][x] != ' ':
-        # pprint(grid)
-
         # if next step is inside, continue going in that direction
         if grid[y + d_y][x + d_x] in ['.', '^']:
             x += d_x
             y += d_y
-            step_history.append((x, y))
+            step_history.append((y, x))
             # if we've been at this position more than ~3~ 4 times
             # (start, step over, cross-over, loop back) == we're looping
-            if step_history.count((x, y)) > 4:
-                # pprint(grid)
-                return True
         # if next step is outside == we're not looping
         elif grid[y + d_y][x + d_x] == ' ':
-            x += d_x
-            y += d_y
             return False
         # if we'll hit a wall, turn right
         elif grid[y + d_y][x + d_x] == '#':
-            # todo: loop check only at collisions
+            if step_history.count((y, x)) > 4:
+                return True
             if d_x == 0 and d_y == -1:
                 d_x, d_y = 1, 0
             elif d_x == 1 and d_y == 0:
@@ -167,9 +161,13 @@ def main():
 
     start = time()
     answer = solve(input)
-    print('time:', time() - start)
+    print(f'time: {time() - start} s')
     print('answer:', answer)
 
 
 if __name__ == '__main__':
     main()
+
+# answer: 2162
+# brute-force:             834.3863046169281 s
+# loop-at-collisions:       82.4439351558685 s
