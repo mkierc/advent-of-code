@@ -29,23 +29,25 @@ with (open("data.txt") as file):
         equations.append(a)
 
 
-def evaluate(equation):
-    result = equation[0]
-
-    elements = equation[1:]
-
-    # todo: sort elements of equation to eliminate numbers that get too high quickly
-    # elements = sorted(elements, reverse=True)
+def get_operators(length, dictionary={}):
+    if length in dictionary.keys():
+        return dictionary[length]
 
     operator_combos = []
-    # todo: generate once in a separate method with memoization to optimize
-    for operator in itertools.combinations_with_replacement(['*', '+'], len(elements)-1):
+    for operator in itertools.combinations_with_replacement(['*', '+'], length):
         for op in set(itertools.permutations(operator)):
             operator_combos.append(op)
 
-    # print(operator_combos)
+    dictionary.update({length: operator_combos})
+    return operator_combos
 
-    # good_ops_count = 0
+
+def evaluate(equation):
+    result = equation[0]
+    elements = equation[1:]
+
+    operator_combos = get_operators(len(elements)-1)
+    # print(operator_combos)
 
     for operators in operator_combos:
         current_result = elements[0]
@@ -58,8 +60,6 @@ def evaluate(equation):
                 current_result += elements[i+1]
         if current_result == result:
             return True
-
-    # return good_ops_count
 
 
 def calibrate(equation_list):
@@ -87,4 +87,4 @@ if __name__ == "__main__":
 
 # answer: 6392012777720
 # naive brute-force:            1336.7559776306152 s
-
+# memoize-operators:              25.9825482368469 s

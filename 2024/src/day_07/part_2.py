@@ -42,6 +42,25 @@ def get_operators(length, dictionary={}):
     return operator_combos
 
 
+# todo: test if inlined is faster
+# todo: test if "ifelse" is faster than stack of "ifs" like before taking it out to this method
+# disable memoization of pre-calculated results, slows the program down
+def calculate(left, op, right):  #, dictionary={}
+    # if (left, op, right) in dictionary.keys():
+    #     return dictionary[(left, op, right)]
+
+    result = 0
+    if op == '*':
+        result = left * right
+    elif op == '+':
+        result = left + right
+    elif op == '||':
+        result = int(str(left) + str(right))
+
+    # dictionary.update({(left, op, right): result})
+    return result
+
+
 def evaluate(equation):
     result = equation[0]
     elements = equation[1:]
@@ -56,12 +75,7 @@ def evaluate(equation):
             # print(op, current_result)
             if current_result > result:
                 break
-            if op == '*':
-                current_result *= elements[i+1]
-            if op == '+':
-                current_result += elements[i+1]
-            if op == '||':
-                current_result = int(str(current_result)+str(elements[i+1]))
+            current_result = calculate(current_result, op, elements[i+1])
         if current_result == result:
             return True
     return False
@@ -92,3 +106,5 @@ if __name__ == "__main__":
 
 # answer: 61561126043536
 # memoize-operators:            188.4395272731781 s
+# memoize-calculated-results    199.477397441864 s    - worse, because memory for calculations dictionary gets huge
+
