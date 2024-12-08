@@ -32,3 +32,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 7: Guard Gallivant](http://adventofcode.com/2024/day/7)
 - [x] [Part One - What is the total equations calibration result?](src/day_07/part_1.py)
 - [x] [Part Two - What is the total equations calibration result with knowledge of elephant hiding spots?](src/day_07/part_2.py)
+
+#### [Day 8: Resonant Collinearity](http://adventofcode.com/2024/day/8)
+- [x] [Part One - How many unique locations within the bounds of the map contain an antinode?](src/day_08/part_1.py)
+- [x] [Part Two - How many unique locations within the bounds of the map contain an antinode using updated model?](src/day_08/part_2.py)

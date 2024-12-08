@@ -14,12 +14,12 @@ test_input_1 = [
     ['.', '.', '.', '.', '.', '.', '#', '.', '.', '.'],
 ]
 
-input = []
+input_data = []
 
 with open('data.txt') as file:
     lines = file.read().splitlines()
     for line in lines:
-        input.append([*line])
+        input_data.append([*line])
 
 
 def pprint(grid):
