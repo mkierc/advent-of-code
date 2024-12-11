@@ -50,3 +50,5 @@ if __name__ == "__main__":
 
 # answer: 221291560078593
 # time:   0.11771202087402344 s
+
+# todo: compare against memoized
