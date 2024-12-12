@@ -134,6 +134,7 @@ def solve(grid):
                 edge_map[character]['bottom'].append((x, y))
 
     # count unique edges for each direcion
+    # todo: count of corners should be equal to count of edges and cheaper to calculate
     edge_count = defaultdict(int)
     for region, directions in edge_map.items():
         for direction, edge_points in directions.items():
