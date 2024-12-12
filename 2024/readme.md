@@ -48,3 +48,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 11: Plutonian Pebbles](http://adventofcode.com/2024/day/11)
 - [x] [Part One - How many stones will you have after blinking 25 times?](src/day_11/part_1.py)
 - [x] [Part Two - How many stones would you have after blinking a total of 75 times?](src/day_11/part_2.py)
+
+#### [Day 12: Garden Groups](http://adventofcode.com/2024/day/12)
+- [x] [Part One - What is the total price of fencing all regions on your map?](src/day_12/part_1.py)
+- [x] [Part Two - What is the new total price of fencing all regions on your map?](src/day_12/part_2.py)
