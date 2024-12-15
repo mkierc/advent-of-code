@@ -60,3 +60,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 14: Restroom Redoubt](http://adventofcode.com/2024/day/14)
 - [x] [Part One - What will the safety factor be after exactly 100 seconds have elapsed?](src/day_14/part_1.py)
 - [x] [Part Two - What is the fewest number of seconds that must elapse for the robots to display the Easter egg?](src/day_14/part_2.py)
+
+#### [Day 15: Restroom Redoubt](http://adventofcode.com/2024/day/15)
+- [x] [Part One - What is the sum of all boxes' GPS coordinates?](src/day_15/part_1.py)
+- [x] [Part Two - What is the sum of all boxes' final GPS coordinates?](src/day_15/part_2.py)
