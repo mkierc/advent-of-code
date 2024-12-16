@@ -64,3 +64,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 15: Restroom Redoubt](http://adventofcode.com/2024/day/15)
 - [x] [Part One - What is the sum of all boxes' GPS coordinates?](src/day_15/part_1.py)
 - [x] [Part Two - What is the sum of all boxes' final GPS coordinates?](src/day_15/part_2.py)
+
+#### [Day 16: Reindeer Maze](http://adventofcode.com/2024/day/16)
+- [x] [Part One - What is the lowest score a Reindeer could possibly get?](src/day_16/part_1.py)
+- [x] [Part Two - How many tiles are part of at least one of the best paths through the maze?](src/day_16/part_2.py)
