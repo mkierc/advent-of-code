@@ -99,9 +99,6 @@ def find_all_paths(maze):
                 visited_nodes[(n_x, n_y, n_dir)] = {(x, y, dir)}
             # also add equal-cost nodes to dictionary of visited nodes, but as a set of multiple possibilities
             elif new_cost == cost_to_node[(n_x, n_y, n_dir)]:
-                cost_to_node[(n_x, n_y, n_dir)] = new_cost
-                priority = new_cost
-                heapq.heappush(queue, (priority, (n_x, n_y, n_dir)))
                 visited_nodes[(n_x, n_y, n_dir)] = {*visited_nodes[(n_x, n_y, n_dir)], (x, y, dir)}
 
     # set of all visited nodes through the best paths
@@ -148,4 +145,4 @@ if __name__ == '__main__':
     main()
 
 # answer: 529
-# bfs + bfs retrace      9.583370923995972 s
+# bfs + bfs retrace                 0.122672080993652 s
