@@ -20,6 +20,26 @@ test_reindeer_maze_1 = [[*_] for _ in [
     '###############',
 ]]
 
+test_reindeer_maze_2 = [[*_] for _ in [
+    '#################',
+    '#...#...#...#..E#',
+    '#.#.#.#.#.#.#.#.#',
+    '#.#.#.#...#...#.#',
+    '#.#.#.#.###.#.#.#',
+    '#...#.#.#.....#.#',
+    '#.#.#.#.#.#####.#',
+    '#.#...#.#.#.....#',
+    '#.#.#####.#.###.#',
+    '#.#.#.......#...#',
+    '#.#.###.#####.###',
+    '#.#.#...#.....#.#',
+    '#.#.#.#####.###.#',
+    '#.#.#.........#.#',
+    '#.#.#.#########.#',
+    '#S#.............#',
+    '#################',
+]]
+
 reindeer_maze = []
 
 with open('data.txt') as file:
@@ -45,7 +65,7 @@ def find_path(maze):
     heapq.heappush(queue, (0, (start_x, start_y, start_dir)))
 
     visited_nodes = defaultdict(tuple)
-    cost_to_node = defaultdict(lambda: 0)
+    cost_to_node = defaultdict(lambda: 1_000_000_000)
 
     visited_nodes[(start_x, start_y, start_dir)] = ()
     cost_to_node[(start_x, start_y, start_dir)] = 0
@@ -72,19 +92,15 @@ def find_path(maze):
                 visited_nodes[(n_x, n_y, n_dir)] = (x, y, dir)
 
         if x == end_x and y == end_y:
-            if cost_to_node[(end_x, end_y, 0)]:
-                return cost_to_node[(end_x, end_y, 0)]
-            if cost_to_node[(end_x, end_y, 1)]:
-                return cost_to_node[(end_x, end_y, 1)]
-            if cost_to_node[(end_x, end_y, 2)]:
-                return cost_to_node[(end_x, end_y, 2)]
-            if cost_to_node[(end_x, end_y, 3)]:
-                return cost_to_node[(end_x, end_y, 3)]
+            return min([cost_to_node[(end_x, end_y, _)] for _ in range(3)])
 
 
 def main():
     test_1 = find_path(test_reindeer_maze_1)
     print('test_1:', test_1)
+
+    test_2 = find_path(test_reindeer_maze_2)
+    print('test_2:', test_2)
 
     start = time()
     answer = find_path(reindeer_maze)

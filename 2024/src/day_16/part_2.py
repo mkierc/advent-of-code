@@ -20,6 +20,26 @@ test_reindeer_maze_1 = [[*_] for _ in [
     '###############',
 ]]
 
+test_reindeer_maze_2 = [[*_] for _ in [
+    '#################',
+    '#...#...#...#..E#',
+    '#.#.#.#.#.#.#.#.#',
+    '#.#.#.#...#...#.#',
+    '#.#.#.#.###.#.#.#',
+    '#...#.#.#.....#.#',
+    '#.#.#.#.#.#####.#',
+    '#.#...#.#.#.....#',
+    '#.#.#####.#.###.#',
+    '#.#.#.......#...#',
+    '#.#.###.#####.###',
+    '#.#.#...#.....#.#',
+    '#.#.#.#####.###.#',
+    '#.#.#.........#.#',
+    '#.#.#.#########.#',
+    '#S#.............#',
+    '#################',
+]]
+
 reindeer_maze = []
 
 with open('data.txt') as file:
@@ -70,7 +90,6 @@ def find_all_paths(maze):
         new_moves.append((x, y, (dir - 1) % 4, 1000))
 
         for n_x, n_y, n_dir, cost in new_moves:
-            # todo: add a heuristic for distance to end
             new_cost = cost_to_node[(x, y, dir)] + cost
 
             if (n_x, n_y, n_dir) not in cost_to_node or new_cost < cost_to_node[(n_x, n_y, n_dir)]:
@@ -85,15 +104,16 @@ def find_all_paths(maze):
                 heapq.heappush(queue, (priority, (n_x, n_y, n_dir)))
                 visited_nodes[(n_x, n_y, n_dir)] = {*visited_nodes[(n_x, n_y, n_dir)], (x, y, dir)}
 
-    # retrace the steps of all the equally best paths (from 4 possible final states, depending on directions)
-    backtrace_queue = []
-    heapq.heappush(backtrace_queue, (end_x, end_y, 0))
-    heapq.heappush(backtrace_queue, (end_x, end_y, 1))
-    heapq.heappush(backtrace_queue, (end_x, end_y, 2))
-    heapq.heappush(backtrace_queue, (end_x, end_y, 3))
-
     # set of all visited nodes through the best paths
     set_of_path_nodes = set()
+
+    # retrace the steps of all the equally best paths (from 4 possible final states, choose only the optimal ones)
+    backtrace_queue = []
+    min_cost = min([cost_to_node[(end_x, end_y, _)] for _ in range(3)])
+    for end in [(end_x, end_y, _) for _ in range(3)]:
+        if cost_to_node[end] == min_cost:
+            heapq.heappush(backtrace_queue, end)
+            set_of_path_nodes.add((end[0], end[1]))
 
     while backtrace_queue:
         x, y, dir = heapq.heappop(backtrace_queue)
@@ -104,9 +124,9 @@ def find_all_paths(maze):
                 set_of_path_nodes.add((visited[0], visited[1]))
                 heapq.heappush(backtrace_queue, visited)
 
-    for x, y in set_of_path_nodes:
-        maze[y][x] = 'o'
-    pprint(maze)
+    # for x, y in set_of_path_nodes:
+    #     maze[y][x] = 'o'
+    # pprint(maze)
 
     return len(set_of_path_nodes)
 
@@ -114,6 +134,9 @@ def find_all_paths(maze):
 def main():
     test_1 = find_all_paths(test_reindeer_maze_1)
     print('test_1:', test_1)
+
+    test_2 = find_all_paths(test_reindeer_maze_2)
+    print('test_2:', test_2)
 
     start = time()
     answer = find_all_paths(reindeer_maze)
@@ -125,4 +148,4 @@ if __name__ == '__main__':
     main()
 
 # answer: 529
-# bfs + bfs retrace      9.634206295013428 s
+# bfs + bfs retrace      9.583370923995972 s
