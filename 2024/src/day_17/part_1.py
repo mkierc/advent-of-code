@@ -125,6 +125,7 @@ def main():
     test_5 = test_processor_5.register
     print("test_5:", test_5)
 
+    # processor = ChronospatialProcessor(((8*8+3)*8+5)*8, b, c, instructions)  # manually searching for patterns
     processor = ChronospatialProcessor(a, b, c, instructions)
     processor.begin()
     answer = ','.join(processor.output)

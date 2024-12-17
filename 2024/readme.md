@@ -71,4 +71,4 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 
 #### [Day 17: Chronospatial Computer](http://adventofcode.com/2024/day/17)
 - [x] [Part One - What do you get if you use commas to join the values it output into a single string?](src/day_17/part_1.py)
-- [ ] [Part Two - What is the lowest positive initial value for register A that causes the program to output a copy of itself?](src/day_17/part_2.py)
+- [x] [Part Two - What is the lowest positive initial value for register A that causes the program to output a copy of itself?](src/day_17/part_2.py)
