@@ -35,7 +35,7 @@ class ChronospatialProcessor:
     #     return True
 
     def compare_output_from_back(self, instruction_list):
-        for i in range(-1, -len(self.output)-1, -1):
+        for i in range(-1, -len(self.output) - 1, -1):
             if int(self.output[i]) != instruction_list[i]:
                 return False
         return True
@@ -60,7 +60,7 @@ class ChronospatialProcessor:
                 # # from the front
                 # print(f'{a:>14}, {bin(a):32}', len(self.output), self.output)
                 # from the back
-                print(f'{a:>16} {bin(a):48} {",".join(self.output):>32} {len(self.output):>4}')
+                print(f'{a:>16} {bin(a):56} {",".join(self.output):>32} {len(self.output):>4}')
 
                 # if entire output == instruction list, we're done
                 if [int(x) for x in self.output] == instruction_list:
@@ -138,6 +138,12 @@ class ChronospatialProcessor:
 
 
 test_case_1 = (2024, 0, 0, [0, 3, 5, 4, 3, 0])
+
+# todo: borrowed a couple of inputs for which my solution is painfully slow - must've gotten lucky with my input :/
+test_case_2 = (0, 0, 0, [2, 4, 1, 1, 7, 5, 1, 5, 0, 3, 4, 3, 5, 5, 3, 0])  # slows down on 16th digit
+test_case_3 = (0, 0, 0, [2, 4, 1, 1, 7, 5, 4, 6, 0, 3, 1, 4, 5, 5, 3, 0])  # slows down on 12th digit
+test_case_4 = (0, 0, 0, [2, 4, 1, 7, 7, 5, 1, 7, 0, 3, 4, 1, 5, 5, 3, 0])  # slows down on 10th digit
+test_case_5 = (0, 0, 0, [2, 4, 1, 2, 7, 5, 1, 7, 4, 4, 0, 3, 5, 5, 3, 0])  # that one is quick
 
 
 def main():
