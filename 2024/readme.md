@@ -68,3 +68,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 16: Reindeer Maze](http://adventofcode.com/2024/day/16)
 - [x] [Part One - What is the lowest score a Reindeer could possibly get?](src/day_16/part_1.py)
 - [x] [Part Two - How many tiles are part of at least one of the best paths through the maze?](src/day_16/part_2.py)
+
+#### [Day 17: Chronospatial Computer](http://adventofcode.com/2024/day/17)
+- [x] [Part One - What do you get if you use commas to join the values it output into a single string?](src/day_17/part_1.py)
+- [ ] [Part Two - What is the lowest positive initial value for register A that causes the program to output a copy of itself?](src/day_17/part_2.py)
