@@ -72,3 +72,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 17: Chronospatial Computer](http://adventofcode.com/2024/day/17)
 - [x] [Part One - What do you get if you use commas to join the values it output into a single string?](src/day_17/part_1.py)
 - [x] [Part Two - What is the lowest positive initial value for register A that causes the program to output a copy of itself?](src/day_17/part_2.py)
+
+#### [Day 18: RAM Run](http://adventofcode.com/2024/day/18)
+- [x] [Part One - What is the minimum number of steps needed to reach the exit?](src/day_18/part_1.py)
+- [x] [Part Two - What are the coordinates of the first byte that will prevent the exit from being reachable from your starting position?](src/day_18/part_2.py)
