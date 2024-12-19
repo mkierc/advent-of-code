@@ -76,3 +76,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 18: RAM Run](http://adventofcode.com/2024/day/18)
 - [x] [Part One - What is the minimum number of steps needed to reach the exit?](src/day_18/part_1.py)
 - [x] [Part Two - What are the coordinates of the first byte that will prevent the exit from being reachable from your starting position?](src/day_18/part_2.py)
+
+#### [Day 19: Linen Layout](http://adventofcode.com/2024/day/19)
+- [x] [Part One - How many designs are possible?](src/day_19/part_1.py)
+- [x] [Part Two - What do you get if you add up the number of different ways you could make each design?](src/day_19/part_2.py)
