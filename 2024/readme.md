@@ -80,3 +80,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 19: Linen Layout](http://adventofcode.com/2024/day/19)
 - [x] [Part One - How many designs are possible?](src/day_19/part_1.py)
 - [x] [Part Two - What do you get if you add up the number of different ways you could make each design?](src/day_19/part_2.py)
+
+#### [Day 20: Linen Layout](http://adventofcode.com/2024/day/20)
+- [x] [Part One - How many cheats would save you at least 100 picoseconds?](src/day_20/part_1.py)
+- [x] [Part Two - How many cheats would save you at least 100 picoseconds using the updated cheating rules?](src/day_20/part_2.py)
