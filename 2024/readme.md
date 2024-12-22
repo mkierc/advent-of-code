@@ -84,3 +84,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 20: Linen Layout](http://adventofcode.com/2024/day/20)
 - [x] [Part One - How many cheats would save you at least 100 picoseconds?](src/day_20/part_1.py)
 - [x] [Part Two - How many cheats would save you at least 100 picoseconds using the updated cheating rules?](src/day_20/part_2.py)
+
+#### [Day 21: Keypad Conundrum](http://adventofcode.com/2124/day/21)
+- [x] [Part One - What is the sum of the complexities of the five codes on your list?](src/day_21/part_1.py)
+- [x] [Part Two - What is the sum of the complexities of the five codes on your list searching for the second member of the party?](src/day_21/part_2.py)
