@@ -1,7 +1,8 @@
 # Advent of Code
 
-Learning Python 3 by doing challenges from the [Advent of Code](http://adventofcode.com)
+Sharpening Python 3 skills by doing challenges from the [Advent of Code](http://adventofcode.com)
 
+- [x] [Advent of Code 2024](2024/readme.md)
 - [ ] [Advent of Code 2023](2023/readme.md)
 - [ ] [Advent of Code 2021](2021/readme.md) (18 of 25)
 - [ ] [Advent of Code 2020](2020/readme.md) (2 of 25)
