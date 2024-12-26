@@ -1,6 +1,6 @@
 # Advent of Code 2024
 
-Keeping my Python skills sharp, by doing challenges from the [Advent of Code](http://adventofcode.com/2024)
+Sharpening my Python skills, by doing challenges from the [Advent of Code](http://adventofcode.com/2024), but this time _**without using any external libraries!**_
 
 ---
 
