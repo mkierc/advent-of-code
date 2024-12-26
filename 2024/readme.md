@@ -96,3 +96,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 23: LAN Party](http://adventofcode.com/2024/day/23)
 - [x] [Part One - How many contain at least one computer with a name that starts with t?](src/day_23/part_1.py)
 - [x] [Part Two - What is the password to get into the LAN party?](src/day_23/part_2.py)
+
+#### [Day 24: Crossed Wires](http://adventofcode.com/2024/day/24)
+- [x] [Part One - What decimal number does it output on the wires starting with z?](src/day_24/part_1.py)
+- [x] [Part Two - What is the password to get into the LAN party?](src/day_24/part_2_v2.py)
