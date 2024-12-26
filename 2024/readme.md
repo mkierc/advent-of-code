@@ -100,3 +100,6 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 24: Crossed Wires](http://adventofcode.com/2024/day/24)
 - [x] [Part One - What decimal number does it output on the wires starting with z?](src/day_24/part_1.py)
 - [x] [Part Two - What is the password to get into the LAN party?](src/day_24/part_2_v2.py)
+
+#### [Day 25: Code Chronicle](http://adventofcode.com/2024/day/25)
+- [x] [Part One - How many unique lock/key pairs fit together without overlapping in any column?](src/day_25/part_1.py)
