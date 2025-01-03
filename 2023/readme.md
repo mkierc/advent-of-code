@@ -45,3 +45,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 9: Mirage Maintenance](http://adventofcode.com/2023/day/9)
 - [x] [Part One - What is the sum of extrapolating the next values?](src/day_09/part_1.py)
 - [x] [Part Two - What is the sum of extrapolating the previous values?](src/day_09/part_2.py)
+
+#### [Day 10: Pipe Maze](http://adventofcode.com/2023/day/10)
+- [x] [Part One - How many steps does it take to get to the point farthest from the starting position?](src/day_10/part_1.py)
+- [x] [Part Two - How many tiles are enclosed by the loop?](src/day_10/part_2.py)
