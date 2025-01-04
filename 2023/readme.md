@@ -53,3 +53,7 @@ Keeping my Python skills sharp, by doing challenges from the [Advent of Code](ht
 #### [Day 11: Cosmic Expansion](http://adventofcode.com/2023/day/11)
 - [x] [Part One - What is the sum of all the shortest paths between every pair of galaxies?](src/day_11/part_1.py)
 - [x] [Part Two - What is the sum of all the shortest paths between every pair of galaxies in expanded universe?](src/day_11/part_2.py)
+
+#### [Day 12: Hot Springs](http://adventofcode.com/2023/day/12)
+- [x] [Part One - What is the sum of all the arrangements of operational and broken springs?](src/day_12/part_1.py)
+- [x] [Part Two - What is the sum of all the unfolded arrangements of operational and broken springs?](src/day_12/part_2.py)
