@@ -1,6 +1,6 @@
 import re
 
-location_regex = r'(L|R)(\d+)'
+code_regex = r'(L|R)(\d+)'
 
 test_rotations = [('L', 68),
                   ('L', 30),
@@ -17,7 +17,7 @@ rotations = []
 
 with (open("data.txt") as file):
     for line in file.readlines():
-        a, b = re.findall(location_regex, line)[0]
+        a, b = re.findall(code_regex, line)[0]
         rotations.append((a, int(b)))
 
 
