@@ -14,6 +14,6 @@ Starting this year, there are just 12 days of puzzles.
 - [x] [Part One - What do you get if you add up all of the invalid IDs?](src/day_02/part_1.py)
 - [x] [Part Two - What do you get if you add up all of the invalid IDs using these new rules?](src/day_02/part_2.py)
 
-#### [Day 3: Red-Nosed Reports](http://adventofcode.com/2025/day/3)
+#### [Day 3: Lobby](http://adventofcode.com/2025/day/3)
 - [x] [Part One - What is the total output joltage?](src/day_03/part_1.py)
 - [x] [Part Two - What is the new total output joltage? ?](src/day_03/part_2.py)
