@@ -1,3 +1,4 @@
+from copy import deepcopy
 from itertools import pairwise
 from time import time
 

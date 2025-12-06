@@ -25,3 +25,7 @@ Starting this year, there are just 12 days of puzzles.
 #### [Day 5: Cafeteria](http://adventofcode.com/2025/day/5)
 - [x] [Part One - How many of the available ingredient IDs are fresh?](src/day_05/part_1.py)
 - [x] [Part Two - How many ingredient IDs are considered to be fresh according to the fresh ingredient ID ranges?](src/day_05/part_2.py)
+
+#### [Day 6: Trash Compactor](http://adventofcode.com/2025/day/6)
+- [x] [Part One - What is the grand total found by adding together all of the answers to the individual problems?](src/day_06/part_1.py)
+- [x] [Part Two - What is the grand total found by adding together all of the answers right-to-left in columns to the individual problems?](src/day_06/part_2.py)
