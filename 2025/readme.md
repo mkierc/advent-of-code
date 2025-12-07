@@ -29,3 +29,7 @@ Starting this year, there are just 12 days of puzzles.
 #### [Day 6: Trash Compactor](http://adventofcode.com/2025/day/6)
 - [x] [Part One - What is the grand total found by adding together all of the answers to the individual problems?](src/day_06/part_1.py)
 - [x] [Part Two - What is the grand total found by adding together all of the answers right-to-left in columns to the individual problems?](src/day_06/part_2.py)
+
+#### [Day 7: Laboratories ](http://adventofcode.com/2025/day/7)
+- [x] [Part One - How many times will the beam be split?](src/day_07/part_1.py)
+- [x] [Part Two - In total, how many different timelines would a single tachyon particle end up on?](src/day_07/part_2.py)
