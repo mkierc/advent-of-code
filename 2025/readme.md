@@ -30,6 +30,10 @@ Starting this year, there are just 12 days of puzzles.
 - [x] [Part One - What is the grand total found by adding together all of the answers to the individual problems?](src/day_06/part_1.py)
 - [x] [Part Two - What is the grand total found by adding together all of the answers right-to-left in columns to the individual problems?](src/day_06/part_2.py)
 
-#### [Day 7: Laboratories ](http://adventofcode.com/2025/day/7)
+#### [Day 7: Laboratories](http://adventofcode.com/2025/day/7)
 - [x] [Part One - How many times will the beam be split?](src/day_07/part_1.py)
 - [x] [Part Two - In total, how many different timelines would a single tachyon particle end up on?](src/day_07/part_2.py)
+
+#### [Day 8: Playground ](http://adventofcode.com/2025/day/8)
+- [x] [Part One - What do you get if you multiply together the sizes of the three largest circuits?](src/day_08/part_1.py)
+- [x] [Part Two - What do you get if you multiply together the X coordinates of the last two junction boxes you need to connect?](src/day_08/part_2.py)
