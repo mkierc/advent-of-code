@@ -34,6 +34,10 @@ Starting this year, there are just 12 days of puzzles.
 - [x] [Part One - How many times will the beam be split?](src/day_07/part_1.py)
 - [x] [Part Two - In total, how many different timelines would a single tachyon particle end up on?](src/day_07/part_2.py)
 
-#### [Day 8: Playground ](http://adventofcode.com/2025/day/8)
+#### [Day 8: Playground](http://adventofcode.com/2025/day/8)
 - [x] [Part One - What do you get if you multiply together the sizes of the three largest circuits?](src/day_08/part_1.py)
 - [x] [Part Two - What do you get if you multiply together the X coordinates of the last two junction boxes you need to connect?](src/day_08/part_2.py)
+
+#### [Day 9: Movie Theater](http://adventofcode.com/2025/day/9)
+- [x] [Part One - What is the largest area of any rectangle you can make?](src/day_09/part_1.py)
+- [x] [Part Two - What is the largest area of any rectangle you can make using only red and green tiles?](src/day_09/part_2.py)
