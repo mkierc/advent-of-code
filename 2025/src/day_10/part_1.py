@@ -11,7 +11,6 @@ test_machines = [
 machines = []
 
 machine_manual_regex = r'\[([.#]+)\] (.*) \{(.*)\}'
-buttons_regex = r''
 
 with open("data.txt") as file:
     for line in file.readlines():
@@ -42,7 +41,7 @@ def generate_new_possible_states(current_state, button_list):
 
 def fewest_presses_bfs(indicator_goal, buttons):
     start = tuple('.' * len(indicator_goal))
-    print(start, indicator_goal, end='')
+    # print(start, indicator_goal, end='')
 
     queue = deque()
     queue.append((start, 1))
@@ -58,7 +57,7 @@ def fewest_presses_bfs(indicator_goal, buttons):
             # print(node, clicks)
 
             if node == indicator_goal or clicks > 10:
-                print(' ', clicks)
+                # print(' ', clicks)
                 return clicks
 
             queue.append((node, clicks + 1))
