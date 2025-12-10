@@ -41,3 +41,7 @@ Starting this year, there are just 12 days of puzzles.
 #### [Day 9: Movie Theater](http://adventofcode.com/2025/day/9)
 - [x] [Part One - What is the largest area of any rectangle you can make?](src/day_09/part_1.py)
 - [x] [Part Two - What is the largest area of any rectangle you can make using only red and green tiles?](src/day_09/part_2.py)
+
+#### [Day 10: Factory](http://adventofcode.com/2025/day/10)
+- [x] [Part One - What is the fewest button presses required to correctly configure the indicator lights on all of the machines?](src/day_10/part_1.py)
+- [x] [Part Two - What is the fewest button presses required to correctly configure the joltage level counters on all of the machines?](src/day_10/part_2.py)
