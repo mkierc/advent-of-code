@@ -49,3 +49,7 @@ Starting this year, there are just 12 days of puzzles.
 #### [Day 11: Factory](http://adventofcode.com/2025/day/11)
 - [x] [Part One - How many different paths lead from you to out?](src/day_10/part_1.py)
 - [x] [Part Two - How many of those paths visit both dac and fft?](src/day_10/part_2.py)
+
+#### [Day 12: Factory](http://adventofcode.com/2025/day/11)
+- [x] [Part One - How many of the regions can fit all of the presents listed?](src/day_10/part_1.py)
+- [x] [Part Two - How many of those paths visit both dac and fft?](src/day_10/part_2.py)
